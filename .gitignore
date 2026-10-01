@@ -1,0 +1,7 @@
+web/node_modules/
+web/dist/
+web/.vercel/
+web/.env*.local
+data-src/Unihan*
+data-src/*.zip
+data-src/__pycache__/

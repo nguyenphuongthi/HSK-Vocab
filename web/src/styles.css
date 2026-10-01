@@ -158,6 +158,15 @@ h1 {
   color: var(--accent-text);
 }
 
+.sync-note {
+  margin: -8px 0 16px;
+  padding: 8px 12px;
+  background: var(--accent-soft);
+  border-radius: 10px;
+  color: var(--accent-text);
+  font-size: 14px;
+}
+
 .loading,
 .muted {
   color: var(--muted);

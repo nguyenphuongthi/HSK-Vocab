@@ -3,9 +3,10 @@
 import middleware, { config } from '../middleware.js';
 import * as login from '../api/login.js';
 import * as logout from '../api/logout.js';
+import * as marks from '../api/marks.js';
 import * as session from '../api/session.js';
 
-const routes = { '/api/login': login, '/api/logout': logout, '/api/session': session };
+const routes = { '/api/login': login, '/api/logout': logout, '/api/marks': marks, '/api/session': session };
 const guarded = config.matcher.replace('/:path*', '/');
 
 async function toRequest(req) {

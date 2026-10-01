@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import LevelSection from './LevelSection.jsx';
 import { fold } from './text.js';
+import { startSync, useSyncStatus } from './marks.js';
 
 const OPEN_KEY = 'hsk.openLevels';
 
@@ -39,6 +40,9 @@ export default function App({ onLogout, onUnauthorized }) {
   const [words, setWords] = useState({}); // level -> danh sách từ
   const [open, setOpen] = useState(loadOpen);
   const [query, setQuery] = useState('');
+  const sync = useSyncStatus();
+
+  useEffect(() => startSync(), []);
 
   useEffect(() => {
     getJson('data/index.json')
@@ -134,6 +138,17 @@ export default function App({ onLogout, onUnauthorized }) {
       </header>
 
       <p className="hint">Bấm vào một từ để xem nghĩa và câu ví dụ.</p>
+
+      {sync === 'error' && (
+        <p className="sync-note" role="status">
+          Chưa lưu được trạng thái học lên máy chủ. Thay đổi vẫn giữ trên máy này và sẽ tự gửi lại.
+        </p>
+      )}
+      {sync === 'local' && (
+        <p className="sync-note" role="status">
+          Máy chủ chưa có kho lưu, trạng thái học tạm thời chỉ lưu trên máy này.
+        </p>
+      )}
 
       {error && <p className="error">{error}</p>}
       {!index && !error && <p className="loading">Đang tải…</p>}

@@ -1,7 +1,7 @@
 import { STATES, setMark } from './marks.js';
 
 // Thanh trượt 3 nấc: đỏ (chưa thuộc) – vàng (hơi nhớ) – xanh (đã thuộc).
-export default function StatusSlider({ id, value }) {
+export default function StatusSlider({ id, value, label = 'Mức độ thuộc từ' }) {
   const onKey = (e) => {
     const step = { ArrowRight: 1, ArrowUp: 1, ArrowLeft: -1, ArrowDown: -1 }[e.key];
     if (e.key === 'Home') setMark(id, 0);
@@ -17,7 +17,7 @@ export default function StatusSlider({ id, value }) {
         className={`status-track st-${value}`}
         role="slider"
         tabIndex={0}
-        aria-label="Mức độ thuộc từ"
+        aria-label={label}
         aria-valuemin={0}
         aria-valuemax={2}
         aria-valuenow={value}

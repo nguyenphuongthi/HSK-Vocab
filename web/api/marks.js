@@ -1,11 +1,12 @@
 // Trạng thái học (0 chưa thuộc, 1 hơi nhớ, 2 đã thuộc) lưu theo tài khoản để đồng bộ giữa các máy.
-// Redis hash "hsk:marks:<tài khoản>": field = id của từ (vd "1-爱"), value = 1 | 2.
+// Redis hash "hsk:marks:<tài khoản>": field = id của từ (vd "1-爱") hoặc của điểm ngữ pháp
+// (vd "g4-1-2": HSK 4, bài 1, điểm 2), value = 1 | 2.
 // Không lưu giá trị 0 (mặc định), nên bỏ đánh dấu = xoá field.
 import { isAuthed, json } from './_auth.js';
 import { redis, redisConfigured, redisTransaction } from './_redis.js';
 
-const ID = /^[1-6]-\S{1,30}$/u;
-const MAX_CHANGES = 6000; // HSK 1–6 có 4998 từ, đủ để đẩy toàn bộ trong lần đồng bộ đầu tiên
+const ID = /^(?:[1-6]-\S{1,30}|g[1-6]-\d{1,2}-\d{1,2})$/u;
+const MAX_CHANGES = 6000; // HSK 1–6 có 4998 từ (+ các điểm ngữ pháp), đủ để đẩy toàn bộ trong lần đồng bộ đầu tiên
 
 const key = () => `hsk:marks:${process.env.AUTH_USERNAME}`;
 

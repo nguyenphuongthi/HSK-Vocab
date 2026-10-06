@@ -1,0 +1,193 @@
+{
+  "n": 20,
+  "zh": "路上的风景",
+  "vi": "Quang cảnh dọc đường",
+  "en": "Scenery along the way",
+  "points": [
+    {
+      "title": "动词+着+动词+着",
+      "py": "dòngcí + zhe + dòngcí + zhe",
+      "uses": [
+        {
+          "vi": "Trong cấu trúc “Động từ + 着 + Động từ được lặp lại + 着”, động từ thường chỉ có một âm tiết. Người ta thường sử dụng một động từ khác sau cấu trúc này để chỉ hành động khác xảy ra khi hành động được đề cập phía trước đang tiếp diễn (đang… thì…).",
+          "en": "In the pattern verb + 着 + same verb + 着, the verb is usually one syllable. It is usually followed by another verb, meaning that while the first action is going on, another action happens: 'while (doing) …, (suddenly) …'.",
+          "ex": [
+            {
+              "zh": "好，那我就放心了，别【开着开着】没油了。",
+              "vi": "Được, vậy tôi yên tâm rồi, đừng để đang lái thì hết xăng nhé.",
+              "en": "OK, then I can relax. Just don't run out of petrol halfway."
+            },
+            {
+              "zh": "她【讲着讲着】自己就先笑了，而大家却不明白她到底为什么笑。",
+              "vi": "Cô ấy đang kể thì tự mình bật cười trước, còn mọi người lại không hiểu rốt cuộc cô ấy cười gì.",
+              "en": "She was telling the story when she started laughing herself, while everyone else had no idea what she was laughing at."
+            },
+            {
+              "zh": "晚上躺在草地上看星星的感觉非常棒，有时候【躺着躺着】就安静地{de}睡着{zháo}了。",
+              "vi": "Buổi tối nằm trên bãi cỏ ngắm sao cảm giác tuyệt vời lắm, có khi nằm một lúc là ngủ thiếp đi lúc nào không hay.",
+              "en": "Lying on the grass at night looking at the stars feels wonderful. Sometimes you lie there until you quietly drift off to sleep."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "一……就……",
+      "uses": [
+        {
+          "vi": "Cấu trúc “一……就……” (vừa… thì/đã…) có thể được dùng để chỉ hai sự việc xảy ra nối tiếp nhau. Chủ ngữ của hai sự việc này có thể giống hoặc không giống nhau.",
+          "en": "The pattern 一……就…… ('as soon as … then …') shows two things happening one right after the other. The two subjects may be the same or different.",
+          "ex": [
+            {
+              "zh": "100年前，塑料【一】出现【就】受到人们的普遍欢迎。",
+              "vi": "100 năm trước, nhựa vừa xuất hiện đã được mọi người hoan nghênh rộng rãi.",
+              "en": "A hundred years ago, as soon as plastic appeared it became popular everywhere."
+            },
+            {
+              "zh": "等女儿【一】回来我【就】告诉她这个好消息。",
+              "vi": "Đợi con gái vừa về là tôi sẽ báo cho nó tin vui này.",
+              "en": "As soon as my daughter gets back, I'll tell her the good news."
+            }
+          ]
+        },
+        {
+          "vi": "Cấu trúc “一……就……” còn mang nghĩa là hễ… thì/là… Theo sau 一 là điều kiện, theo sau 就 là tình huống sẽ xảy ra trong điều kiện đó. Chủ ngữ của hai thành phần này có thể giống hoặc khác nhau.",
+          "en": "一……就…… can also mean 'whenever … then …': what follows 一 is the condition, and what follows 就 is what happens under it. The subjects may be the same or different.",
+          "ex": [
+            {
+              "zh": "儿子小时候【一】说话【就】脸红，回答老师问题的时候声音也很小，我当时很为他担心。",
+              "vi": "Hồi nhỏ con trai tôi hễ nói chuyện là đỏ mặt, trả lời câu hỏi của cô giáo giọng cũng rất nhỏ, khi đó tôi rất lo cho nó.",
+              "en": "When my son was little, he blushed whenever he spoke and answered the teacher's questions very quietly. I was really worried about him then."
+            },
+            {
+              "zh": "父母必须让孩子从小就知道，不是所有的东西【一】哭【就】能得到。",
+              "vi": "Bố mẹ phải để con biết từ nhỏ rằng không phải thứ gì cứ khóc là có được.",
+              "en": "Parents must let children know from an early age that they can't get everything just by crying."
+            },
+            {
+              "zh": "妈妈【一】进房间，他【就】把手机装了起来。",
+              "vi": "Mẹ vừa bước vào phòng là cậu ấy cất ngay điện thoại đi.",
+              "en": "As soon as his mum came into the room, he put his phone away."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "究竟",
+      "uses": [
+        {
+          "vi": "Phó từ 究竟 được dùng trong câu hỏi hay câu có đại từ nghi vấn để chỉ sự truy vấn và làm mạnh thêm ngữ khí nghi vấn (rốt cuộc, cuối cùng). 究竟 thường được sử dụng trong văn viết. Nếu chủ ngữ là đại từ nghi vấn thì 究竟 chỉ có thể được đặt trước chủ ngữ.",
+          "en": "The adverb 究竟 ('after all, exactly, on earth') is used in questions or sentences with a question word to press for an answer and strengthen the question. It is mostly written. If the subject is a question word, 究竟 must go before it.",
+          "ex": [
+            {
+              "zh": "【究竟】哪个季节去丽江旅游比较好呢？",
+              "vi": "Rốt cuộc mùa nào đi du lịch Lệ Giang thì tốt hơn nhỉ?",
+              "en": "So which season is actually best for a trip to Lijiang?"
+            },
+            {
+              "zh": "随着科学技术的发展，很多问题已经得到解决。但有些问题我们仍然无法回答，例如，生命【究竟】从哪里来？",
+              "vi": "Cùng với sự phát triển của khoa học kỹ thuật, nhiều vấn đề đã được giải quyết. Nhưng có những câu hỏi chúng ta vẫn chưa thể trả lời, ví dụ như rốt cuộc sự sống từ đâu mà có?",
+              "en": "With the development of science and technology, many problems have been solved. But there are still questions we can't answer, for example, where exactly does life come from?"
+            },
+            {
+              "zh": "学习时，不仅要知道答案是什么，还要弄清楚答案【究竟】是怎么得{dé}来的，只有这样，才能把问题真正弄懂。",
+              "vi": "Khi học, không chỉ cần biết đáp án là gì mà còn phải làm rõ rốt cuộc đáp án đó có được bằng cách nào, chỉ như vậy mới thật sự hiểu được vấn đề.",
+              "en": "When studying, you need to know not only what the answer is but also exactly how it was reached. Only then do you really understand the problem."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "究竟—到底",
+        "uses": [
+          {
+            "vi": "Giống nhau: 究竟 và 到底 đều là phó từ, được dùng trong câu hỏi hoặc câu có đại từ nghi vấn để chỉ sự truy vấn và làm mạnh thêm ngữ khí nghi vấn. Nếu chủ ngữ là đại từ nghi vấn thì 究竟 và 到底 chỉ có thể được đặt trước chủ ngữ.",
+            "en": "Similarity: 究竟 and 到底 are both adverbs used in questions or sentences with question words to press for an answer. If the subject is a question word, both must go before it.",
+            "ex": [
+              {
+                "zh": "无论做什么事情，只有试过才知道【究竟】/【到底】能不能成功。",
+                "vi": "Dù làm việc gì, chỉ khi thử rồi mới biết rốt cuộc có thành công được hay không.",
+                "en": "Whatever you do, only by trying will you know whether you can actually succeed."
+              },
+              {
+                "zh": "人的一生中，【究竟】什么是最重要的？",
+                "vi": "Trong cuộc đời một con người, rốt cuộc điều gì là quan trọng nhất?",
+                "en": "What, after all, is the most important thing in a person's life?"
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau: 到底 có thể được dùng làm động từ với nghĩa là liên tục đến chỗ kết thúc hay đến điểm cuối. 究竟 không dùng được như vậy.",
+            "en": "Difference: 到底 can be a verb meaning 'to the very end'; 究竟 cannot.",
+            "ex": [
+              {
+                "zh": "你耐心点儿！这个电影得{děi}看【到底】，才能知道那件事情的原因。",
+                "vi": "Bạn kiên nhẫn chút đi! Bộ phim này phải xem đến cuối mới biết nguyên nhân của chuyện đó.",
+                "en": "Be patient! You have to watch this film to the end to find out why that happened."
+              },
+              {
+                "zh": "我们已经做了这么多努力了，一定要把这个计划坚持【到底】，现在放弃太可惜了。",
+                "vi": "Chúng ta đã nỗ lực nhiều như vậy rồi, nhất định phải kiên trì kế hoạch này đến cùng, bây giờ bỏ cuộc thì tiếc quá.",
+                "en": "We've already put in so much effort. We must see this plan through to the end; giving up now would be a real shame."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "起来",
+      "uses": [
+        {
+          "vi": "Động từ 起来 có thể được dùng sau động từ khác để làm bổ ngữ chỉ phương hướng, diễn tả hướng của hành động là từ dưới lên trên. 起来 cũng có thể có nghĩa mở rộng là diễn tả hành động bắt đầu và tiếp diễn, hoặc cho biết người nói đánh giá người/sự vật từ phương diện nào đó.",
+          "en": "起来 can follow another verb as a directional complement meaning 'up'. In extended uses it can mean an action starts and continues, or show the speaker judging someone or something from a certain angle ('… seems / sounds / looks …').",
+          "ex": [
+            {
+              "zh": "你先把桌子上的东西拿【起来】，我擦完之后你再放下来。",
+              "vi": "Bạn nhấc đồ trên bàn lên trước đi, tôi lau xong rồi bạn đặt xuống lại.",
+              "en": "Pick up the things on the table first, and once I've wiped it you can put them back down."
+            },
+            {
+              "zh": "邻居小王最近一定遇到了很多开心的事，你听，他又唱【起来】了。",
+              "vi": "Anh Vương hàng xóm dạo này chắc gặp nhiều chuyện vui lắm, bạn nghe xem, anh ấy lại bắt đầu hát rồi.",
+              "en": "Our neighbour Xiao Wang must have had lots of good things happen lately. Listen, he's started singing again."
+            },
+            {
+              "zh": "比如你跟上海人对话时，会发现上海话听【起来】就像外语一样。",
+              "vi": "Ví dụ khi nói chuyện với người Thượng Hải, bạn sẽ phát hiện tiếng Thượng Hải nghe cứ như ngoại ngữ vậy.",
+              "en": "For example, when you talk with people from Shanghai, you'll find Shanghainese sounds just like a foreign language."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "动词+起",
+      "py": "dòngcí + qǐ",
+      "uses": [
+        {
+          "vi": "Cấu trúc “Động từ + 起” chỉ hành động liên quan đến sự vật nào đó (nhắc đến, kể về); thường thì động từ này nằm trong số ít động từ có tân ngữ đi kèm như 说, 谈, 讲, 问, 提, 聊, 回忆... Theo sau cấu trúc trên thường là danh từ.",
+          "en": "The pattern verb + 起 means the action concerns a certain topic: 'to talk about, bring up'. The verb is usually one of a few transitive verbs such as 说, 谈, 讲, 问, 提, 聊, 回忆, and the pattern is usually followed by a noun.",
+          "ex": [
+            {
+              "zh": "【说起】吃的东西，给我印象最深的是湖南菜。",
+              "vi": "Nói đến đồ ăn thì món để lại ấn tượng sâu sắc nhất với tôi là món Hồ Nam.",
+              "en": "Speaking of food, the one that made the deepest impression on me was Hunan cuisine."
+            },
+            {
+              "zh": "【聊起】那场网球比赛，他们俩就兴奋得停不下来了。",
+              "vi": "Vừa nhắc đến trận quần vợt đó là hai người họ hào hứng nói mãi không dừng được.",
+              "en": "Once they started talking about that tennis match, the two of them got so excited they couldn't stop."
+            },
+            {
+              "zh": "要是有人【问起】那件事，你就告诉他你还没接到通知，也不清楚怎么回事。",
+              "vi": "Nếu có ai hỏi đến chuyện đó, bạn cứ nói là bạn chưa nhận được thông báo, cũng không rõ chuyện gì.",
+              "en": "If anyone asks about that, just tell them you haven't been notified yet and don't know what's going on."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

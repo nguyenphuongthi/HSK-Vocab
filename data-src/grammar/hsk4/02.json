@@ -1,0 +1,242 @@
+{
+  "n": 2,
+  "zh": "真正的朋友",
+  "vi": "Người bạn chân chính",
+  "en": "True friends",
+  "points": [
+    {
+      "title": "正好",
+      "uses": [
+        {
+          "vi": "正好 có thể được dùng làm tính từ và mang nghĩa là vừa vặn, diễn tả đối tượng được đề cập (thời gian, vị trí, thể tích, số lượng, mức độ...) thỏa mãn điều kiện nào đó (không sớm không muộn, không trước không sau, không lớn không nhỏ, không nhiều không ít, không cao không thấp...).",
+          "en": "As an adjective, 正好 means 'just right': the thing mentioned (time, position, size, amount, degree…) fits a condition exactly, neither too early nor too late, too big nor too small, too many nor too few.",
+          "ex": [
+            {
+              "zh": "苹果八块五，西瓜十一块五，【正好】二十块。",
+              "vi": "Táo tám tệ rưỡi, dưa hấu mười một tệ rưỡi, vừa đúng hai mươi tệ.",
+              "en": "The apples are 8.50 and the watermelon is 11.50, exactly 20 yuan."
+            },
+            {
+              "zh": "你来得【正好】，我的钱包不见了，借我点儿钱吧。",
+              "vi": "Bạn đến đúng lúc quá, ví của tôi mất rồi, cho tôi mượn ít tiền đi.",
+              "en": "You've come at just the right time. My wallet's gone, lend me some money."
+            }
+          ]
+        },
+        {
+          "vi": "正好 cũng có thể được dùng làm phó từ và mang nghĩa là đúng lúc, gặp được dịp nào đó để thực hiện việc gì.",
+          "en": "As an adverb, 正好 means 'as it happens / conveniently': it is just the right moment or chance to do something.",
+          "ex": [
+            {
+              "zh": "我们下午要去踢足球，【正好】一起去吧。",
+              "vi": "Chiều nay bọn mình định đi đá bóng, vừa hay đi cùng luôn nhé.",
+              "en": "We're going to play football this afternoon. Perfect, let's go together."
+            },
+            {
+              "zh": "我妹妹出生那天，【正好】下雪，所以爸爸妈妈叫她“小雪”。",
+              "vi": "Hôm em gái tôi chào đời đúng lúc trời có tuyết, nên bố mẹ đặt tên em là “Tiểu Tuyết”.",
+              "en": "It happened to be snowing on the day my little sister was born, so our parents named her “Xiaoxue” (Little Snow)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "差不多",
+      "py": "chàbuduō",
+      "uses": [
+        {
+          "vi": "差不多 có thể được dùng làm tính từ và mang nghĩa là xấp xỉ, khác biệt rất nhỏ.",
+          "en": "As an adjective, 差不多 means 'about the same', with very little difference.",
+          "ex": [
+            {
+              "zh": "这两个电子词典看上去【差不多】，左边这个怎么这么贵？",
+              "vi": "Hai chiếc từ điển điện tử này trông na ná nhau, sao chiếc bên trái lại đắt thế?",
+              "en": "These two electronic dictionaries look about the same. Why is the one on the left so expensive?"
+            },
+            {
+              "zh": "他们俩是在国外旅游的时候认识的，性格【差不多】，所以很快就成了好朋友。",
+              "vi": "Hai người họ quen nhau khi đi du lịch nước ngoài, tính cách gần giống nhau nên rất nhanh đã thành bạn thân.",
+              "en": "The two of them met while travelling abroad. Their personalities are similar, so they quickly became good friends."
+            }
+          ]
+        },
+        {
+          "vi": "差不多 cũng có thể được dùng làm phó từ để diễn tả rằng các đối tượng được đề cập là xấp xỉ, gần như nhau xét về các mặt như mức độ, phạm vi, thời gian, khoảng cách, số lượng...",
+          "en": "As an adverb, 差不多 means 'almost, nearly', in terms of degree, scope, time, distance, quantity, etc.",
+          "ex": [
+            {
+              "zh": "A：班里同学你联系得怎么样了？来多少人？\nB：【差不多】一半儿吧。",
+              "vi": "A: Bạn liên lạc với các bạn trong lớp thế nào rồi? Bao nhiêu người đến?\nB: Khoảng một nửa.",
+              "en": "A: How's it going with contacting our classmates? How many are coming?\nB: About half, I think."
+            },
+            {
+              "zh": "女儿上中学后，个子长得特别快，现在都快一米七了，【差不多】跟我一样高了。",
+              "vi": "Con gái tôi từ khi lên trung học cao lên rất nhanh, giờ đã gần một mét bảy, cao gần bằng tôi rồi.",
+              "en": "My daughter has grown really fast since starting middle school. She's almost 1.7 m now, nearly as tall as me."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "差不多—几乎",
+        "uses": [
+          {
+            "vi": "Giống nhau: 差不多 và 几乎 đều là phó từ, được dùng để diễn tả rằng các đối tượng được đề cập là xấp xỉ, gần như nhau. Cả hai từ đều có thể làm trạng ngữ.",
+            "en": "Similarity: 差不多 and 几乎 are both adverbs meaning 'almost, nearly', and both can be adverbials.",
+            "ex": [
+              {
+                "zh": "他汉语说得很好，【差不多】/【几乎】跟中国人一样。",
+                "vi": "Anh ấy nói tiếng Trung rất giỏi, gần như người Trung Quốc vậy.",
+                "en": "He speaks Chinese very well, almost like a native speaker."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Có thể dùng 差不多 ngay trước tính từ một âm tiết. Còn sau 几乎 phải thêm các từ ngữ khác phía trước hoặc phía sau tính từ.",
+            "en": "Difference 1: 差不多 can go directly before a one-syllable adjective. After 几乎, other words must be added before or after the adjective.",
+            "ex": [
+              {
+                "zh": "他们俩【差不多】高。",
+                "vi": "Hai người họ cao xấp xỉ nhau.",
+                "en": "The two of them are about the same height."
+              },
+              {
+                "zh": "他们俩【几乎】一样高。",
+                "vi": "Hai người họ cao gần như bằng nhau.",
+                "en": "The two of them are almost exactly the same height."
+              },
+              {
+                "zh": "他比我【几乎】高了一头。",
+                "vi": "Anh ấy cao hơn tôi gần một cái đầu.",
+                "en": "He's almost a head taller than me."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 差不多 có thể được dùng trước từ chỉ số để diễn tả ý gần bằng số đó. 几乎 không dùng được như vậy.",
+            "en": "Difference 2: 差不多 can go before a number to mean 'approximately that number'. 几乎 cannot.",
+            "ex": [
+              {
+                "zh": "李老师【差不多】六十岁了。",
+                "vi": "Thầy Lý khoảng sáu mươi tuổi rồi.",
+                "en": "Teacher Li is about sixty."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 差不多 còn là tính từ, có thể làm vị ngữ để chỉ các đối tượng rất giống nhau, không có nhiều khác biệt. 几乎 không dùng được như vậy.",
+            "en": "Difference 3: 差不多 is also an adjective and can be the predicate, meaning 'very similar'. 几乎 cannot.",
+            "ex": [
+              {
+                "zh": "姐妹俩性格【差不多】。",
+                "vi": "Hai chị em tính cách gần giống nhau.",
+                "en": "The two sisters have similar personalities."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 4: 几乎 có thể diễn tả một việc (ngoài ý muốn của người nói) suýt xảy ra nhưng cuối cùng không xảy ra. 差不多 không dùng được như vậy.",
+            "en": "Difference 4: 几乎 can mean something unwanted 'nearly happened' but in the end did not. 差不多 cannot.",
+            "ex": [
+              {
+                "zh": "这件事我【几乎】忘了告诉你了。",
+                "vi": "Chuyện này tôi suýt nữa thì quên nói với bạn.",
+                "en": "I almost forgot to tell you about this."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "尽管",
+      "uses": [
+        {
+          "vi": "Liên từ 尽管 thường được dùng ở vế thứ nhất của câu phức để đưa ra một sự thật. Vế câu thứ hai cho biết kết quả (vốn không xảy ra trong tình huống thông thường), thường kết hợp với các từ ngữ biểu thị sự chuyển ý như 但是/可是/却/还是.",
+          "en": "The conjunction 尽管 (although, even though) usually opens the first clause and states a fact. The second clause gives a result that would not normally be expected, often with contrast words such as 但是/可是/却/还是.",
+          "ex": [
+            {
+              "zh": "【尽管】已经毕业这么多年，我们【还是】经常联系的。",
+              "vi": "Dù đã tốt nghiệp bao nhiêu năm nay nhưng chúng tôi vẫn thường xuyên liên lạc.",
+              "en": "Even though we graduated so many years ago, we still keep in touch regularly."
+            },
+            {
+              "zh": "男朋友送给我的这份礼物【尽管】不贵，【但却】让我非常感动。",
+              "vi": "Món quà bạn trai tặng tôi tuy không đắt nhưng lại khiến tôi vô cùng cảm động.",
+              "en": "Although the present my boyfriend gave me wasn't expensive, it really touched me."
+            },
+            {
+              "zh": "叔叔最大的爱好就是打篮球，大学时他还多次参加校篮球比赛。【尽管】现在工作很忙，【可】到了周末他【还是】会跟朋友去打球。",
+              "vi": "Sở thích lớn nhất của chú tôi là chơi bóng rổ, hồi đại học chú còn nhiều lần tham gia giải bóng rổ của trường. Tuy bây giờ công việc rất bận nhưng đến cuối tuần chú vẫn đi chơi bóng với bạn bè.",
+              "en": "My uncle's biggest hobby is basketball; in college he played in the school tournament many times. Even though he's very busy with work now, he still goes to play with friends at weekends."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "却",
+      "uses": [
+        {
+          "vi": "Phó từ 却 được dùng sau chủ ngữ, trước động từ để chỉ sự chuyển ý với ngữ khí tương đối nhẹ nhàng.",
+          "en": "The adverb 却 (but, yet) goes after the subject and before the verb to express a contrast, in a fairly mild tone.",
+          "ex": [
+            {
+              "zh": "有人觉得有房子和汽车就是幸福，有人【却】认为找到真正的爱情才是幸福。",
+              "vi": "Có người cho rằng có nhà có xe là hạnh phúc, có người lại cho rằng tìm được tình yêu đích thực mới là hạnh phúc.",
+              "en": "Some people think having a house and a car is happiness, while others believe only finding true love is."
+            },
+            {
+              "zh": "一个脾气不好的人虽然不一定让人讨厌，但是【却】很难跟人交朋友。",
+              "vi": "Một người tính khí không tốt tuy chưa chắc đã khiến người khác ghét, nhưng lại rất khó kết bạn.",
+              "en": "A bad-tempered person isn't necessarily disliked, yet they find it hard to make friends."
+            },
+            {
+              "zh": "现在很多人虽然住在同一个楼里，但是【却】从来没说过话。",
+              "vi": "Bây giờ nhiều người tuy sống cùng một tòa nhà nhưng lại chưa từng nói chuyện với nhau.",
+              "en": "Nowadays many people live in the same building, yet have never spoken to each other."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "而",
+      "uses": [
+        {
+          "vi": "Liên từ 而 được dùng trong câu phức để nối hai vế câu, có thể biểu thị quan hệ đồng đẳng.",
+          "en": "The conjunction 而 links two clauses in a complex sentence. It can show a coordinate (parallel) relation: 'and'.",
+          "ex": [
+            {
+              "zh": "“明”字，左边的“日”意思是太阳，【而】右边的“月”意思是月亮。",
+              "vi": "Trong chữ “明”, chữ “日” bên trái nghĩa là mặt trời, còn chữ “月” bên phải nghĩa là mặt trăng.",
+              "en": "In the character “明”, the “日” on the left means sun, and the “月” on the right means moon."
+            },
+            {
+              "zh": "结婚前，我们都要清楚自己想要的是什么，【而】不要被别人对幸福的看法影响。",
+              "vi": "Trước khi kết hôn, chúng ta đều phải biết rõ mình muốn gì, chứ đừng để quan niệm về hạnh phúc của người khác chi phối.",
+              "en": "Before getting married, we should all be clear about what we want, and not be swayed by other people's ideas of happiness."
+            }
+          ]
+        },
+        {
+          "vi": "而 cũng có thể được dùng để biểu thị quan hệ chuyển ý.",
+          "en": "而 can also express a contrast: 'whereas, but'.",
+          "ex": [
+            {
+              "zh": "在工作中遇到了问题，男人回到家不喜欢跟妻子说，【而】女人喜欢跟丈夫说。",
+              "vi": "Gặp vấn đề trong công việc, đàn ông về nhà không thích kể với vợ, còn phụ nữ lại thích kể với chồng.",
+              "en": "When they run into problems at work, men don't like to talk about it with their wives, whereas women like to tell their husbands."
+            },
+            {
+              "zh": "有些人觉得朋友就是能和自己一起快乐的人，【而】我的理解是：当你遇到困难的时候，真正的朋友会站出来，及时给你帮助。",
+              "vi": "Có người cho rằng bạn bè là người có thể cùng mình vui vẻ, còn tôi thì hiểu là: khi bạn gặp khó khăn, người bạn thật sự sẽ đứng ra giúp bạn kịp thời.",
+              "en": "Some people think a friend is someone to have fun with, but as I see it, when you're in trouble, a true friend will step up and help you right away."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

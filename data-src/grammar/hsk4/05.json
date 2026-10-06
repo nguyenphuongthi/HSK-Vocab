@@ -1,0 +1,237 @@
+{
+  "n": 5,
+  "zh": "只买对的，不买贵的",
+  "vi": "Chỉ mua cái đúng, không mua cái đắt",
+  "en": "Buy what's right, not what's expensive",
+  "points": [
+    {
+      "title": "肯定",
+      "uses": [
+        {
+          "vi": "肯定 có thể được dùng làm phó từ với nghĩa là nhất định, không nghi ngờ.",
+          "en": "As an adverb, 肯定 means 'definitely, certainly'.",
+          "ex": [
+            {
+              "zh": "您放心，质量【肯定】不“打折”。",
+              "vi": "Anh cứ yên tâm, chất lượng chắc chắn không bị “giảm giá” đâu.",
+              "en": "Don't worry, the quality definitely isn't “discounted”."
+            },
+            {
+              "zh": "每天喝一点儿葡萄酒，对身体是有好处的。但是不能喝太多，喝太多酒【肯定】对身体不好。",
+              "vi": "Mỗi ngày uống một chút rượu vang thì có lợi cho sức khỏe. Nhưng không được uống nhiều quá, uống quá nhiều rượu chắc chắn không tốt cho cơ thể.",
+              "en": "A little wine every day is good for you. But you can't drink too much; drinking too much is definitely bad for your health."
+            }
+          ]
+        },
+        {
+          "vi": "肯定 cũng có thể được dùng làm tính từ và mang nghĩa là chắc chắn, rõ ràng.",
+          "en": "As an adjective, 肯定 means 'certain, definite'.",
+          "ex": [
+            {
+              "zh": "不能【肯定】的事、没发生过的事，最好不要说。",
+              "vi": "Những chuyện không chắc chắn, những chuyện chưa từng xảy ra thì tốt nhất đừng nói.",
+              "en": "Things you aren't sure of, or that never happened, are best left unsaid."
+            }
+          ]
+        },
+        {
+          "vi": "Khi làm tính từ, 肯定 còn có nghĩa là thừa nhận, khẳng định (đúng).",
+          "en": "As an adjective, 肯定 can also mean 'affirmative, positive'.",
+          "ex": [
+            {
+              "zh": "“你羡慕浪漫的爱情吗？”相信大部分人的回答都是【肯定】的。",
+              "vi": "“Bạn có ngưỡng mộ tình yêu lãng mạn không?” Tôi tin rằng câu trả lời của đa số mọi người đều là có.",
+              "en": "“Do you envy romantic love?” I'm sure most people's answer would be yes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "再说",
+      "uses": [
+        {
+          "vi": "再说 có thể được dùng làm động từ, diễn tả ý gác lại (việc gì) để giải quyết hay suy xét sau.",
+          "en": "As a verb, 再说 means 'to put something off and deal with or consider it later'.",
+          "ex": [
+            {
+              "zh": "现在的事，做了【再说】；以后的事，以后【再说】。",
+              "vi": "Việc bây giờ thì cứ làm đã rồi tính; việc sau này thì để sau hẵng hay.",
+              "en": "Do what needs doing now first; as for the future, we'll deal with it later."
+            },
+            {
+              "zh": "A：你不是很喜欢那件大衣吗？怎么不买了呢？\nB：我真的很喜欢，不过没我的号了，下次【再说】吧。",
+              "vi": "A: Không phải bạn rất thích cái áo khoác đó sao? Sao lại không mua nữa?\nB: Mình thích thật, có điều hết cỡ của mình rồi, để lần sau tính.",
+              "en": "A: Didn't you really like that coat? Why aren't you buying it?\nB: I really do like it, but they don't have my size. I'll think about it next time."
+            }
+          ]
+        },
+        {
+          "vi": "再说 cũng có thể được dùng làm liên từ để bổ sung một tình huống nữa cho những điều đã được đề cập trước đó (hơn nữa, vả lại).",
+          "en": "As a conjunction, 再说 adds a further reason to what has been said: 'besides, what's more'.",
+          "ex": [
+            {
+              "zh": "今天买的东西太多了。【再说】，这个月家里已经花了五千多了。",
+              "vi": "Hôm nay mua nhiều đồ quá rồi. Vả lại, tháng này nhà mình đã tiêu hơn năm nghìn rồi.",
+              "en": "We've bought too much today. Besides, the family has already spent over five thousand this month."
+            },
+            {
+              "zh": "A：你飞机几点的？怎么还不准备？\nB：晚上八点的，不用急，【再说】，我就去几天，不用带多少东西。",
+              "vi": "A: Máy bay của bạn mấy giờ? Sao vẫn chưa chuẩn bị?\nB: Tám giờ tối, không cần vội, vả lại mình chỉ đi mấy ngày, không cần mang nhiều đồ.",
+              "en": "A: What time is your flight? Why aren't you getting ready?\nB: Eight in the evening, no rush. Besides, I'm only going for a few days, so I don't need to take much."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "实际",
+      "uses": [
+        {
+          "vi": "实际 có thể được dùng làm danh từ để chỉ sự vật hay tình huống tồn tại khách quan (thực tế).",
+          "en": "As a noun, 实际 means 'reality': things or situations that objectively exist.",
+          "ex": [
+            {
+              "zh": "你们做计划应该联系【实际】。",
+              "vi": "Các bạn lập kế hoạch nên gắn với thực tế.",
+              "en": "When you make plans, you should take reality into account."
+            }
+          ]
+        },
+        {
+          "vi": "实际 cũng có thể được dùng làm tính từ và mang nghĩa là thực tế, cụ thể.",
+          "en": "As an adjective, 实际 means 'real, practical, concrete'.",
+          "ex": [
+            {
+              "zh": "A：听说你大学二年级的时候就开始在广告公司工作了。这样做不会影响你的学习吗？\nB：我认为不会，【实际】工作能让我更理解书本上的知识。",
+              "vi": "A: Nghe nói từ năm hai đại học bạn đã bắt đầu làm ở công ty quảng cáo. Làm vậy không ảnh hưởng đến việc học à?\nB: Mình nghĩ là không, công việc thực tế giúp mình hiểu rõ hơn kiến thức trong sách.",
+              "en": "A: I heard you started working at an advertising company in your second year of college. Didn't that affect your studies?\nB: I don't think so. Real work helps me understand what's in the books better."
+            }
+          ]
+        },
+        {
+          "vi": "Phó từ 实际上 có nghĩa là trong thực tế, thường được dùng để chuyển ý.",
+          "en": "The adverb 实际上 means 'in fact, actually', and usually introduces a contrast.",
+          "ex": [
+            {
+              "zh": "要想别人对你好，你得{děi}先对别人好。【实际上】，我们很多人做不到这一点。",
+              "vi": "Muốn người khác đối tốt với mình thì mình phải đối tốt với người khác trước. Trên thực tế, nhiều người trong chúng ta không làm được điều này.",
+              "en": "If you want others to treat you well, you have to treat them well first. In fact, many of us can't manage that."
+            },
+            {
+              "zh": "广告只会介绍优点，却不会说它的缺点。【实际上】，很多东西并不像广告上说的那么好，所以不能完全相信广告。",
+              "vi": "Quảng cáo chỉ giới thiệu ưu điểm mà không nói đến khuyết điểm. Thực tế, nhiều thứ không hề tốt như quảng cáo nói, nên không thể hoàn toàn tin vào quảng cáo.",
+              "en": "Ads only present the good points, never the shortcomings. In reality, many things aren't nearly as good as the ads say, so you can't fully trust them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "对……来说",
+      "uses": [
+        {
+          "vi": "对……来说 diễn tả ý nhìn nhận vấn đề từ góc độ nào đó (đối với…mà nói).",
+          "en": "对……来说 means looking at something from a certain point of view: 'for…, as far as … is concerned'.",
+          "ex": [
+            {
+              "zh": "【对】我【来说】，衣服的样子流行不流行并不是很重要。",
+              "vi": "Đối với tôi, kiểu dáng quần áo có hợp thời hay không không quan trọng lắm.",
+              "en": "For me, whether a style of clothing is in fashion isn't that important."
+            },
+            {
+              "zh": "【对】一个女人【来说】，漂亮、聪明都很重要，但其实更重要的是快乐。",
+              "vi": "Đối với một người phụ nữ, xinh đẹp hay thông minh đều quan trọng, nhưng thật ra quan trọng hơn cả là được vui vẻ.",
+              "en": "For a woman, beauty and intelligence both matter, but what matters even more is being happy."
+            },
+            {
+              "zh": "一杯水，【对】一条小鱼【来说】，可能很有帮助，它可以在里面游得很好。但是，【对】一条大鱼【来说】，一杯水是没有什么帮助的，它需要的是一条河。",
+              "vi": "Một cốc nước, đối với một con cá nhỏ, có thể rất hữu ích, nó có thể bơi thoải mái trong đó. Nhưng đối với một con cá lớn, một cốc nước chẳng giúp được gì, thứ nó cần là cả một dòng sông.",
+              "en": "A glass of water may be a great help to a little fish; it can swim around in it just fine. But for a big fish a glass of water is no help at all. What it needs is a river."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "尤其",
+      "uses": [
+        {
+          "vi": "Phó từ 尤其 chỉ mức độ tăng thêm. Vế câu thứ nhất thường đưa ra một tình huống tổng thể, vế câu thứ hai dùng 尤其 để chỉ ra khía cạnh nổi bật nhất trong tình huống tổng thể đó.",
+          "en": "The adverb 尤其 (especially) goes one step further. The first clause usually states a general situation, and the second uses 尤其 to point out its most prominent part.",
+          "ex": [
+            {
+              "zh": "您女儿真可爱，长得真像您，【尤其】是眼睛。",
+              "vi": "Con gái chị đáng yêu quá, trông giống chị thật, nhất là đôi mắt.",
+              "en": "Your daughter is so cute, and she really looks like you, especially her eyes."
+            },
+            {
+              "zh": "现在网上购物变得越来越流行了，年轻人【尤其】喜欢在网上买东西。",
+              "vi": "Bây giờ mua sắm trên mạng ngày càng phổ biến, giới trẻ đặc biệt thích mua đồ trên mạng.",
+              "en": "Online shopping is getting more and more popular, and young people especially like buying things online."
+            },
+            {
+              "zh": "为了健康，我们应该每年都去医院做一次身体检查，【尤其】是那些四五十岁的人，这样可以早一些发现问题。",
+              "vi": "Vì sức khỏe, mỗi năm chúng ta nên đến bệnh viện khám sức khỏe một lần, nhất là những người bốn năm mươi tuổi, như vậy có thể sớm phát hiện vấn đề.",
+              "en": "For our health, we should all get a check-up at the hospital once a year, especially people in their forties and fifties, so that problems can be found earlier."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "尤其—特别",
+        "uses": [
+          {
+            "vi": "Giống nhau: 尤其 và 特别 đều có thể được dùng làm phó từ để chỉ khía cạnh nổi bật nhất trong tổng thể hoặc nổi bật nhất khi so sánh với các sự vật khác. Cả hai từ thường đứng ở phần sau của câu.",
+            "en": "Similarity: 尤其 and 特别 can both be adverbs pointing out the most prominent part of a whole, or what stands out compared with other things. Both usually appear in the latter part of the sentence.",
+            "ex": [
+              {
+                "zh": "我对音乐很感兴趣，【尤其】/【特别】是贝多芬的音乐，我喜欢极了。",
+                "vi": "Tôi rất hứng thú với âm nhạc, đặc biệt là nhạc của Beethoven, tôi thích vô cùng.",
+                "en": "I'm very interested in music, especially Beethoven's. I absolutely love it."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, sau 尤其 có thể có hoặc không có 是; sau 特别 thường có 是.",
+            "en": "Difference 1: in the usage above, 尤其 may or may not be followed by 是, whereas 特别 is usually followed by 是.",
+            "ex": [
+              {
+                "zh": "这次活动办得很不错，【尤其】王老师讲的那个故事，给我留下很深的印象。",
+                "vi": "Hoạt động lần này tổ chức rất tốt, nhất là câu chuyện thầy Vương kể đã để lại cho tôi ấn tượng sâu sắc.",
+                "en": "The event was very well run, especially the story Teacher Wang told, which made a deep impression on me."
+              },
+              {
+                "zh": "这次活动办得很不错，【尤其】/【特别】是王老师讲的那个故事，给我留下很深的印象。",
+                "vi": "Hoạt động lần này tổ chức rất tốt, nhất là câu chuyện thầy Vương kể đã để lại cho tôi ấn tượng sâu sắc.",
+                "en": "The event was very well run, especially the story Teacher Wang told, which made a deep impression on me."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: Khi làm phó từ, 特别 còn có nghĩa là vô cùng, rất; 尤其 không có nghĩa này.",
+            "en": "Difference 2: as an adverb, 特别 can also mean 'extremely, very'; 尤其 cannot.",
+            "ex": [
+              {
+                "zh": "那本小说讲了一个爱情故事，很浪漫，让人【特别】感动。",
+                "vi": "Cuốn tiểu thuyết đó kể một câu chuyện tình yêu rất lãng mạn, khiến người ta vô cùng cảm động.",
+                "en": "That novel tells a love story. It's very romantic and incredibly moving."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 特别 có thể được dùng làm tính từ với nghĩa là không giống những thứ còn lại, không bình thường; 尤其 không dùng được như vậy.",
+            "en": "Difference 3: 特别 can be an adjective meaning 'special, unusual'; 尤其 cannot.",
+            "ex": [
+              {
+                "zh": "如果您有什么【特别】要求或任何不清楚的地方，请和我们联系。",
+                "vi": "Nếu anh/chị có yêu cầu đặc biệt nào hoặc chỗ nào chưa rõ, xin hãy liên hệ với chúng tôi.",
+                "en": "If you have any special requests or anything is unclear, please contact us."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

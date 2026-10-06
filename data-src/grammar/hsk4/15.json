@@ -1,0 +1,246 @@
+{
+  "n": 15,
+  "zh": "教育孩子的艺术",
+  "vi": "Nghệ thuật giáo dục con cái",
+  "en": "The art of raising children",
+  "points": [
+    {
+      "title": "想起来",
+      "uses": [
+        {
+          "vi": "Động từ 起来 có thể được dùng sau động từ khác để làm bổ ngữ chỉ phương hướng hoặc bổ ngữ chỉ khả năng, diễn tả hướng của hành động là từ dưới đi lên.",
+          "en": "起来 can follow another verb as a directional or potential complement, showing that the action goes from down to up.",
+          "ex": [
+            {
+              "zh": "你这样躺着看书对眼睛不好，快坐【起来】！",
+              "vi": "Bạn nằm đọc sách thế này không tốt cho mắt đâu, mau ngồi dậy!",
+              "en": "Reading lying down like this is bad for your eyes. Sit up!"
+            },
+            {
+              "zh": "需要长时间坐着工作的人，一小时左右一定要站【起来】活动活动。",
+              "vi": "Những người phải ngồi làm việc trong thời gian dài, khoảng một tiếng nhất định phải đứng dậy vận động một chút.",
+              "en": "People who have to work sitting down for long periods should definitely stand up and move around every hour or so."
+            }
+          ]
+        },
+        {
+          "vi": "Kết cấu 想起来 có nghĩa là nhớ lại người hoặc sự việc nào đó trong quá khứ (nhớ ra).",
+          "en": "With the verb 想, 想起来 means 'to remember, recall' someone or something from the past.",
+          "ex": [
+            {
+              "zh": "我突然【想起来】得{děi}去银行，所以不能陪你去大使馆了。",
+              "vi": "Tôi chợt nhớ ra phải đi ngân hàng, nên không thể đi cùng bạn đến đại sứ quán được.",
+              "en": "I've just remembered I have to go to the bank, so I can't go to the embassy with you."
+            },
+            {
+              "zh": "我【想起来】了，这孩子又聪明又可爱，你们教育得真好！",
+              "vi": "Tôi nhớ ra rồi, đứa bé này vừa thông minh vừa đáng yêu, anh chị dạy con giỏi thật!",
+              "en": "Now I remember: this child is so clever and lovely. You've brought them up really well!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "弄",
+      "uses": [
+        {
+          "vi": "Động từ 弄 có nghĩa là làm, thường được dùng trong văn nói, có thể thay thế một số động từ khác.",
+          "en": "The verb 弄 means 'to do, make, handle'. It is mostly spoken and can stand in for various other verbs.",
+          "ex": [
+            {
+              "zh": "A：关于那个新闻的材料你准备好了吗？我们开会时要用。\nB：都【弄】（准备）好了，马上给您送过去。",
+              "vi": "A: Tài liệu về tin tức đó bạn chuẩn bị xong chưa? Lúc họp chúng ta cần dùng.\nB: Làm (chuẩn bị) xong hết rồi, tôi mang qua cho anh ngay.",
+              "en": "A: Have you got the material on that news story ready? We need it for the meeting.\nB: It's all done (prepared). I'll bring it over right away."
+            },
+            {
+              "zh": "A：一会儿搬沙发的时候要小心点儿，别【弄】（碰）坏了。\nB：没问题，我会注意看着脚下的。",
+              "vi": "A: Lát nữa khi chuyển sofa nhớ cẩn thận một chút, đừng làm (va) hỏng.\nB: Không vấn đề gì, tôi sẽ chú ý nhìn dưới chân.",
+              "en": "A: Be careful when you move the sofa in a minute; don't damage it (bump it).\nB: No problem, I'll watch my step."
+            },
+            {
+              "zh": "每天因为这些小事批评她，【弄】（批评）得我俩心情都不好。",
+              "vi": "Ngày nào cũng vì mấy chuyện nhỏ này mà phê bình con bé, làm (phê bình) cho cả hai chúng tôi đều không vui.",
+              "en": "Criticising her over these little things every day leaves both of us in a bad mood."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "千万",
+      "uses": [
+        {
+          "vi": "Phó từ 千万 có nghĩa là nhất định, nhất thiết phải. Theo sau 千万 thường là cấu trúc phủ định (千万别/千万不要: tuyệt đối đừng).",
+          "en": "The adverb 千万 means 'be sure to, by all means'. It is usually followed by a negative: 千万别 / 千万不要 = 'whatever you do, don't'.",
+          "ex": [
+            {
+              "zh": "不过表扬也是一门艺术，表扬【千万】不要太多，过多的表扬可能会给孩子带来压力。",
+              "vi": "Có điều khen ngợi cũng là một nghệ thuật, tuyệt đối đừng khen quá nhiều, khen quá mức có thể gây áp lực cho trẻ.",
+              "en": "But praise is an art too. Never overdo it; too much praise can put pressure on children."
+            },
+            {
+              "zh": "我要等她生日那天再送给她这个礼物，你现在【千万】别告诉她。",
+              "vi": "Tôi muốn đợi đến sinh nhật cô ấy mới tặng món quà này, bây giờ bạn tuyệt đối đừng nói với cô ấy nhé.",
+              "en": "I want to wait until her birthday to give her this present, so whatever you do, don't tell her now."
+            },
+            {
+              "zh": "每个人都应该记住这句话：“开车【千万】别喝酒，喝酒【千万】别开车。”",
+              "vi": "Ai cũng nên nhớ câu này: “Đã lái xe thì tuyệt đối đừng uống rượu, đã uống rượu thì tuyệt đối đừng lái xe.”",
+              "en": "Everyone should remember this: “If you drive, never drink; if you drink, never drive.”"
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "千万—一定",
+        "uses": [
+          {
+            "vi": "Giống nhau: 千万 và 一定 đều là phó từ, được dùng để đưa ra yêu cầu hay lời dặn dò.",
+            "en": "Similarity: 千万 and 一定 are both adverbs used to make a request or give a reminder.",
+            "ex": [
+              {
+                "zh": "通过失败你能获得别人没有的经验，【千万】/【一定】不要因为失败就不努力了。",
+                "vi": "Qua thất bại, bạn có thể có được những kinh nghiệm mà người khác không có, nhất định đừng vì thất bại mà không cố gắng nữa.",
+                "en": "Through failure you gain experience others don't have. Whatever you do, don't stop trying because you've failed."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, mặc dù 千万 và 一定 đều có thể được dùng cả trong câu khẳng định lẫn câu phủ định nhưng 千万 thường được dùng trong câu phủ định và kết hợp với 别, 要/不要 hay 不能, còn 一定 thường được dùng trong câu khẳng định và kết hợp với 要/不要 hoặc 能/不能.",
+            "en": "Difference 1: although both can be used in affirmative and negative sentences, 千万 is more common in negatives, with 别, 要/不要 or 不能; 一定 is more common in affirmatives, with 要/不要 or 能/不能.",
+            "ex": [
+              {
+                "zh": "工作只是生活的一部分，出去工作是为了让生活变得更好，因此，【千万】不要把工作中的不愉快带到生活中来。",
+                "vi": "Công việc chỉ là một phần của cuộc sống, đi làm là để cuộc sống tốt đẹp hơn, vì vậy tuyệt đối đừng mang những điều không vui trong công việc vào cuộc sống.",
+                "en": "Work is only part of life; we go to work to make life better. So never bring the unpleasantness of work home with you."
+              },
+              {
+                "zh": "找工作的人【一定】要到这里看一看，这里提供的工作机会是最多的。",
+                "vi": "Người tìm việc nhất định phải đến đây xem thử, nơi này cung cấp nhiều cơ hội việc làm nhất.",
+                "en": "Anyone looking for a job must come and have a look here; this place offers the most job opportunities."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: Trong trường hợp trên, 千万 có ngữ khí khá nhẹ nhàng và lịch sự, thường mang nghĩa là hy vọng người khác làm việc gì như thế nào; còn 一定 có ngữ khí mạnh hơn, thường có hàm ý ra lệnh, yêu cầu người khác phải làm việc gì.",
+            "en": "Difference 2: 千万 has a gentler, politer tone, expressing a hope about how someone will act; 一定 is stronger and often sounds like an order, requiring someone to do something.",
+            "ex": [
+              {
+                "zh": "当机会到来时，【千万】不要放手，有什么想做的事就马上去做吧。",
+                "vi": "Khi cơ hội đến, nhất định đừng buông tay, có việc gì muốn làm thì hãy làm ngay đi. (ngữ khí mong mỏi, tha thiết dặn dò)",
+                "en": "When the chance comes, don't let it go; if there's something you want to do, do it right away. (hopeful, earnest tone)"
+              },
+              {
+                "zh": "这几个动作你做得还是不太标准，在正式比赛前【一定】要练好。",
+                "vi": "Mấy động tác này bạn làm vẫn chưa chuẩn lắm, trước khi thi đấu chính thức nhất định phải luyện cho tốt. (ngữ khí ra lệnh, kiên quyết)",
+                "en": "You're still not doing these moves quite right. You must get them perfect before the actual competition. (commanding, firm tone)"
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: Khi làm phó từ, 一定 thường được dùng kết hợp với 会/不会 hoặc 能 trong câu ngôi thứ nhất để diễn tả ý người nói quyết tâm làm việc gì. 千万 không dùng được như vậy.",
+            "en": "Difference 3: in first-person sentences, 一定 is used with 会/不会 or 能 to express the speaker's determination. 千万 cannot.",
+            "ex": [
+              {
+                "zh": "感谢您的支持和鼓励，我【一定】会继续努力。",
+                "vi": "Cảm ơn sự ủng hộ và động viên của thầy, em nhất định sẽ tiếp tục cố gắng.",
+                "en": "Thank you for your support and encouragement. I'll definitely keep working hard."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 4: Khi làm phó từ, 一定 cũng có nghĩa là chắc chắn, không nghi ngờ gì nữa. Hình thức phủ định của 一定 là 不一定, diễn tả tình huống không chắc chắn nhưng thiên về ý phủ định, có nghĩa là không nhất thiết. 千万 không dùng được như vậy.",
+            "en": "Difference 4: as an adverb, 一定 can also mean 'certainly, without doubt'. Its negative 不一定 means something is uncertain but leaning towards no: 'not necessarily'. 千万 has no such use.",
+            "ex": [
+              {
+                "zh": "只要你不放弃希望，不怕辛苦，能够一直坚持努力学习，提高自己的水平和能力，就【一定】能成功。",
+                "vi": "Chỉ cần bạn không từ bỏ hy vọng, không ngại vất vả, luôn kiên trì nỗ lực học tập, nâng cao trình độ và năng lực của mình thì chắc chắn sẽ thành công.",
+                "en": "As long as you don't give up hope, don't fear hard work, keep studying hard and keep improving your level and abilities, you're sure to succeed."
+              },
+              {
+                "zh": "人们常说：“便宜没好货，好货不便宜。”其实不【一定】都是这样，有时候质量很好的东西也会很便宜。",
+                "vi": "Người ta thường nói: “Của rẻ là của ôi, của tốt thì không rẻ.” Thật ra không hẳn lúc nào cũng vậy, có khi đồ chất lượng rất tốt cũng rất rẻ.",
+                "en": "People often say, “Cheap goods aren't good, and good goods aren't cheap.” Actually that's not always true; sometimes good-quality things are cheap too."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 5: 一定 cũng có thể được dùng làm tính từ, có nghĩa là ở mức độ nào đó, thích hợp. 千万 không dùng được như vậy.",
+            "en": "Difference 5: 一定 can also be an adjective meaning 'a certain (degree of), fair'. 千万 cannot.",
+            "ex": [
+              {
+                "zh": "如果你有【一定】的语言基础和经济条件，那么出国学习外语是最好的选择，因为语言环境对学习语言有重要的作用。",
+                "vi": "Nếu bạn có nền tảng ngôn ngữ và điều kiện kinh tế nhất định thì đi nước ngoài học ngoại ngữ là lựa chọn tốt nhất, vì môi trường ngôn ngữ đóng vai trò quan trọng trong việc học ngôn ngữ.",
+                "en": "If you have a certain foundation in the language and the financial means, studying abroad is the best choice, because the language environment plays an important role in learning."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 6: Khi trả lời người khác, có thể dùng 一定 trong các hình thức rút gọn hoặc dùng độc lập. 千万 không dùng được như vậy.",
+            "en": "Difference 6: when replying to someone, 一定 can be used in a short form or on its own. 千万 cannot.",
+            "ex": [
+              {
+                "zh": "A：王老师您刚来这儿工作三年就当了教授，这次你得{děi}请客啊。\nB：【一定】（请客）。",
+                "vi": "A: Thầy Vương mới đến đây làm ba năm đã lên giáo sư, lần này thầy phải mời khách đấy nhé.\nB: Nhất định (sẽ mời).",
+                "en": "A: Teacher Wang, you've only been here three years and you're already a professor. You've got to treat us this time.\nB: Definitely (I will)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "来",
+      "uses": [
+        {
+          "vi": "Động từ 来 được đặt trước một động từ khác để diễn tả ý sắp thực hiện việc gì đó, thường được sử dụng trong văn nói. Nếu không dùng 来 thì nghĩa của câu vẫn không thay đổi.",
+          "en": "The verb 来 can be placed before another verb to mean 'to (be about to) do something'. It is mostly spoken; leaving it out doesn't change the meaning.",
+          "ex": [
+            {
+              "zh": "这个沙发这么大，你们两个肯定抬不动，我【来】帮你们一起抬。",
+              "vi": "Cái sofa này to thế, hai bạn chắc chắn không khiêng nổi đâu, để tôi giúp các bạn khiêng cùng.",
+              "en": "This sofa is so big, the two of you definitely can't lift it. Let me help you carry it."
+            },
+            {
+              "zh": "小王经验比较丰富，并且做事认真，这次就让他【来】负责吧。",
+              "vi": "Tiểu Vương khá nhiều kinh nghiệm, lại làm việc nghiêm túc, lần này để cậu ấy phụ trách đi.",
+              "en": "Xiao Wang is fairly experienced and conscientious, so let's put him in charge this time."
+            },
+            {
+              "zh": "有的孩子在得不到自己想要的东西的时候，会通过哭、扔东西或者故意敲打【来】引起父母的注意。",
+              "vi": "Có những đứa trẻ khi không có được thứ mình muốn sẽ khóc, ném đồ hoặc cố tình đập phá để thu hút sự chú ý của bố mẹ.",
+              "en": "When some children can't get what they want, they cry, throw things or deliberately bang on things to get their parents' attention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "左右",
+      "uses": [
+        {
+          "vi": "Danh từ 左右 chỉ được dùng sau các từ chỉ số lượng để diễn tả ý hơi nhiều hơn hoặc hơi ít hơn một số lượng nào đó (khoảng, chừng).",
+          "en": "The noun 左右 is only used after a number or quantity to mean 'about, or so' (a bit more or a bit less).",
+          "ex": [
+            {
+              "zh": "网上买的那本书估计三天【左右】就能到，你收到了记得给我打个电话说一声。",
+              "vi": "Cuốn sách mua trên mạng chắc khoảng ba ngày là tới, bạn nhận được thì nhớ gọi điện báo tôi một tiếng.",
+              "en": "The book I bought online should arrive in about three days. When you get it, remember to give me a call."
+            },
+            {
+              "zh": "这儿不能停车，前方500米【左右】有个免费停车场，您可以把车停到那儿。",
+              "vi": "Ở đây không được đỗ xe, phía trước khoảng 500 mét có một bãi đỗ xe miễn phí, anh có thể đỗ xe ở đó.",
+              "en": "You can't park here. There's a free car park about 500 metres ahead; you can park there."
+            },
+            {
+              "zh": "七岁【左右】的儿童普遍好{hào}动，坐不住，所以老师在教{jiāo}这个年龄段的孩子时，一定要想办法引起他们的兴趣。",
+              "vi": "Trẻ em khoảng bảy tuổi thường hiếu động, không ngồi yên được, vì vậy khi dạy trẻ ở độ tuổi này, giáo viên nhất định phải tìm cách khơi gợi hứng thú của chúng.",
+              "en": "Children around seven are generally active and can't sit still, so teachers of this age group must find ways to spark their interest."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

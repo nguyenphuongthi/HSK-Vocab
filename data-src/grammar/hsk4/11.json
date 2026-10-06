@@ -1,0 +1,203 @@
+{
+  "n": 11,
+  "zh": "读书好，读好书，好读书",
+  "vi": "Đọc sách có ích, đọc sách hay, thích đọc sách",
+  "en": "Reading is good: read good books, love to read",
+  "points": [
+    {
+      "title": "连",
+      "uses": [
+        {
+          "vi": "Giới từ 连 thường được dùng trong cấu trúc “连……也/都……” để nhấn mạnh (ngay cả, đến cả). Với cấu trúc này, người nói giải thích rõ tình huống khác bằng cách nhấn mạnh một ví dụ có tính cực đoan (ở mức tột cùng). Theo sau 连 có thể là chủ ngữ.",
+          "en": "The preposition 连 is used in the pattern 连……也/都…… for emphasis: 'even'. The speaker highlights an extreme example to make a point about the general situation. What follows 连 can be the subject.",
+          "ex": [
+            {
+              "zh": "如果【连】你自己【都】不喜欢自己，又怎么能让别人喜欢你呢？",
+              "vi": "Nếu đến chính bạn cũng không thích bản thân mình thì làm sao khiến người khác thích bạn được?",
+              "en": "If even you don't like yourself, how can you expect others to like you?"
+            },
+            {
+              "zh": "广告越来越多，几乎无处不在。不只是电视上有广告，公共汽车、地铁上也有很多广告，【连】我住的楼的电梯里【都】有三个广告。",
+              "vi": "Quảng cáo ngày càng nhiều, gần như không đâu là không có. Không chỉ trên tivi có quảng cáo, trên xe buýt, tàu điện ngầm cũng có rất nhiều, ngay cả trong thang máy tòa nhà tôi ở cũng có tới ba cái quảng cáo.",
+              "en": "There are more and more ads; they're almost everywhere. It's not just TV: buses and the subway are full of them, and even the lift in my building has three ads."
+            }
+          ]
+        },
+        {
+          "vi": "Theo sau 连 cũng có thể là tân ngữ (được đặt phía trước).",
+          "en": "What follows 连 can also be an object that has been moved to the front.",
+          "ex": [
+            {
+              "zh": "你太厉害了！【连】中文报纸【都】看得懂。",
+              "vi": "Bạn giỏi quá! Đến cả báo tiếng Trung cũng đọc hiểu được.",
+              "en": "You're amazing! You can even read Chinese newspapers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "否则",
+      "uses": [
+        {
+          "vi": "Liên từ 否则 có nghĩa là nếu không thì. Câu theo sau 否则 chỉ kết quả được suy ra từ câu phía trước hoặc đưa ra một lựa chọn khác.",
+          "en": "The conjunction 否则 means 'otherwise, or else'. The clause after it gives the result inferred from the previous clause, or offers an alternative.",
+          "ex": [
+            {
+              "zh": "他一定有重要的事找你，【否则】不会打这么多次电话来。",
+              "vi": "Chắc chắn anh ấy có việc quan trọng tìm bạn, nếu không thì đã không gọi điện nhiều lần như vậy.",
+              "en": "He must have something important to talk to you about, otherwise he wouldn't have called so many times."
+            },
+            {
+              "zh": "你最好下午四点前去公司找她，【否则】就明天早上再去。",
+              "vi": "Tốt nhất bạn đến công ty tìm cô ấy trước bốn giờ chiều, nếu không thì sáng mai hẵng đi.",
+              "en": "You'd better go to the company to see her before four this afternoon; otherwise, go tomorrow morning."
+            },
+            {
+              "zh": "看来要想考好，不但要认真复习，还得{děi}注意考试的方法，【否则】会做的题也没时间做了。",
+              "vi": "Xem ra muốn thi tốt thì không chỉ phải ôn tập nghiêm túc mà còn phải chú ý phương pháp làm bài, nếu không thì đến câu biết làm cũng không có thời gian làm.",
+              "en": "It seems that to do well in an exam you not only have to revise carefully but also pay attention to exam technique; otherwise you won't even have time for the questions you know how to answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "无论",
+      "uses": [
+        {
+          "vi": "Liên từ 无论 diễn tả kết quả, kết luận sẽ không thay đổi trong bất kỳ điều kiện nào, thường được dùng trong cấu trúc “无论……都/也……”. Theo sau 无论 có thể là các thành phần thể hiện sự lựa chọn hoặc đại từ nghi vấn (phiếm chỉ).",
+          "en": "The conjunction 无论 (no matter) means the result or conclusion won't change under any conditions. It is often used in 无论……都/也……. After 无论 come either alternatives to choose between or a question word used in a general sense.",
+          "ex": [
+            {
+              "zh": "【无论】是普通杂志，还是著名小说，只要打开它们，就会发现，世界上有那么多有意思的事情、有那么多不一样的生活。",
+              "vi": "Dù là tạp chí bình thường hay tiểu thuyết nổi tiếng, chỉ cần mở chúng ra là sẽ phát hiện thế giới có biết bao nhiêu điều thú vị, biết bao nhiêu cuộc sống khác nhau.",
+              "en": "Whether it's an ordinary magazine or a famous novel, as soon as you open it you'll discover how many interesting things and how many different lives there are in the world."
+            },
+            {
+              "zh": "【无论】做什么事【都】要注意方法，正确的方法可以让我们做得更好。",
+              "vi": "Dù làm việc gì cũng phải chú ý phương pháp, phương pháp đúng có thể giúp chúng ta làm tốt hơn.",
+              "en": "Whatever you do, pay attention to method. The right method helps us do better."
+            },
+            {
+              "zh": "这次比赛他已经打出了自己最好的水平，【无论】结果怎么样，我们【都】应该为他高兴。",
+              "vi": "Trận đấu lần này anh ấy đã thể hiện được phong độ tốt nhất của mình, dù kết quả thế nào chúng ta cũng nên vui cho anh ấy.",
+              "en": "He played at his very best in this match. Whatever the result, we should be happy for him."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "无论—不管",
+        "uses": [
+          {
+            "vi": "Giống nhau: 无论 và 不管 đều có thể được dùng làm liên từ, và thường kết hợp với 都/也, để chỉ kết quả, kết luận sẽ không thay đổi trong bất kỳ điều kiện nào. Theo sau hai từ này có thể là đại từ nghi vấn (phiếm chỉ) hoặc các thành phần thể hiện sự lựa chọn.",
+            "en": "Similarity: 无论 and 不管 are both conjunctions, often used with 都/也, meaning the result won't change under any conditions. Both can be followed by a question word used in a general sense, or by alternatives.",
+            "ex": [
+              {
+                "zh": "【无论】/【不管】干什么事情，最好都能提前做好计划。",
+                "vi": "Dù làm việc gì, tốt nhất đều nên lên kế hoạch trước.",
+                "en": "Whatever you're doing, it's best to plan ahead."
+              },
+              {
+                "zh": "【无论】/【不管】是烦恼的事，还是愉快的事，我每天都会在日记里记下来。",
+                "vi": "Dù là chuyện phiền muộn hay chuyện vui vẻ, ngày nào tôi cũng ghi lại trong nhật ký.",
+                "en": "Whether it's something upsetting or something happy, I write it down in my diary every day."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: 不管 thường được dùng trong văn nói; sau 不管 không được dùng các từ cổ mang sắc thái trang trọng như 如何, 是否. 无论 thường được dùng trong văn viết và có thể đi kèm với 如何, 是否.",
+            "en": "Difference 1: 不管 is mostly spoken and cannot be followed by formal classical words such as 如何 or 是否. 无论 is mostly written and can be followed by 如何, 是否.",
+            "ex": [
+              {
+                "zh": "【无论】如何，我都不会离开你。",
+                "vi": "Dù thế nào đi nữa, anh cũng sẽ không rời xa em.",
+                "en": "No matter what, I will never leave you."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: Có thể dùng hình thức khẳng định - phủ định ngay sau 不管. Khi dùng hình thức này sau 无论, người ta thường thêm 还是/跟/与 vào giữa thành phần khẳng định và phủ định.",
+            "en": "Difference 2: an affirmative-negative form can follow 不管 directly. After 无论, 还是/跟/与 is usually inserted between the affirmative and negative parts.",
+            "ex": [
+              {
+                "zh": "【不管】热不热，他总是穿这么多。",
+                "vi": "Dù nóng hay không, anh ấy lúc nào cũng mặc nhiều thế này.",
+                "en": "Hot or not, he always wears this much."
+              },
+              {
+                "zh": "【无论】/【不管】热还是不热，他总是穿这么多。",
+                "vi": "Dù trời nóng hay không nóng, anh ấy lúc nào cũng mặc nhiều thế này.",
+                "en": "Whether it's hot or not, he always wears this much."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "然而",
+      "uses": [
+        {
+          "vi": "Liên từ 然而 thường được dùng trong văn viết và được đặt ở đầu vế câu sau (có thể có dấu phẩy) để chỉ sự chuyển ý (tuy nhiên, thế nhưng).",
+          "en": "The conjunction 然而 (however, yet) is mostly written. It opens the second half of a sentence (optionally followed by a comma) to show a contrast.",
+          "ex": [
+            {
+              "zh": "他虽然失败了很多次，【然而】一直没有放弃。",
+              "vi": "Tuy anh ấy đã thất bại rất nhiều lần nhưng chưa bao giờ bỏ cuộc.",
+              "en": "Although he failed many times, he never gave up."
+            },
+            {
+              "zh": "很多人觉得自己的生活是幸福的，【然而】每个人对幸福的看法却不完全相同。",
+              "vi": "Nhiều người cảm thấy cuộc sống của mình hạnh phúc, thế nhưng cách nhìn của mỗi người về hạnh phúc lại không hoàn toàn giống nhau.",
+              "en": "Many people feel their lives are happy, yet everyone's idea of happiness is not quite the same."
+            },
+            {
+              "zh": "另外，在看完一篇文章或一本书之后，还可以把它的主要内容和自己的想法写下来。【然而】，你不能完全相信书本上的内容，要有自己的看法和判断。",
+              "vi": "Ngoài ra, sau khi đọc xong một bài viết hay một cuốn sách, bạn còn có thể ghi lại nội dung chính và suy nghĩ của mình. Tuy nhiên, bạn không thể hoàn toàn tin vào nội dung trong sách, phải có quan điểm và nhận định của riêng mình.",
+              "en": "Also, after finishing an article or a book, you can write down its main points and your own thoughts. However, you can't completely trust what's in books; you need your own views and judgement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "同时",
+      "uses": [
+        {
+          "vi": "Liên từ 同时 có nghĩa là hơn nữa, đồng thời, thường được dùng kết hợp với 又/也/还.",
+          "en": "As a conjunction, 同时 means 'moreover, at the same time', adding a further point. It is often used with 又/也/还.",
+          "ex": [
+            {
+              "zh": "因为小孩子的想法没有那么复杂，所以他们总是很快乐。【同时】，小孩子也是最诚实的。",
+              "vi": "Vì suy nghĩ của trẻ con không phức tạp như vậy nên chúng lúc nào cũng vui vẻ. Đồng thời, trẻ con cũng là những người thật thà nhất.",
+              "en": "Because children's thoughts aren't so complicated, they're always happy. At the same time, children are also the most honest."
+            },
+            {
+              "zh": "阅读有许多好处，它能丰富你的知识，让你找到解决问题的办法；【同时】，它还会丰富你的情感，使你的生活更精彩。",
+              "vi": "Đọc sách có rất nhiều lợi ích, nó có thể làm phong phú kiến thức của bạn, giúp bạn tìm ra cách giải quyết vấn đề; đồng thời nó còn làm phong phú tình cảm của bạn, khiến cuộc sống của bạn thêm đặc sắc.",
+              "en": "Reading has many benefits: it broadens your knowledge and helps you find ways to solve problems; at the same time, it enriches your emotions and makes your life more colourful."
+            }
+          ]
+        },
+        {
+          "vi": "Danh từ 同时 chỉ các hành động xảy ra cùng lúc, thường được dùng trong cấu trúc “在……(的)同时”.",
+          "en": "As a noun, 同时 means actions happen at the same time. It is often used in the pattern 在……(的)同时 ('while …').",
+          "ex": [
+            {
+              "zh": "李教授讲的这个故事让人觉得好笑的【同时】，又让人觉得有些难过。",
+              "vi": "Câu chuyện giáo sư Lý kể vừa khiến người ta buồn cười, đồng thời lại khiến người ta thấy hơi buồn.",
+              "en": "The story Professor Li told was funny and, at the same time, a little sad."
+            },
+            {
+              "zh": "【在】学习汉语【的同时】，我还了解了中国文化，认识了很多中国朋友。",
+              "vi": "Trong lúc học tiếng Trung, tôi còn tìm hiểu được văn hóa Trung Quốc và quen được nhiều bạn bè Trung Quốc.",
+              "en": "While learning Chinese, I also got to know Chinese culture and made lots of Chinese friends."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

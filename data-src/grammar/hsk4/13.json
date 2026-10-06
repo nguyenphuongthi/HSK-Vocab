@@ -1,0 +1,203 @@
+{
+  "n": 13,
+  "zh": "喝着茶看京剧",
+  "vi": "Uống trà trong lúc xem Kinh kịch",
+  "en": "Watching Peking opera over tea",
+  "points": [
+    {
+      "title": "大概",
+      "uses": [
+        {
+          "vi": "大概 được dùng làm phó từ để chỉ sự phỏng đoán gần đúng về số lượng, thời gian hoặc chỉ sự suy đoán tình huống, cho biết khả năng xảy ra sự việc nào đó là rất cao. 大概 cũng có thể được dùng làm tính từ với nghĩa là không chính xác lắm, chung chung.",
+          "en": "As an adverb, 大概 gives a rough estimate of a number or time, or a guess about a situation that is quite likely: 'about, probably'. As an adjective it means 'rough, general, not detailed'.",
+          "ex": [
+            {
+              "zh": "他8岁就开始上台演出，到现在【大概】唱了60多年了，他对这门艺术的喜爱从来没有改变过。",
+              "vi": "Ông ấy 8 tuổi đã bắt đầu lên sân khấu biểu diễn, đến nay chắc đã hát hơn 60 năm rồi, tình yêu của ông với môn nghệ thuật này chưa bao giờ thay đổi.",
+              "en": "He started performing on stage at eight and has been singing for probably more than 60 years now. His love for this art has never changed."
+            },
+            {
+              "zh": "你的这个关于举办传统文化节活动的计划，我想校长【大概】会同意。",
+              "vi": "Kế hoạch tổ chức lễ hội văn hóa truyền thống này của bạn, tôi nghĩ hiệu trưởng chắc sẽ đồng ý.",
+              "en": "This plan of yours to hold a traditional culture festival, I think the principal will probably agree to it."
+            },
+            {
+              "zh": "经过这段时间的学习，他的汉语水平提高了不少，不但可以听懂一些较短的句子，还可以进行简单的交流，现在即使不用翻译也能理解【大概】的意思了。",
+              "vi": "Sau thời gian học này, trình độ tiếng Trung của anh ấy đã tiến bộ khá nhiều, không chỉ nghe hiểu được những câu ngắn mà còn có thể giao tiếp đơn giản, giờ dù không cần phiên dịch cũng hiểu được ý chung.",
+              "en": "After this period of study his Chinese has improved a lot. He can understand some short sentences and hold simple conversations, and now he can get the general meaning even without an interpreter."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "大概—也许",
+        "uses": [
+          {
+            "vi": "Giống nhau: 大概 và 也许 đều là phó từ chỉ sự suy đoán hoặc phỏng đoán về tình huống nào đó.",
+            "en": "Similarity: 大概 and 也许 are both adverbs expressing a guess or estimate about a situation.",
+            "ex": [
+              {
+                "zh": "他总说自己特别喜欢看书，可是这本书他看了一个月才看到第5页，【大概】/【也许】是因为工作太忙了吧。但我觉得一个真正爱看书的人总能找出时间来阅读。",
+                "vi": "Anh ấy luôn nói mình rất thích đọc sách, vậy mà cuốn sách này đọc một tháng mới đến trang 5, chắc là do công việc bận quá. Nhưng tôi thấy một người thật sự yêu sách thì lúc nào cũng tìm ra thời gian để đọc.",
+                "en": "He always says he loves reading, yet after a month he's only on page 5 of this book, probably because he's too busy with work. But I think someone who really loves books can always find time to read."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, 大概 diễn tả sự phán đoán ở mức độ mạnh hơn và mang ý khẳng định nhiều hơn, còn 也许 chỉ sự suy đoán và khả năng xảy ra sự việc ở mức độ thấp hơn.",
+            "en": "Difference 1: 大概 expresses a stronger, more confident judgement; 也许 ('maybe, perhaps') is a guess with a lower likelihood.",
+            "ex": [
+              {
+                "zh": "老张这个人一直很准时，开会从来不迟到。今天到现在还没来，【大概】是有什么事情，你打个电话问问他吧。",
+                "vi": "Ông Trương xưa nay rất đúng giờ, đi họp chưa bao giờ đến muộn. Hôm nay giờ này vẫn chưa đến, chắc là có việc gì đó, bạn gọi điện hỏi ông ấy xem.",
+                "en": "Lao Zhang is always punctual and never late for meetings. He still isn't here today, so something has probably come up. Give him a call."
+              },
+              {
+                "zh": "这次电影艺术节【也许】会在北京举行。",
+                "vi": "Liên hoan nghệ thuật điện ảnh lần này có lẽ sẽ được tổ chức ở Bắc Kinh.",
+                "en": "This film festival may be held in Beijing."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 大概 có thể diễn tả sự phỏng đoán về số lượng; 也许 không dùng được như vậy.",
+            "en": "Difference 2: 大概 can estimate a quantity; 也许 cannot.",
+            "ex": [
+              {
+                "zh": "【大概】有三分之二的人反对这样做。",
+                "vi": "Khoảng hai phần ba số người phản đối làm như vậy.",
+                "en": "About two-thirds of people are against doing it this way."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 也许 có thể cho biết người nói không chắc chắn về dự định tương lai của mình; 大概 không dùng được như vậy.",
+            "en": "Difference 3: 也许 can show the speaker is unsure about their own future plans; 大概 cannot.",
+            "ex": [
+              {
+                "zh": "我原来想学习法律，不过后来我发现自己对新闻更感兴趣，【也许】以后我会成为一名记者。",
+                "vi": "Lúc đầu tôi muốn học luật, nhưng sau đó tôi phát hiện mình hứng thú với báo chí hơn, có lẽ sau này tôi sẽ trở thành phóng viên.",
+                "en": "I originally wanted to study law, but later I found I was more interested in journalism. Maybe I'll become a journalist one day."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 4: 大概 cũng có thể được dùng làm tính từ với nghĩa là không chính xác lắm, chung chung; 也许 không dùng được như vậy.",
+            "en": "Difference 4: 大概 can also be an adjective meaning 'rough, general'; 也许 cannot.",
+            "ex": [
+              {
+                "zh": "不管做什么事情，最好提前做计划，不用安排得特别详细，但必须有一个【大概】的想法。",
+                "vi": "Dù làm việc gì, tốt nhất nên lên kế hoạch trước, không cần sắp xếp quá chi tiết nhưng phải có một ý tưởng chung.",
+                "en": "Whatever you do, it's best to plan ahead. You don't need every detail worked out, but you must have a rough idea."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "偶尔",
+      "uses": [
+        {
+          "vi": "Phó từ 偶尔 chỉ tình huống xảy ra với tần suất rất thấp (thỉnh thoảng, đôi khi).",
+          "en": "The adverb 偶尔 means something happens very rarely: 'occasionally, once in a while'.",
+          "ex": [
+            {
+              "zh": "我常常跟着电视学唱京剧，然后一遍一遍地{de}练习，【偶尔】跟中国人一起唱上几句。",
+              "vi": "Tôi thường học hát Kinh kịch theo tivi, rồi luyện đi luyện lại, thỉnh thoảng hát vài câu cùng người Trung Quốc.",
+              "en": "I often learn Peking opera singing from the TV and practise it over and over, and occasionally sing a few lines with Chinese people."
+            },
+            {
+              "zh": "我们调查的近7000名上班族中，有64%的人经常加班，28%【偶尔】加班，而每次加班时间超过两小时的竟然有59%。",
+              "vi": "Trong gần 7000 người đi làm mà chúng tôi khảo sát, 64% thường xuyên tăng ca, 28% thỉnh thoảng tăng ca, còn số người mỗi lần tăng ca quá hai tiếng lại lên tới 59%.",
+              "en": "Of the nearly 7,000 office workers we surveyed, 64% often work overtime and 28% do so occasionally, and a surprising 59% work more than two hours of overtime each time."
+            },
+            {
+              "zh": "三叶草的叶子一般为三个，但【偶尔】也会出现四个叶子的，这种四个叶子的叫“四叶草”，因为很少见，所以有人说，找到这种“四叶草”的人会得到幸福。",
+              "vi": "Cỏ ba lá thường có ba lá, nhưng thỉnh thoảng cũng có cây bốn lá, loại bốn lá này gọi là “cỏ bốn lá”, vì rất hiếm gặp nên có người nói ai tìm được “cỏ bốn lá” sẽ gặp hạnh phúc.",
+              "en": "Clover usually has three leaves, but occasionally one with four appears. These are called “four-leaf clovers”, and because they're so rare, some say whoever finds one will be happy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "由",
+      "uses": [
+        {
+          "vi": "Giới từ 由 cho biết người đảm nhận công việc nào đó (do, bởi).",
+          "en": "The preposition 由 introduces the person responsible for doing something: 'by, (up) to'.",
+          "ex": [
+            {
+              "zh": "按照规定，这件事情应该【由】王大{dài}夫{fu}负责。",
+              "vi": "Theo quy định, việc này phải do bác sĩ Vương phụ trách.",
+              "en": "According to the rules, Dr Wang should be in charge of this."
+            },
+            {
+              "zh": "“幽默”这个词最早是【由】林语堂先生翻译过来的。",
+              "vi": "Từ “幽默” (hài hước) ban đầu là do ông Lâm Ngữ Đường dịch sang.",
+              "en": "The word “幽默” (humour) was first translated into Chinese by Lin Yutang."
+            },
+            {
+              "zh": "上次的春游活动你们办得非常有趣，大家都玩儿得很开心，这次活动继续【由】你负责，相信也一定会很成功。",
+              "vi": "Chuyến dã ngoại mùa xuân lần trước các bạn tổ chức rất thú vị, mọi người đều chơi rất vui, hoạt động lần này tiếp tục do bạn phụ trách, tin rằng chắc chắn cũng sẽ rất thành công.",
+              "en": "The spring outing you organised last time was great fun and everyone enjoyed it. You'll be in charge of this one too, and I'm sure it'll be a success."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "进行",
+      "uses": [
+        {
+          "vi": "Động từ 进行 có nghĩa là thực hiện hoạt động hay công việc nào đó (tiến hành). 进行 thường được dùng trước động từ có hai âm tiết diễn tả hành động mang tính chính thức, nghiêm túc. Thông thường, những động từ diễn tả hành động tạm thời hoặc liên quan đến cuộc sống hàng ngày không được dùng với 进行.",
+          "en": "The verb 进行 means 'to carry out, conduct' an activity or piece of work. It usually goes before a two-syllable verb describing a formal, serious action; verbs for brief actions or everyday activities are not used with 进行.",
+          "ex": [
+            {
+              "zh": "大家请注意，现在休息十五分钟，十点半会议继续【进行】。",
+              "vi": "Mọi người chú ý, bây giờ nghỉ mười lăm phút, mười giờ rưỡi cuộc họp sẽ tiếp tục.",
+              "en": "Attention please, everyone: we'll now take a fifteen-minute break, and the meeting will resume at ten thirty."
+            },
+            {
+              "zh": "有人在互联网上专门【进行】过调查，结果发现每六个中国人中就有一个使用筷子的方法是错误的。",
+              "vi": "Có người đã từng tiến hành khảo sát riêng trên Internet, kết quả phát hiện cứ sáu người Trung Quốc thì có một người cầm đũa sai cách.",
+              "en": "Someone once carried out a survey online and found that one in every six Chinese people holds chopsticks the wrong way."
+            },
+            {
+              "zh": "成功的语言学习者，在学习方面往往都是积极主动的，他们会主动与他人【进行】交流，并且请别人帮助他们改错。",
+              "vi": "Những người học ngoại ngữ thành công thường tích cực chủ động trong việc học, họ chủ động giao tiếp với người khác và nhờ người khác giúp mình sửa lỗi.",
+              "en": "Successful language learners tend to be active and take the initiative. They make a point of talking with others and ask people to help correct their mistakes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "随着",
+      "uses": [
+        {
+          "vi": "Giới từ 随着 chỉ một sự việc là điều kiện để một sự việc khác xảy ra (cùng với, theo đà). Theo sau 随着 thường là động từ có hai âm tiết kèm từ bổ nghĩa.",
+          "en": "The preposition 随着 ('along with, as') shows that one thing is the condition for another to happen. It is usually followed by a two-syllable verb with a modifier.",
+          "ex": [
+            {
+              "zh": "【随着】社会的发展，京剧也在改变，以适应不同年龄观众的需要。",
+              "vi": "Cùng với sự phát triển của xã hội, Kinh kịch cũng đang thay đổi để đáp ứng nhu cầu của khán giả ở các độ tuổi khác nhau.",
+              "en": "As society develops, Peking opera is changing too, to suit the needs of audiences of different ages."
+            },
+            {
+              "zh": "有些人喜欢为自己的生活做长远的计划。但是，【随着】年龄的增长，他们会发现生活总是在不停地{de}变化，生活往往不会按照我们的计划来进行。",
+              "vi": "Có người thích lập kế hoạch lâu dài cho cuộc sống của mình. Nhưng theo năm tháng, họ sẽ nhận ra cuộc sống luôn thay đổi không ngừng, và thường không diễn ra theo kế hoạch của chúng ta.",
+              "en": "Some people like to make long-term plans for their lives. But as they get older, they find that life is always changing and rarely goes according to plan."
+            },
+            {
+              "zh": "最早的时候，茶只是被当{dàng}作一种药，而不是饮料。后来，【随着】人们对茶的认识的加深，慢慢开始把它当{dàng}作解渴的饮料，这才慢慢有了中国的茶文化。",
+              "vi": "Thời xa xưa, trà chỉ được coi là một loại thuốc chứ không phải đồ uống. Về sau, cùng với việc con người hiểu biết về trà ngày càng sâu, dần dần bắt đầu coi nó là đồ uống giải khát, từ đó mới dần có văn hóa trà Trung Quốc.",
+              "en": "At first, tea was regarded only as a medicine, not a drink. Later, as people came to know more about it, they gradually began treating it as a drink to quench thirst, and that's how Chinese tea culture slowly came about."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

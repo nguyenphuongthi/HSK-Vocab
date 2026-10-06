@@ -1,0 +1,203 @@
+{
+  "n": 10,
+  "zh": "幸福的标准",
+  "vi": "Tiêu chuẩn của hạnh phúc",
+  "en": "The measure of happiness",
+  "points": [
+    {
+      "title": "不过",
+      "uses": [
+        {
+          "vi": "不过 có thể được dùng làm liên từ và được đặt ở đầu vế câu sau để chỉ sự chuyển ý, bổ sung và điều chỉnh ý của vế câu trước (nhưng, có điều).",
+          "en": "As a conjunction, 不过 opens the second clause to introduce a contrast, adding to or qualifying what the first clause said: 'but, however'.",
+          "ex": [
+            {
+              "zh": "我现在上有老，下有小。除了工作以外，家里还有母亲和儿子需要照顾。【不过】现在我很幸福。",
+              "vi": "Bây giờ tôi trên có mẹ già, dưới có con nhỏ. Ngoài công việc ra, ở nhà còn có mẹ và con trai cần chăm sóc. Có điều bây giờ tôi rất hạnh phúc.",
+              "en": "Right now I have an elderly parent above me and a child below. Besides work, I have my mother and my son to look after at home. But I'm very happy now."
+            },
+            {
+              "zh": "你再早来一会儿就好了，那辆车刚开走，你只能等下一辆了。【不过】也不用多长时间，估计十几分钟就来了。",
+              "vi": "Bạn mà đến sớm hơn chút nữa thì tốt rồi, chuyến xe đó vừa chạy, bạn chỉ có thể đợi chuyến sau thôi. Có điều cũng không mất bao lâu, chắc độ mười mấy phút là tới.",
+              "en": "If only you'd come a bit earlier. That bus has just left, so you'll have to wait for the next one. But it won't be long; it should come in ten minutes or so."
+            }
+          ]
+        },
+        {
+          "vi": "不过 cũng có thể được dùng làm phó từ với nghĩa là chỉ, để nhấn mạnh số lượng hay phạm vi nhỏ.",
+          "en": "As an adverb, 不过 means 'only, merely', stressing that an amount or scope is small.",
+          "ex": [
+            {
+              "zh": "我们【不过】谈了点儿工作方面的问题，别的都没谈。",
+              "vi": "Chúng tôi chỉ bàn một chút về chuyện công việc thôi, những chuyện khác không nói gì cả.",
+              "en": "We only talked a little about work; we didn't discuss anything else."
+            },
+            {
+              "zh": "A：没有你的帮助，我们肯定不能按时完成任务，真是太谢谢你了。\nB：你太客气了，我【不过】是给了些建议，这一切都是你们辛苦努力的结果。",
+              "vi": "A: Không có sự giúp đỡ của bạn thì chắc chắn chúng tôi không thể hoàn thành nhiệm vụ đúng hạn, thật sự cảm ơn bạn rất nhiều.\nB: Bạn khách sáo quá, tôi chỉ đưa ra vài gợi ý thôi, tất cả đều là kết quả của sự nỗ lực vất vả của các bạn.",
+              "en": "A: Without your help we definitely couldn't have finished on time. Thank you so much.\nB: Don't mention it. I only made a few suggestions; all this is the result of your own hard work."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "不过—但是",
+        "uses": [
+          {
+            "vi": "Giống nhau: 不过 và 但是 đều được dùng ở đầu vế câu sau để chỉ sự chuyển ý.",
+            "en": "Similarity: both 不过 and 但是 can open the second clause to introduce a contrast.",
+            "ex": [
+              {
+                "zh": "我本来想当律师，【不过】/【但是】后来我发现自己对新闻更感兴趣。",
+                "vi": "Lúc đầu tôi muốn làm luật sư, nhưng sau đó tôi phát hiện mình hứng thú với báo chí hơn.",
+                "en": "I originally wanted to be a lawyer, but later I found I was more interested in journalism."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, 不过 thường được dùng trong văn nói để đưa ra ý kiến hay lời từ chối một cách nhẹ nhàng, lịch sự; còn 但是 có ngữ khí mạnh hơn.",
+            "en": "Difference 1: in that sense, 不过 is mostly spoken and is used to make a suggestion or turn something down gently and politely; 但是 has a stronger tone.",
+            "ex": [
+              {
+                "zh": "对不起，先生，那种蛋糕已经卖完了，【不过】，您可以尝一下这种饼干，味道也很不错。",
+                "vi": "Xin lỗi anh, loại bánh ngọt đó đã bán hết rồi, có điều anh có thể nếm thử loại bánh quy này, vị cũng rất ngon.",
+                "en": "I'm sorry, sir, that cake is sold out. But you could try these biscuits; they taste very good too."
+              },
+              {
+                "zh": "别人的方法也许很有效，【但是】并不一定适合你。",
+                "vi": "Phương pháp của người khác có thể rất hiệu quả, nhưng chưa chắc đã phù hợp với bạn.",
+                "en": "Other people's methods may work well, but they won't necessarily suit you."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 不过 cũng có thể được dùng làm phó từ và mang nghĩa là chỉ, theo sau nó thường là con số; 但是 không dùng được như vậy.",
+            "en": "Difference 2: 不过 can also be an adverb meaning 'only', usually followed by a number; 但是 cannot.",
+            "ex": [
+              {
+                "zh": "去年我【不过】50公斤，今年怎么这么胖了？",
+                "vi": "Năm ngoái tôi chỉ có 50 cân, sao năm nay lại béo thế này?",
+                "en": "Last year I was only 50 kilos. How did I get so fat this year?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "确实",
+      "uses": [
+        {
+          "vi": "Phó từ 确实 được dùng để khẳng định tính xác thực của một tình huống khách quan (quả thật, đúng là).",
+          "en": "The adverb 确实 confirms that an objective situation is true: 'really, indeed'.",
+          "ex": [
+            {
+              "zh": "爱情【确实】是结婚的重要原因，但仅有爱情是不够的。",
+              "vi": "Tình yêu quả thật là lý do quan trọng để kết hôn, nhưng chỉ có tình yêu thôi thì chưa đủ.",
+              "en": "Love is indeed an important reason to marry, but love alone isn't enough."
+            },
+            {
+              "zh": "A：好几年没见，你还是这么爱开玩笑，我哪儿有你说的那么年轻。\nB：我说的是真的，你【确实】比以前更年轻、更漂亮了。",
+              "vi": "A: Mấy năm không gặp mà bạn vẫn thích đùa như vậy, tôi làm gì trẻ như bạn nói.\nB: Tôi nói thật mà, bạn đúng là trẻ hơn, đẹp hơn trước thật.",
+              "en": "A: We haven't seen each other for years and you still love to joke. I'm nowhere near as young as you say.\nB: I mean it. You really do look younger and prettier than before."
+            },
+            {
+              "zh": "我女儿【确实】不错，记得她刚拿到第一个月工资时，就兴奋地{de}拉着我和她爸俩去商场，给我们买礼物，那时我和她爸心里别提多美了！",
+              "vi": "Con gái tôi đúng là rất ngoan, nhớ hồi vừa nhận tháng lương đầu tiên, con hớn hở kéo cả tôi và bố nó đi trung tâm thương mại mua quà cho chúng tôi, lúc đó vợ chồng tôi vui sướng không sao tả xiết!",
+              "en": "My daughter really is wonderful. I remember when she got her first month's pay, she excitedly dragged her dad and me to the mall to buy us presents. You can't imagine how happy we were!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "在……看来",
+      "uses": [
+        {
+          "vi": "在……看来 là thành phần được dùng để chỉ ra rằng nội dung kế tiếp là lời phát biểu ý kiến hay quan điểm (theo… thì, trong mắt…).",
+          "en": "在……看来 is a parenthetical phrase showing that what follows is someone's opinion or view: 'in …'s view, as … sees it'.",
+          "ex": [
+            {
+              "zh": "【在】很多人【看来】，听流行音乐仅仅是年轻人的爱好，其实现在不少中老年人对流行歌曲也很感兴趣。",
+              "vi": "Theo nhiều người thì nghe nhạc pop chỉ là sở thích của giới trẻ, thật ra bây giờ không ít người trung niên và cao tuổi cũng rất thích các bài hát thịnh hành.",
+              "en": "Many people think listening to pop music is just a young people's hobby, but actually quite a lot of middle-aged and older people are interested in pop songs now too."
+            },
+            {
+              "zh": "【在】我【看来】，比赛结果并不是最重要的，在参加比赛的过程中使自己获得提高更重要。",
+              "vi": "Theo tôi, kết quả cuộc thi không phải là quan trọng nhất, quan trọng hơn là bản thân được tiến bộ trong quá trình tham gia thi đấu.",
+              "en": "In my view, the result isn't the most important thing; what matters more is improving yourself while taking part."
+            },
+            {
+              "zh": "A：你觉得在选择职业时，收入重要吗？\nB：【在】我【看来】，赚钱多少不是最重要的，兴趣才是关键。",
+              "vi": "A: Bạn thấy khi chọn nghề, thu nhập có quan trọng không?\nB: Theo tôi, kiếm được nhiều hay ít tiền không phải là quan trọng nhất, hứng thú mới là mấu chốt.",
+              "en": "A: Do you think income matters when choosing a career?\nB: As I see it, how much you earn isn't the most important thing. Interest is the key."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "由于",
+      "uses": [
+        {
+          "vi": "由于 có thể được dùng làm liên từ để chỉ nguyên nhân, theo sau nó là một câu. 由于 thường được đặt ở vế đầu của câu.",
+          "en": "As a conjunction, 由于 (because, due to) gives a reason and is followed by a clause. It usually goes in the first clause.",
+          "ex": [
+            {
+              "zh": "今年春节他们本来打算出国去逛逛，但是【由于】家里的老人突然生病了，所以他们只好放弃了这个计划。",
+              "vi": "Tết năm nay họ vốn định ra nước ngoài chơi, nhưng vì người già trong nhà đột nhiên bị ốm nên họ đành bỏ kế hoạch này.",
+              "en": "They had planned to go abroad for a trip this Spring Festival, but because an elderly family member suddenly fell ill, they had to give up the plan."
+            },
+            {
+              "zh": "当你生病了，如果【由于】缺钱而不能及时去看医生，你的健康都很难得到保证，就更别说幸福了。",
+              "vi": "Khi bạn bị ốm, nếu vì thiếu tiền mà không thể đi khám bác sĩ kịp thời thì sức khỏe còn khó đảm bảo, nói gì đến hạnh phúc.",
+              "en": "When you're ill, if you can't see a doctor in time because you're short of money, even your health is hard to protect, let alone your happiness."
+            }
+          ]
+        },
+        {
+          "vi": "由于 cũng có thể được dùng làm giới từ để chỉ nguyên nhân, theo sau nó là cụm danh từ.",
+          "en": "As a preposition, 由于 also gives a reason, followed by a noun phrase.",
+          "ex": [
+            {
+              "zh": "【由于】种种原因，我们不得不改变原来的计划。",
+              "vi": "Vì nhiều lý do, chúng tôi buộc phải thay đổi kế hoạch ban đầu.",
+              "en": "For various reasons, we had to change our original plan."
+            },
+            {
+              "zh": "【由于】工作的需要，我去年十月去了趟上海，跟一家公司去谈生意。",
+              "vi": "Do yêu cầu công việc, tháng mười năm ngoái tôi đã đi Thượng Hải một chuyến để bàn chuyện làm ăn với một công ty.",
+              "en": "Because of work, I made a trip to Shanghai last October to negotiate business with a company."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "比如",
+      "uses": [
+        {
+          "vi": "Động từ 比如 dẫn ra các ví dụ để giải thích sự vật hay tình huống nào đó (ví dụ như, chẳng hạn).",
+          "en": "The verb 比如 introduces examples to illustrate something: 'for example, such as'.",
+          "ex": [
+            {
+              "zh": "还有人说，小时候幸福是一件东西，【比如】一块橡皮、一块糖，得到了就很幸福。",
+              "vi": "Cũng có người nói, hồi nhỏ hạnh phúc là một món đồ, chẳng hạn một cục tẩy, một viên kẹo, có được là thấy hạnh phúc lắm rồi.",
+              "en": "Some people also say that as a child, happiness is a thing, such as an eraser or a sweet; once you get it, you're happy."
+            },
+            {
+              "zh": "每个人都有自己特别感兴趣的东西，【比如】，作家爱写小说，画家爱画画儿。我们只有了解了自己的兴趣爱好后，才能更好地{de}发展自己。",
+              "vi": "Ai cũng có thứ mình đặc biệt hứng thú, ví dụ như nhà văn thích viết tiểu thuyết, họa sĩ thích vẽ tranh. Chúng ta chỉ khi hiểu rõ sở thích của mình mới có thể phát triển bản thân tốt hơn.",
+              "en": "Everyone has things that especially interest them. For example, writers love writing novels and painters love painting. Only once we understand our own interests can we develop ourselves better."
+            },
+            {
+              "zh": "旅游前最好做个计划，【比如】要去几个地方，怎么坐车，带哪些东西，一共要玩儿多少天等。把这些都提前想好，旅游时才会更轻松。",
+              "vi": "Trước khi đi du lịch tốt nhất nên lập kế hoạch, ví dụ như đi mấy nơi, đi xe gì, mang những gì, tổng cộng chơi bao nhiêu ngày v.v. Nghĩ trước hết những điều này thì lúc đi du lịch mới thoải mái hơn.",
+              "en": "It's best to make a plan before you travel: for example, how many places to visit, how to get around, what to take and how many days in total. Thinking all this through in advance makes the trip much more relaxed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

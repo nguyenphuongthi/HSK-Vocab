@@ -177,3 +177,10 @@ export function countLevel(marks, level, total) {
   c[0] = total - c[1] - c[2];
   return c;
 }
+
+// Đếm theo danh sách id (ví dụ các điểm ngữ pháp của một bài): [chưa thuộc, hơi nhớ, đã thuộc].
+export function countIds(marks, ids) {
+  const c = [0, 0, 0];
+  for (const id of ids) c[marks[id] ?? 0]++;
+  return c;
+}

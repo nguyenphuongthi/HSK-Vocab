@@ -1,0 +1,204 @@
+{
+  "n": 4,
+  "zh": "不要太着急赚钱",
+  "vi": "Đừng quá nóng vội kiếm tiền",
+  "en": "Don't be in too much of a hurry to make money",
+  "points": [
+    {
+      "title": "以为",
+      "uses": [
+        {
+          "vi": "Động từ 以为 thường được dùng để chỉ việc gì đó (mà người nói đã nghĩ) không phải là sự thật.",
+          "en": "The verb 以为 means 'to (wrongly) think, assume': what the speaker believed turns out not to match the facts.",
+          "ex": [
+            {
+              "zh": "她汉语说得那么好，我还【以为】她是中国人。",
+              "vi": "Cô ấy nói tiếng Trung giỏi thế, tôi còn tưởng cô ấy là người Trung Quốc.",
+              "en": "Her Chinese is so good that I thought she was Chinese."
+            },
+            {
+              "zh": "马克【以为】今天是星期一，到了学校一看，没人来上课，才发现今天是星期天。",
+              "vi": "Mark tưởng hôm nay là thứ Hai, đến trường nhìn thì không có ai đi học, mới phát hiện hôm nay là Chủ nhật.",
+              "en": "Mark thought today was Monday. When he got to school and saw nobody had come to class, he realised it was Sunday."
+            },
+            {
+              "zh": "我【以为】新工作比以前的好，没想到还没有以前好呢。",
+              "vi": "Tôi cứ tưởng công việc mới tốt hơn công việc trước, không ngờ còn chẳng bằng.",
+              "en": "I thought the new job would be better than the old one; I never expected it to be even worse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "原来",
+      "uses": [
+        {
+          "vi": "原来 có thể được dùng làm danh từ với nghĩa là ban đầu, trước đây, chỉ tình huống được miêu tả trong vế câu hay câu theo sau nó khác với tình huống trước đây.",
+          "en": "As a noun, 原来 means 'originally, formerly': the situation described afterwards differs from how things used to be.",
+          "ex": [
+            {
+              "zh": "坐火车从北京到上海，【原来】最快差不多需要12个小时，现在有了高铁，5个小时就能到。",
+              "vi": "Đi tàu từ Bắc Kinh đến Thượng Hải, trước đây nhanh nhất cũng mất khoảng 12 tiếng, giờ có tàu cao tốc thì 5 tiếng là tới.",
+              "en": "Going from Beijing to Shanghai by train used to take about 12 hours at best. Now, with high-speed rail, you can get there in 5."
+            }
+          ]
+        },
+        {
+          "vi": "原来 có thể được dùng làm tính từ với nghĩa là đầu tiên, không thay đổi. Nó không thể đứng một mình làm vị ngữ. Khi 原来 bổ nghĩa cho danh từ, sau nó phải có 的.",
+          "en": "As an adjective, 原来 means 'original, unchanged'. It cannot be a predicate on its own, and when it modifies a noun it must be followed by 的.",
+          "ex": [
+            {
+              "zh": "按【原来】的计划应该是两周，但是我们可以提前完成。",
+              "vi": "Theo kế hoạch ban đầu thì phải mất hai tuần, nhưng chúng tôi có thể hoàn thành sớm hơn.",
+              "en": "According to the original plan it should take two weeks, but we can finish ahead of schedule."
+            }
+          ]
+        },
+        {
+          "vi": "原来 cũng có thể được dùng làm phó từ để chỉ một khoảng thời gian nào đó trước đây, hàm ý người/sự vật đó hiện giờ không còn giống như trước.",
+          "en": "As an adverb, 原来 refers to an earlier period, implying that things are no longer the same now.",
+          "ex": [
+            {
+              "zh": "她【原来】是汉语老师，现在已经成了一名律师。",
+              "vi": "Cô ấy vốn là giáo viên tiếng Trung, bây giờ đã trở thành luật sư.",
+              "en": "She used to be a Chinese teacher; now she's become a lawyer."
+            }
+          ]
+        },
+        {
+          "vi": "Khi làm phó từ, 原来 còn chỉ việc phát hiện ra tình huống mà trước đây không biết (hóa ra). 原来 có thể đứng trước hoặc sau chủ ngữ.",
+          "en": "As an adverb, 原来 can also mean 'so it turns out': discovering something you didn't know before. It can go before or after the subject.",
+          "ex": [
+            {
+              "zh": "马克一直等李明回电话，可是电话一晚上都没来，【原来】李明把马克的电话号码记错了。",
+              "vi": "Mark cứ đợi Lý Minh gọi lại, nhưng cả tối chẳng thấy điện thoại đâu, hóa ra Lý Minh ghi nhầm số điện thoại của Mark.",
+              "en": "Mark kept waiting for Li Ming to call back, but no call came all evening. It turned out Li Ming had written down Mark's number wrong."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "原来—本来",
+        "uses": [
+          {
+            "vi": "Giống nhau 1: 原来 và 本来 đều có thể được dùng làm tính từ với nghĩa là đầu tiên, không thay đổi.",
+            "en": "Similarity 1: both 原来 and 本来 can be adjectives meaning 'original, unchanged'.",
+            "ex": [
+              {
+                "zh": "这是它【原来】/【本来】的颜色，不过现在已经穿了好几年，颜色都变了。",
+                "vi": "Đây là màu ban đầu của nó, có điều giờ đã mặc mấy năm rồi nên màu đã thay đổi.",
+                "en": "This was its original colour, but it's been worn for several years now and the colour has changed."
+              }
+            ]
+          },
+          {
+            "vi": "Giống nhau 2: Cả hai từ đều có thể được dùng làm phó từ để diễn tả ý tình huống trước đây không giống với tình huống hiện nay.",
+            "en": "Similarity 2: both can be adverbs meaning the earlier situation differs from the present one.",
+            "ex": [
+              {
+                "zh": "我家【原来】/【本来】住这儿附近，不过这里以前不像现在有这么多楼房。",
+                "vi": "Nhà tôi trước đây ở gần đây, có điều hồi đó chỗ này không có nhiều nhà cao tầng như bây giờ.",
+                "en": "My family used to live near here, but back then there weren't as many buildings as there are now."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau: Khi làm phó từ, 原来 chỉ việc phát hiện ra tình huống mà trước đây không biết (hóa ra); còn 本来 diễn tả ý tình huống/sự việc nào đó lẽ ra phải như vậy.",
+            "en": "Difference: as an adverb, 原来 can mean 'so it turns out' (discovering something new), while 本来 can mean 'should have been so by rights'.",
+            "ex": [
+              {
+                "zh": "我还以为是谁帮我打扫房间呢，【原来】是你啊！",
+                "vi": "Tôi còn đang nghĩ không biết ai dọn phòng giúp mình, hóa ra là bạn!",
+                "en": "I was wondering who had cleaned my room for me. So it was you!"
+              },
+              {
+                "zh": "这本书【本来】应该昨天还给你，真不好意思。",
+                "vi": "Quyển sách này lẽ ra phải trả bạn từ hôm qua, thật ngại quá.",
+                "en": "I should have returned this book to you yesterday. Really sorry."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "并",
+      "uses": [
+        {
+          "vi": "Phó từ 并 được dùng trước các từ phủ định như 不/没(有) để nhấn mạnh ngữ khí phủ định. Người ta thường dùng từ này trong các câu chỉ sự chuyển ý nhằm phủ định quan điểm nào đó và giải thích tình hình thực tế.",
+          "en": "The adverb 并 goes before negatives such as 不/没(有) to strengthen the negation ('not at all, actually not'). It is common in sentences with a turn, to reject a view and state the real situation.",
+          "ex": [
+            {
+              "zh": "其实，人们将来做什么工作可能和上学学的专业【并】没有太大关系。",
+              "vi": "Thật ra, sau này làm công việc gì có lẽ chẳng liên quan nhiều lắm đến chuyên ngành đã học ở trường.",
+              "en": "Actually, the job people end up doing may not have much to do with what they studied at school."
+            },
+            {
+              "zh": "我原来以为做生意很简单，后来才发现其实【并】不容易。",
+              "vi": "Trước đây tôi cứ nghĩ làm ăn buôn bán rất đơn giản, sau này mới phát hiện ra thật ra chẳng dễ chút nào.",
+              "en": "I used to think doing business was simple; only later did I find it isn't easy at all."
+            },
+            {
+              "zh": "根据调查，人每天晚上最少应该睡7个小时，但是这【并】不适合每一个人。",
+              "vi": "Theo điều tra, mỗi tối con người nên ngủ ít nhất 7 tiếng, nhưng điều này không hẳn phù hợp với tất cả mọi người.",
+              "en": "According to research, people should sleep at least 7 hours a night, but that doesn't suit everyone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "按照",
+      "uses": [
+        {
+          "vi": "Giới từ 按照 có nghĩa là theo, dựa vào, căn cứ vào.",
+          "en": "The preposition 按照 means 'according to, based on'.",
+          "ex": [
+            {
+              "zh": "我们今年的工作都已经【按照】计划完成了。",
+              "vi": "Công việc năm nay của chúng tôi đều đã hoàn thành theo kế hoạch.",
+              "en": "All of our work this year has been completed according to plan."
+            },
+            {
+              "zh": "这回材料都【按照】银行的要求准备好了吧？",
+              "vi": "Lần này tài liệu đều đã chuẩn bị xong theo yêu cầu của ngân hàng rồi chứ?",
+              "en": "This time the documents have all been prepared according to the bank's requirements, right?"
+            },
+            {
+              "zh": "【按照】经验，这个问题应该可以很快解决，请大家放心。",
+              "vi": "Theo kinh nghiệm thì vấn đề này chắc sẽ giải quyết được nhanh thôi, mọi người cứ yên tâm.",
+              "en": "Based on experience, this problem should be solved quickly. Please don't worry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "甚至",
+      "uses": [
+        {
+          "vi": "Phó từ 甚至 nhấn mạnh một ví dụ nổi bật, có thể được đặt trước mục cuối cùng của các danh từ, động từ hay vế câu đồng đẳng để làm nổi bật mục này.",
+          "en": "The adverb 甚至 (even) highlights a striking case. It can go before the last item in a series of nouns, verbs or clauses to emphasise it.",
+          "ex": [
+            {
+              "zh": "这个房子离您公司也不远，您可以坐公共汽车【甚至】可以骑自行车上班。",
+              "vi": "Căn nhà này cũng không xa công ty anh, anh có thể đi xe buýt, thậm chí đạp xe đi làm cũng được.",
+              "en": "This flat isn't far from your company either. You can take the bus, or even cycle to work."
+            },
+            {
+              "zh": "很多时候，我们不得不去做一些自己不愿意做【甚至】是非常不喜欢的工作。",
+              "vi": "Nhiều khi chúng ta buộc phải làm những công việc mình không muốn làm, thậm chí là rất không thích.",
+              "en": "Very often we have to do work we don't want to do, or even really dislike."
+            },
+            {
+              "zh": "迟到会让别人觉得你没有责任心，使你错过重要的机会，【甚至】会让别人不再相信你。",
+              "vi": "Đến muộn sẽ khiến người khác thấy bạn thiếu tinh thần trách nhiệm, làm bạn bỏ lỡ cơ hội quan trọng, thậm chí khiến người ta không còn tin bạn nữa.",
+              "en": "Being late makes people think you're irresponsible, makes you miss important opportunities, and can even make people stop trusting you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

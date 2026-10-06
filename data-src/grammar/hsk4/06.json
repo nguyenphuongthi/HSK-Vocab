@@ -1,0 +1,186 @@
+{
+  "n": 6,
+  "zh": "一分钱一分货",
+  "vi": "Tiền nào của nấy",
+  "en": "You get what you pay for",
+  "points": [
+    {
+      "title": "竟然",
+      "uses": [
+        {
+          "vi": "Phó từ 竟然 được dùng trước động từ hoặc tính từ để chỉ sự việc không ngờ, nằm ngoài dự đoán (vậy mà, thế mà).",
+          "en": "The adverb 竟然 goes before a verb or adjective to show that something is unexpected: 'surprisingly, actually'.",
+          "ex": [
+            {
+              "zh": "这个歌特别好听，最近很流行，你【竟然】没听过？",
+              "vi": "Bài hát này hay cực, dạo này rất nổi, vậy mà bạn chưa nghe à?",
+              "en": "This song is really good and very popular lately. You've actually never heard it?"
+            },
+            {
+              "zh": "来这家饭馆吃饭的人【竟然】这么多，排队都排到门口外边去了！",
+              "vi": "Không ngờ người đến quán này ăn đông như vậy, xếp hàng dài ra tận ngoài cửa!",
+              "en": "I can't believe how many people come to eat at this restaurant. The queue goes right out the door!"
+            },
+            {
+              "zh": "回家以后，我才发现，【竟然】忘了去商场的超市买果汁！",
+              "vi": "Về đến nhà tôi mới phát hiện, vậy mà lại quên đi siêu thị trong trung tâm thương mại mua nước hoa quả!",
+              "en": "Only after I got home did I realise I'd somehow forgotten to buy juice at the mall supermarket!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "倍",
+      "uses": [
+        {
+          "vi": "Lượng từ 倍 chỉ số lần (gấp…lần). Đây là lượng từ độc lập, thông thường theo sau 倍 không có danh từ.",
+          "en": "The measure word 倍 means 'times, -fold'. It stands on its own and is normally not followed by a noun.",
+          "ex": [
+            {
+              "zh": "二的五【倍】是十。",
+              "vi": "Năm lần hai là mười.",
+              "en": "Five times two is ten."
+            },
+            {
+              "zh": "我的工资是每月5000块，他的工资是我的两【倍】。",
+              "vi": "Lương của tôi mỗi tháng 5000 tệ, lương của anh ấy gấp đôi tôi.",
+              "en": "My salary is 5,000 yuan a month; his is twice mine."
+            },
+            {
+              "zh": "我记得昨天才三块五一斤，今天的价格是昨天的两【倍】。",
+              "vi": "Tôi nhớ hôm qua mới ba tệ rưỡi một cân, giá hôm nay gấp đôi hôm qua.",
+              "en": "I remember it was only 3.50 a jin yesterday; today's price is double yesterday's."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "值得",
+      "uses": [
+        {
+          "vi": "Động từ 值得 diễn tả rằng việc gì đó đáng thực hiện và sẽ mang lại kết quả tốt.",
+          "en": "The verb 值得 means something is worth doing and will bring good results.",
+          "ex": [
+            {
+              "zh": "您看看这个，不管从价格方面看，还是从质量上看，都是【值得】考虑的。",
+              "vi": "Anh xem cái này đi, dù xét về giá cả hay chất lượng thì đều đáng để cân nhắc.",
+              "en": "Have a look at this one. Whether in terms of price or quality, it's worth considering."
+            },
+            {
+              "zh": "你应该改改自己的脾气，别总是为一点儿小事生气，不【值得】。",
+              "vi": "Bạn nên sửa tính khí của mình đi, đừng lúc nào cũng nổi giận vì mấy chuyện nhỏ nhặt, không đáng đâu.",
+              "en": "You should work on your temper. Don't keep getting angry over little things; it's not worth it."
+            },
+            {
+              "zh": "我们总是很容易看到一个人的缺点，但是别忘了，他身上的优点更【值得】我们去发现、去学习。",
+              "vi": "Chúng ta luôn dễ nhìn thấy khuyết điểm của một người, nhưng đừng quên rằng ưu điểm của họ càng đáng để chúng ta phát hiện và học hỏi.",
+              "en": "We always find it easy to see someone's faults, but don't forget that their strengths are even more worth discovering and learning from."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "值得—值",
+        "uses": [
+          {
+            "vi": "Giống nhau: 值得 và 值 đều có thể được dùng để diễn tả rằng làm việc gì đó là có ý nghĩa hay cho biết việc gì đó đáng thực hiện.",
+            "en": "Similarity: both 值得 and 值 can say that doing something is meaningful or worthwhile.",
+            "ex": [
+              {
+                "zh": "这个调查对今后的工作很有用，花再多时间也【值得】/【值】。",
+                "vi": "Cuộc điều tra này rất có ích cho công việc sau này, có tốn thêm bao nhiêu thời gian cũng đáng.",
+                "en": "This survey is very useful for our future work. However much time it takes, it's worth it."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, 值得 là động từ, theo sau nó có thể là động từ hay một vế câu; còn 值 là tính từ, thông thường theo sau nó không có thành phần khác.",
+            "en": "Difference 1: in that sense, 值得 is a verb and can be followed by a verb or a clause; 值 is an adjective and normally takes nothing after it.",
+            "ex": [
+              {
+                "zh": "别生气了，咱们不【值得】为这么点儿小事生气。",
+                "vi": "Đừng giận nữa, chúng ta không đáng phải giận vì chuyện nhỏ như thế này.",
+                "en": "Stop being angry. It's not worth getting upset over such a small thing."
+              },
+              {
+                "zh": "为这么点儿小事生气，一点儿也不【值】。",
+                "vi": "Giận vì chuyện nhỏ như thế này, chẳng đáng chút nào.",
+                "en": "Getting angry over such a small thing isn't worth it at all."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 值得 và 值 đều có thể làm động từ nhưng nghĩa khác nhau. 值得 có nghĩa là giá tiền hợp lý, theo sau nó là động từ hay cụm động từ; còn 值 có nghĩa là hàng hóa tương đương với giá tiền, theo sau nó là số tiền.",
+            "en": "Difference 2: both can be verbs but with different meanings. 值得 means 'good value, worth (doing)' and is followed by a verb or verb phrase; 值 means 'to be worth (an amount)' and is followed by a sum of money.",
+            "ex": [
+              {
+                "zh": "这个沙发价钱不贵，质量又好，【值得】买。",
+                "vi": "Cái sofa này giá không đắt, chất lượng lại tốt, đáng mua.",
+                "en": "This sofa isn't expensive and the quality is good. It's worth buying."
+              },
+              {
+                "zh": "这个手机【值】五千块。",
+                "vi": "Chiếc điện thoại này đáng giá năm nghìn tệ.",
+                "en": "This phone is worth five thousand yuan."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "其中",
+      "uses": [
+        {
+          "vi": "Danh từ 其中 có nghĩa là trong đó, trong số đó, được dùng để chỉ phạm vi hay vị trí.",
+          "en": "The noun 其中 means 'among them, in it', referring to a scope or place just mentioned.",
+          "ex": [
+            {
+              "zh": "我们不仅要会读书，还要会选择【其中】的好书来读。",
+              "vi": "Chúng ta không chỉ phải biết đọc sách, mà còn phải biết chọn những cuốn hay trong số đó để đọc.",
+              "en": "We need not only to know how to read, but also how to pick out the good books among them to read."
+            },
+            {
+              "zh": "虽然妻子工作很忙，但是她忙在【其中】也乐在【其中】。",
+              "vi": "Tuy vợ tôi công việc rất bận rộn nhưng cô ấy bận mà vẫn vui trong đó.",
+              "en": "Although my wife is very busy at work, she's busy and enjoying it at the same time."
+            },
+            {
+              "zh": "一些图书还有打折活动，【其中】，小说7.5折，地图8折，留学考试用书6折。",
+              "vi": "Một số sách còn có chương trình giảm giá, trong đó tiểu thuyết giảm 25%, bản đồ giảm 20%, sách luyện thi du học giảm 40%.",
+              "en": "Some books are also on sale: novels are 25% off, maps 20% off, and study-abroad exam books 40% off."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "（在）……下",
+      "uses": [
+        {
+          "vi": "Thành phần đứng giữa “(在)……下” thường là một danh từ hay động từ có hai âm tiết kèm theo từ bổ nghĩa đứng trước nó. Cấu trúc này được dùng để chỉ một điều kiện, tình huống.",
+          "en": "In '(在)……下' the middle part is usually a two-syllable noun or verb with a modifier in front. The structure expresses a condition or circumstance: 'under …, with …'.",
+          "ex": [
+            {
+              "zh": "一般情况【下】，你花的钱越多，买的东西也就越好。",
+              "vi": "Trong trường hợp thông thường, bạn tiêu càng nhiều tiền thì đồ mua được càng tốt.",
+              "en": "Generally speaking, the more money you spend, the better the things you buy."
+            },
+            {
+              "zh": "【在】冬天比较冷的情况【下】，吃碗热面条会让人觉得很舒服。",
+              "vi": "Trong lúc mùa đông khá lạnh, ăn một bát mì nóng sẽ khiến người ta thấy rất dễ chịu.",
+              "en": "When it's fairly cold in winter, a bowl of hot noodles makes you feel really good."
+            },
+            {
+              "zh": "【在】老师和同学们的帮助【下】，他的汉语提高得非常快。",
+              "vi": "Với sự giúp đỡ của thầy cô và các bạn, tiếng Trung của cậu ấy tiến bộ rất nhanh.",
+              "en": "With the help of his teachers and classmates, his Chinese improved very quickly."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

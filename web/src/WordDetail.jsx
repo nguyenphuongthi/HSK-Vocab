@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { speak, useCanSpeak } from './speech.js';
 import { useMarks } from './marks.js';
 import StatusSlider from './StatusSlider.jsx';
+import { groupPunctuation } from './ruby.js';
 
 // Đánh dấu vị trí các chữ của từ chính trong câu (hỗ trợ cấu trúc 虽然……但是……).
 function headwordMask(ruby, word) {
@@ -14,24 +15,6 @@ function headwordMask(ruby, word) {
     }
   }
   return mask;
-}
-
-// Gắn dấu câu vào chữ liền kề để không bị xuống dòng một mình.
-const OPENING = '“‘（《「';
-function groupPunctuation(ruby) {
-  const groups = [];
-  let pending = [];
-  ruby.forEach(([c, py], i) => {
-    const item = { c, py, i };
-    if (!py && OPENING.includes(c)) pending.push(item);
-    else if (!py && groups.length && !pending.length) groups[groups.length - 1].push(item);
-    else {
-      groups.push([...pending, item]);
-      pending = [];
-    }
-  });
-  if (pending.length) groups.push(pending);
-  return groups;
 }
 
 function SpeakButton({ text, label }) {

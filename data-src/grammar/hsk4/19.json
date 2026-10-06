@@ -1,0 +1,192 @@
+{
+  "n": 19,
+  "zh": "生活的味道",
+  "vi": "Mùi vị của cuộc sống",
+  "en": "The flavour of life",
+  "points": [
+    {
+      "title": "疑问代词活用表示任指",
+      "py": "yíwèn dàicí huóyòng biǎoshì rènzhǐ",
+      "uses": [
+        {
+          "vi": "Đại từ nghi vấn phiếm chỉ: các đại từ nghi vấn 什么 (cái gì), 谁 (ai), 哪 (nào), 哪儿 (đâu, chỗ nào), 哪里 (đâu), 怎么 (thế nào)... có thể được dùng để chỉ bất kỳ người nào hoặc bất kỳ vật gì; chẳng hạn 什么 chỉ bất kỳ thứ gì, 谁 chỉ bất kỳ ai. Những đại từ này thường được dùng kết hợp với 都/也 trong câu.",
+          "en": "Question words used in a general sense: 什么, 谁, 哪, 哪儿, 哪里, 怎么, etc. can refer to any person or thing, e.g. 什么 = anything, 谁 = anyone. They are usually used with 都/也 in the sentence.",
+          "ex": [
+            {
+              "zh": "没关系，不用道歉，【谁】【都】有粗心填错的时候。",
+              "vi": "Không sao, không cần xin lỗi, ai cũng có lúc sơ ý điền sai.",
+              "en": "It's fine, no need to apologise. Everyone fills something in wrong by mistake sometimes."
+            },
+            {
+              "zh": "昨天我做了一个奇怪的梦，但是早上起来【怎么】想【都】想不起来。",
+              "vi": "Hôm qua tôi mơ một giấc mơ kỳ lạ, nhưng sáng dậy nghĩ thế nào cũng không nhớ ra.",
+              "en": "I had a strange dream last night, but this morning I couldn't remember it however hard I tried."
+            },
+            {
+              "zh": "“世界上没有免费的午餐”这句话是说，【什么】东西【都】要通过努力才能得到。",
+              "vi": "Câu “Trên đời không có bữa trưa nào miễn phí” có nghĩa là thứ gì cũng phải nỗ lực mới có được.",
+              "en": "The saying “There's no such thing as a free lunch” means that you only get anything through hard work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "上",
+      "uses": [
+        {
+          "vi": "Động từ 上 được dùng sau động từ khác để làm bổ ngữ chỉ phương hướng hoặc bổ ngữ chỉ khả năng. Khi làm bổ ngữ chỉ phương hướng, 上 có nghĩa mở rộng là mục đích của hành động đã đạt được. Khi làm bổ ngữ chỉ khả năng, 上 diễn tả ý người ta có đạt được mục đích hay không khi thực hiện hành động.",
+          "en": "上 can follow another verb as a directional or potential complement. As a directional complement it can mean the goal of the action has been achieved; as a potential complement (V得上 / V不上) it says whether the goal can be achieved.",
+          "ex": [
+            {
+              "zh": "看来今天吃不【上】羊肉饺子了。",
+              "vi": "Xem ra hôm nay không được ăn sủi cảo thịt cừu rồi.",
+              "en": "Looks like we won't get to have lamb dumplings today."
+            },
+            {
+              "zh": "现在堵车这么厉害，看来今天坐不【上】8点那趟去上海的飞机了。",
+              "vi": "Bây giờ tắc đường kinh khủng thế này, xem ra hôm nay không kịp chuyến bay 8 giờ đi Thượng Hải rồi.",
+              "en": "The traffic is so bad, it looks like I won't make the 8 o'clock flight to Shanghai today."
+            },
+            {
+              "zh": "一听到哥哥考【上】了经济专业的博士，我们全家都特别高兴。",
+              "vi": "Vừa nghe tin anh trai thi đỗ tiến sĩ ngành kinh tế, cả nhà tôi đều vô cùng vui mừng.",
+              "en": "As soon as we heard my brother had got into a PhD in economics, the whole family was thrilled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "出来",
+      "uses": [
+        {
+          "vi": "Động từ 出来 có thể được dùng sau động từ khác để làm bổ ngữ chỉ phương hướng, diễn tả hành động/hoạt động nào đó làm cho sự vật thay đổi trạng thái từ không tồn tại sang hiện hữu, từ bị che khuất sang lộ rõ.",
+          "en": "出来 can follow another verb as a directional complement, meaning the action brings something from non-existence into existence, or from hidden to visible.",
+          "ex": [
+            {
+              "zh": "有的人心里有什么看法或意见，嘴上就会直接说【出来】。",
+              "vi": "Có người trong lòng có quan điểm hay ý kiến gì là nói thẳng ra miệng ngay.",
+              "en": "Some people say straight out whatever views or opinions they have."
+            },
+            {
+              "zh": "你要的那篇文章我已经翻译【出来】了，你方便的时候就来取吧。",
+              "vi": "Bài viết bạn cần tôi đã dịch xong rồi, khi nào tiện thì bạn đến lấy nhé.",
+              "en": "I've finished translating the article you wanted. Come and pick it up whenever it's convenient."
+            },
+            {
+              "zh": "刚才我在旁边看到你跳中国舞了，没看【出来】你跳得这么好！",
+              "vi": "Lúc nãy tôi đứng bên cạnh xem bạn múa điệu múa Trung Quốc, không nhận ra là bạn múa đẹp đến thế!",
+              "en": "I was watching you do Chinese dance just now. I had no idea you danced so well!"
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "出来—起来",
+        "uses": [
+          {
+            "vi": "Khác nhau 1: 出来 và 起来 đều được dùng sau động từ khác để làm bổ ngữ chỉ phương hướng hoặc khả năng nhưng có nghĩa khác nhau. 出来 diễn tả hướng của hành động là từ trong ra ngoài, 起来 diễn tả hướng của hành động là từ dưới lên trên.",
+            "en": "Difference 1: both follow a verb as a directional or potential complement but mean different things. 出来 means 'out' (from inside to outside); 起来 means 'up' (from below to above).",
+            "ex": [
+              {
+                "zh": "我的日记本掉到沙发后面了，拿不【出来】了，你来帮我抬一下沙发吧。",
+                "vi": "Cuốn nhật ký của tôi rơi ra sau sofa rồi, không lấy ra được, bạn giúp tôi nâng sofa lên một chút nhé.",
+                "en": "My diary has fallen behind the sofa and I can't get it out. Come and help me lift the sofa."
+              },
+              {
+                "zh": "早上六点，他还睡着，电话突然响了，他连忙坐【起来】接电话。",
+                "vi": "Sáu giờ sáng, anh ấy vẫn đang ngủ thì điện thoại đột nhiên reo, anh vội vàng ngồi dậy nghe máy.",
+                "en": "At six in the morning he was still asleep when the phone suddenly rang, and he quickly sat up to answer it."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 出来 có thể có nghĩa mở rộng là hành động/hoạt động làm cho sự vật thay đổi trạng thái từ không tồn tại sang hiện hữu, từ bị che khuất sang lộ rõ; 起来 có thể có nghĩa mở rộng là hành động bắt đầu và tiếp diễn.",
+            "en": "Difference 2: in extended use, 出来 means bringing something into existence or into view; 起来 means an action starts and continues.",
+            "ex": [
+              {
+                "zh": "你能算【出来】这两个地方之间的距离是多少公里吗？",
+                "vi": "Bạn có tính ra được khoảng cách giữa hai nơi này là bao nhiêu cây số không?",
+                "en": "Can you work out how many kilometres it is between these two places?"
+              },
+              {
+                "zh": "尽管现在才4月，天气已经开始慢慢热【起来】。",
+                "vi": "Tuy bây giờ mới tháng 4 nhưng thời tiết đã bắt đầu nóng dần lên.",
+                "en": "Although it's only April, the weather is already starting to warm up."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 想出来 chỉ thông tin vốn không có trong đầu mà do người nào đó nghĩ ra sau khi suy nghĩ; 想起来 chỉ thông tin vốn có sẵn trong đầu nhưng họ đã quên mất và sau đó nhớ lại được.",
+            "en": "Difference 3: 想出来 means coming up with something that wasn't in your head before; 想起来 means recalling something you already knew but had forgotten.",
+            "ex": [
+              {
+                "zh": "有几个选择题，实在想不【出来】该选哪个，只好随便选一个。",
+                "vi": "Có mấy câu trắc nghiệm, thật sự nghĩ không ra nên chọn đáp án nào, đành chọn bừa một cái.",
+                "en": "There were a few multiple-choice questions where I really couldn't work out which to pick, so I just chose one at random."
+              },
+              {
+                "zh": "我想【起来】了，那个唱歌的男孩子是高老师的孙子。",
+                "vi": "Tôi nhớ ra rồi, cậu bé hát kia là cháu nội của thầy Cao.",
+                "en": "Now I remember: the boy who's singing is Teacher Gao's grandson."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "总的来说",
+      "uses": [
+        {
+          "vi": "总的来说 thường được dùng làm thành phần xen kẽ để diễn tả rằng người nào đó đưa ra nhận xét dựa trên tổng thể hay các tình huống chủ yếu (nhìn chung, nói chung).",
+          "en": "总的来说 is a parenthetical phrase meaning the speaker is commenting on the whole or the main points: 'all in all, generally speaking'.",
+          "ex": [
+            {
+              "zh": "广告上说房子交通方便，周围很安静，厨房很大。【总的来说】，这套房子他很满意，于是他就记下了房东的手机号码。",
+              "vi": "Quảng cáo nói căn nhà đi lại thuận tiện, xung quanh yên tĩnh, bếp rộng. Nhìn chung, anh ấy rất hài lòng với căn nhà này, thế là ghi lại số điện thoại của chủ nhà.",
+              "en": "The ad said the flat had good transport links, quiet surroundings and a big kitchen. All in all he was very happy with it, so he wrote down the landlord's mobile number."
+            },
+            {
+              "zh": "这个公司的工资虽然不算很高，但是奖金很多，所以【总的来说】收入还不错。",
+              "vi": "Lương ở công ty này tuy không tính là cao nhưng thưởng nhiều, nên nhìn chung thu nhập khá tốt.",
+              "en": "The salary at this company isn't that high, but the bonuses are generous, so overall the income is pretty good."
+            },
+            {
+              "zh": "很多人问去丽江旅游怎么样，【总的来说】，丽江景色不错，那里的人也很热情，去那里旅游是个不错的选择。",
+              "vi": "Nhiều người hỏi đi du lịch Lệ Giang thế nào, nói chung, phong cảnh Lệ Giang đẹp, người ở đó cũng rất nhiệt tình, đi du lịch ở đó là một lựa chọn không tồi.",
+              "en": "Lots of people ask what a trip to Lijiang is like. Generally speaking, the scenery is lovely and the people are very friendly, so it's a good choice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "在于",
+      "uses": [
+        {
+          "vi": "Động từ 在于 thường được dùng trong văn viết để chỉ bản chất của sự vật, có nghĩa là ở chỗ, chính là. Chủ ngữ của 在于 thường là cụm danh từ; phải dùng danh từ, động từ hay câu ngắn sau 在于 để làm tân ngữ của động từ này.",
+          "en": "The verb 在于 ('to lie in, to rest with') is mostly written and points out the essence of something. Its subject is usually a noun phrase, and it must take a noun, verb or short clause as its object.",
+          "ex": [
+            {
+              "zh": "人们常说“生命【在于】运动”，所以很多人一到周末就会到体育馆打几场球。",
+              "vi": "Người ta thường nói “Sự sống nằm ở vận động”, vì vậy nhiều người cứ đến cuối tuần là ra nhà thi đấu chơi vài trận bóng.",
+              "en": "People often say “Life lies in movement”, so lots of people go to the sports centre to play a few games every weekend."
+            },
+            {
+              "zh": "选择职业的关键【在于】兴趣，当你喜欢做一件事情的时候，你会带着热情去工作，就不会感到累，更不会觉得有太大的压力。",
+              "vi": "Mấu chốt của việc chọn nghề nằm ở sở thích, khi bạn thích làm một việc gì đó, bạn sẽ làm việc với nhiệt huyết, sẽ không thấy mệt, càng không thấy áp lực quá lớn.",
+              "en": "The key to choosing a career lies in interest. When you enjoy what you do, you work with enthusiasm, you don't feel tired, and you certainly don't feel too much pressure."
+            },
+            {
+              "zh": "没有人能一生都顺顺利利、没有失败。区别【在于】有的人能接受失败，找到失败的原因并继续努力；而有的人却在失败面前停下了脚步。",
+              "vi": "Không ai có thể suôn sẻ cả đời, không bao giờ thất bại. Sự khác biệt nằm ở chỗ có người chấp nhận được thất bại, tìm ra nguyên nhân và tiếp tục cố gắng; còn có người lại dừng bước trước thất bại.",
+              "en": "Nobody goes through life smoothly without ever failing. The difference lies in the fact that some people can accept failure, find out why it happened and keep trying, while others stop in their tracks."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

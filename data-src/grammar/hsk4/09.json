@@ -1,0 +1,225 @@
+{
+  "n": 9,
+  "zh": "阳光总在风雨后",
+  "vi": "Sau cơn mưa trời lại sáng",
+  "en": "Sunshine always comes after the storm",
+  "points": [
+    {
+      "title": "难道",
+      "uses": [
+        {
+          "vi": "Phó từ 难道 nhấn mạnh ngữ khí của câu hỏi tu từ. Khi 难道 được dùng trong câu hỏi tu từ khẳng định, cả câu mang nghĩa phủ định và ngược lại, chẳng hạn câu 难道汉语真的这么难吗? có hàm ý người nói nhấn mạnh tiếng Trung không khó.",
+          "en": "The adverb 难道 strengthens a rhetorical question. In an affirmative rhetorical question the whole sentence means the negative, and vice versa. For example, 难道汉语真的这么难吗? ('Can Chinese really be that hard?') stresses that Chinese is not hard.",
+          "ex": [
+            {
+              "zh": "怎么又买了这么多饼干和巧克力？【难道】你不减肥了？",
+              "vi": "Sao lại mua nhiều bánh quy với sô-cô-la thế này? Chẳng lẽ bạn không giảm cân nữa à?",
+              "en": "Why did you buy so many biscuits and so much chocolate again? Don't tell me you've given up on your diet?"
+            },
+            {
+              "zh": "A：喂，都十点了，你怎么还不来？\nB：【难道】你没看短信？我今天有事去不了了{le}。",
+              "vi": "A: A lô, mười giờ rồi, sao bạn vẫn chưa đến?\nB: Lẽ nào bạn chưa xem tin nhắn? Hôm nay mình có việc nên không đi được.",
+              "en": "A: Hello? It's already ten. Why aren't you here yet?\nB: Didn't you read my text? Something came up today and I can't make it."
+            },
+            {
+              "zh": "A：你不是两点就出发了吗？【难道】路上花了两个多小时？\nB：我那辆车出了点儿问题，刚才把车送去修了。",
+              "vi": "A: Không phải hai giờ bạn đã xuất phát rồi sao? Chẳng lẽ đi đường mất hơn hai tiếng?\nB: Xe của mình gặp chút trục trặc, vừa nãy mang đi sửa.",
+              "en": "A: Didn't you set off at two? Surely the journey didn't take more than two hours?\nB: My car had a problem. I just took it in for repair."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "通过",
+      "uses": [
+        {
+          "vi": "通过 có thể được dùng làm giới từ để diễn tả ý đạt được mục đích nhất định nhờ người nào đó hay bằng phương tiện/cách thức nào đó (thông qua).",
+          "en": "As a preposition, 通过 means 'through, by means of': achieving a goal with the help of someone or by some method.",
+          "ex": [
+            {
+              "zh": "任何成功都要【通过】努力才能得到。",
+              "vi": "Bất kỳ thành công nào cũng phải thông qua nỗ lực mới có được.",
+              "en": "Any success can only be achieved through hard work."
+            },
+            {
+              "zh": "这个节目我一直在看，它介绍了很多生活中的小知识。很多以前我没有注意到的问题，现在【通过】它了解了不少。",
+              "vi": "Chương trình này tôi vẫn luôn xem, nó giới thiệu rất nhiều mẹo vặt trong cuộc sống. Nhiều vấn đề trước đây tôi không để ý, giờ nhờ nó mà hiểu được khá nhiều.",
+              "en": "I've been watching this programme all along. It introduces lots of handy everyday tips. Through it I've now learned a lot about things I never noticed before."
+            }
+          ]
+        },
+        {
+          "vi": "通过 cũng có thể được dùng làm động từ để chỉ việc đi qua nơi nào đó từ đầu này/phía này đến đầu kia/phía kia.",
+          "en": "As a verb, 通过 means 'to pass through', from one end or side of a place to the other.",
+          "ex": [
+            {
+              "zh": "这条街只能步行【通过】。",
+              "vi": "Con phố này chỉ có thể đi bộ qua.",
+              "en": "You can only go through this street on foot."
+            }
+          ]
+        },
+        {
+          "vi": "Động từ 通过 cũng mang nghĩa là phù hợp với một tiêu chuẩn nhất định hay đạt được yêu cầu nào đó (vượt qua, được thông qua).",
+          "en": "The verb 通过 can also mean 'to pass, to meet a standard or requirement'.",
+          "ex": [
+            {
+              "zh": "我【通过】那家公司的面试了。经理对我印象不错，他要我明天就正式去上班。",
+              "vi": "Tôi đã qua vòng phỏng vấn của công ty đó rồi. Giám đốc có ấn tượng tốt về tôi, muốn tôi ngày mai chính thức đi làm.",
+              "en": "I passed that company's interview. The manager liked me and wants me to start work officially tomorrow."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "通过—经过",
+        "uses": [
+          {
+            "vi": "Giống nhau: 通过 và 经过 đều có thể được dùng để diễn tả ý đạt được mục đích nhất định nhờ người nào đó hay bằng phương tiện/cách thức nào đó.",
+            "en": "Similarity: both 通过 and 经过 can express achieving a goal with someone's help or by some means.",
+            "ex": [
+              {
+                "zh": "【通过】/【经过】大家的努力，公司的生意越做越大。",
+                "vi": "Nhờ sự nỗ lực của mọi người, việc kinh doanh của công ty ngày càng lớn mạnh.",
+                "en": "Thanks to everyone's efforts, the company's business keeps growing."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, 通过 là giới từ còn 经过 là động từ. Về mặt nghĩa, 通过 nhấn mạnh cách thức hay phương tiện, còn 经过 nhấn mạnh quá trình diễn ra sự việc.",
+            "en": "Difference 1: in that sense 通过 is a preposition and 经过 is a verb. 通过 stresses the method or means; 经过 stresses the process something goes through.",
+            "ex": [
+              {
+                "zh": "希望【通过】这次活动引起大家的兴趣，让大家更了解我们公司。",
+                "vi": "Hy vọng thông qua hoạt động lần này sẽ khơi gợi sự hứng thú của mọi người, giúp mọi người hiểu rõ hơn về công ty chúng tôi.",
+                "en": "We hope this event will spark everyone's interest and help people get to know our company better."
+              },
+              {
+                "zh": "【经过】一次次失败之后，他终于成功了。",
+                "vi": "Sau bao lần thất bại, cuối cùng anh ấy cũng đã thành công.",
+                "en": "After failing time after time, he finally succeeded."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: Khi được dùng làm động từ, 通过 có nghĩa là đi qua nơi nào đó từ đầu này/phía này đến đầu kia/phía kia, còn 经过 chỉ việc đi ngang qua nơi nào đó nhưng không mang nghĩa là đi từ đầu này đến đầu kia.",
+            "en": "Difference 2: as verbs, 通过 means passing through a place from one end to the other, while 经过 means passing by a place, without the sense of going all the way through.",
+            "ex": [
+              {
+                "zh": "这里正在修路，汽车无法【通过】。",
+                "vi": "Ở đây đang sửa đường, ô tô không thể đi qua.",
+                "en": "The road is being repaired here, so cars can't get through."
+              },
+              {
+                "zh": "我正好【经过】这儿，顺便过来看看你。",
+                "vi": "Tôi vừa hay đi ngang qua đây, tiện ghé vào thăm bạn.",
+                "en": "I happened to be passing by, so I dropped in to see you."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 经过 cũng có thể được dùng làm danh từ để chỉ diễn biến của sự việc; 通过 không dùng được như vậy.",
+            "en": "Difference 3: 经过 can also be a noun meaning 'the course of events, what happened'; 通过 cannot.",
+            "ex": [
+              {
+                "zh": "小王把事情的【经过】告诉我了，原来这件事真的跟你没关系。",
+                "vi": "Tiểu Vương đã kể cho tôi đầu đuôi sự việc, hóa ra chuyện này thật sự không liên quan đến bạn.",
+                "en": "Xiao Wang told me what happened. It turns out this really had nothing to do with you."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "可是",
+      "uses": [
+        {
+          "vi": "Liên từ 可是 được dùng ở vế sau của câu phức để chỉ sự chuyển ý. 虽然 thường được dùng ở vế câu trước để kết hợp với 可是.",
+          "en": "The conjunction 可是 (but) is used in the second clause of a complex sentence to show a contrast. 虽然 often appears in the first clause to pair with it.",
+          "ex": [
+            {
+              "zh": "A：你怎么又想换工作了，这儿的收入不是挺高的吗？\nB：虽然收入高，【可是】经常要加班，很少有时间和家人在一起。",
+              "vi": "A: Sao bạn lại muốn đổi việc nữa, thu nhập ở đây chẳng phải khá cao sao?\nB: Tuy thu nhập cao nhưng thường xuyên phải tăng ca, ít có thời gian ở bên gia đình.",
+              "en": "A: Why do you want to change jobs again? Isn't the pay here pretty good?\nB: The pay is good, but I often have to work overtime and rarely get time with my family."
+            },
+            {
+              "zh": "小时候，大家都说我像我妈，尤其是性格。【可是】长大后，他们说我更像爸爸。",
+              "vi": "Hồi nhỏ ai cũng nói tôi giống mẹ, nhất là tính cách. Nhưng lớn lên rồi, họ lại nói tôi giống bố hơn.",
+              "en": "When I was little, everyone said I was like my mum, especially in personality. But now that I've grown up, they say I'm more like my dad."
+            },
+            {
+              "zh": "当时她的父母和亲戚都不支持她，【可是】她坚持自己的选择，现在终于向所有人证明了她的选择是正确的。",
+              "vi": "Lúc đó bố mẹ và họ hàng đều không ủng hộ cô ấy, nhưng cô ấy vẫn kiên trì với lựa chọn của mình, giờ cuối cùng đã chứng minh với mọi người rằng lựa chọn đó là đúng đắn.",
+              "en": "At the time her parents and relatives didn't support her, but she stuck to her choice, and now she has finally proved to everyone that it was the right one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "结果",
+      "uses": [
+        {
+          "vi": "结果 có thể được dùng làm danh từ để chỉ trạng thái cuối cùng trong diễn biến của sự việc (kết quả).",
+          "en": "As a noun, 结果 means 'result, outcome': the final state that something reaches.",
+          "ex": [
+            {
+              "zh": "小张，你这份计划书写得不错，就按照这个计划去做市场调查吧。下个月把调查【结果】交上来。",
+              "vi": "Tiểu Trương, bản kế hoạch này cậu viết khá tốt, cứ theo kế hoạch này mà đi điều tra thị trường. Tháng sau nộp kết quả điều tra lên.",
+              "en": "Xiao Zhang, this plan of yours is well written. Go ahead with the market research as planned, and hand in the results next month."
+            },
+            {
+              "zh": "如果你想做什么事情，那就勇敢地{de}去做，不要担心【结果】，不要考虑会不会失败。",
+              "vi": "Nếu bạn muốn làm điều gì thì cứ dũng cảm làm, đừng lo lắng về kết quả, đừng nghĩ xem có thất bại hay không.",
+              "en": "If there's something you want to do, go ahead and do it bravely. Don't worry about the outcome or whether you might fail."
+            }
+          ]
+        },
+        {
+          "vi": "结果 cũng có thể được sử dụng làm liên từ chỉ quan hệ nhân quả. Người ta dùng 结果 ở vế câu sau để diễn tả kết quả của tình huống được đề cập ở vế câu trước (kết quả là, rốt cuộc).",
+          "en": "结果 can also be a conjunction showing cause and effect. It opens the second clause to say how the situation in the first clause turned out: 'as a result, in the end'.",
+          "ex": [
+            {
+              "zh": "我妻子想减肥，所以她每天早上都去骑马。【结果】马竟然在一个月之内瘦了二十斤。",
+              "vi": "Vợ tôi muốn giảm cân nên sáng nào cũng đi cưỡi ngựa. Kết quả là con ngựa lại sụt mất mười cân trong vòng một tháng.",
+              "en": "My wife wanted to lose weight, so she went horse riding every morning. As a result, the horse lost ten kilos in a month."
+            },
+            {
+              "zh": "有些人爱说“差不多”。例如，每天的工作都是完成得差不多，【结果】，积累下来，就变成差很多了。",
+              "vi": "Có người thích nói “tàm tạm”. Ví dụ, công việc mỗi ngày đều hoàn thành tàm tạm, kết quả là cộng dồn lại thì thành ra thiếu sót rất nhiều.",
+              "en": "Some people love saying “close enough”. For example, they finish each day's work “more or less”, and in the end it adds up to falling far short."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "上",
+      "uses": [
+        {
+          "vi": "Động từ 上 diễn tả ý đạt đến hoặc đủ (số lượng hay mức độ nhất định), theo sau nó thường là tân ngữ chỉ số lượng.",
+          "en": "The verb 上 means 'to reach, amount to (a certain number or degree)'. It is usually followed by an object expressing a quantity: 'up to, as many as'.",
+          "ex": [
+            {
+              "zh": "这个城市的地铁已经有【上】百年的历史了。",
+              "vi": "Tàu điện ngầm của thành phố này đã có lịch sử cả trăm năm rồi.",
+              "en": "This city's subway already has a history of a hundred years or so."
+            },
+            {
+              "zh": "每年有成千【上】万的高中毕业生参加艺术考试。",
+              "vi": "Mỗi năm có hàng nghìn hàng vạn học sinh tốt nghiệp trung học phổ thông tham gia kỳ thi nghệ thuật.",
+              "en": "Every year tens of thousands of high-school graduates take the arts exams."
+            },
+            {
+              "zh": "爱迪生就是在找了【上】千种材料后才找到了能点亮电灯的材料。",
+              "vi": "Edison đã phải tìm thử cả nghìn loại vật liệu mới tìm ra được vật liệu có thể làm sáng bóng đèn điện.",
+              "en": "Edison only found a material that could light up the electric lamp after trying over a thousand different materials."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

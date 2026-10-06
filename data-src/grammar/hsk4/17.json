@@ -1,0 +1,226 @@
+{
+  "n": 17,
+  "zh": "人与自然",
+  "vi": "Con người và thiên nhiên",
+  "en": "People and nature",
+  "points": [
+    {
+      "title": "倒",
+      "py": "dào",
+      "uses": [
+        {
+          "vi": "Động từ 倒 có nghĩa là đổ/rót thứ gì ra khỏi vật chứa.",
+          "en": "As a verb, 倒 (dào) means 'to pour' something out of a container.",
+          "ex": [
+            {
+              "zh": "麻烦你给我【倒{dào}】杯咖啡吧，困死我了。",
+              "vi": "Phiền bạn rót cho tôi cốc cà phê nhé, tôi buồn ngủ chết mất.",
+              "en": "Could you pour me a cup of coffee? I'm dead tired."
+            },
+            {
+              "zh": "你怎么咳嗽得这么厉害？我给你【倒{dào}】杯水吧。",
+              "vi": "Sao bạn ho dữ thế? Để tôi rót cho bạn cốc nước nhé.",
+              "en": "Why are you coughing so badly? Let me pour you a glass of water."
+            }
+          ]
+        },
+        {
+          "vi": "Phó từ 倒 diễn tả ý trái ngược với dự đoán, hàm chứa ngữ khí trách móc hoặc chỉ sự nhượng bộ. Đôi lúc người ta dùng 倒是 thay vì 倒.",
+          "en": "As an adverb, 倒 expresses something contrary to expectation, a reproachful tone, or a concession. 倒是 is sometimes used instead.",
+          "ex": [
+            {
+              "zh": "我以为坐出租车会快些，没想到【倒{dào}】比骑车还慢。",
+              "vi": "Tôi cứ tưởng đi taxi sẽ nhanh hơn, không ngờ lại còn chậm hơn đi xe đạp. (trái với dự đoán)",
+              "en": "I thought a taxi would be quicker, but it turned out even slower than cycling. (contrary to expectation)"
+            },
+            {
+              "zh": "你说得【倒{dào}是】容易，做起来可就难了！",
+              "vi": "Bạn nói thì dễ lắm, làm mới khó đấy! (ngữ khí trách móc)",
+              "en": "That's easy for you to say; actually doing it is hard! (reproachful)"
+            },
+            {
+              "zh": "去长城【倒{dào}是】一个好主意，就是太远了。",
+              "vi": "Đi Vạn Lý Trường Thành thì cũng là ý hay, chỉ có điều xa quá. (nhượng bộ)",
+              "en": "Going to the Great Wall is a good idea, it's just too far. (concession)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "干",
+      "py": "gàn",
+      "uses": [
+        {
+          "vi": "Động từ 干 (gàn) (làm) diễn tả ý dấn thân vào sự nghiệp, công việc hay hoạt động nào đó.",
+          "en": "The verb 干 (gàn) means 'to do, to work at' a career, job or activity.",
+          "ex": [
+            {
+              "zh": "每次你让它【干{gàn}】什么，它就像能听懂你的话一样去做。",
+              "vi": "Mỗi lần bạn bảo nó làm gì, nó đều làm như thể nghe hiểu được lời bạn.",
+              "en": "Every time you tell it to do something, it does it as if it understands you."
+            },
+            {
+              "zh": "A：你这篇报道写得很好，以后要继续努力。\nB：谢谢您，我一定会好好儿【干{gàn}】的。",
+              "vi": "A: Bài phóng sự này bạn viết rất tốt, sau này phải tiếp tục cố gắng nhé.\nB: Cảm ơn anh, tôi nhất định sẽ làm việc thật tốt.",
+              "en": "A: This report of yours is very well written. Keep up the good work.\nB: Thank you. I'll definitely work hard."
+            },
+            {
+              "zh": "【干{gàn}】工作的时候一定要认真、仔细，要注意到计划上的每一个地方，否则就很容易出问题。",
+              "vi": "Khi làm việc nhất định phải nghiêm túc, cẩn thận, phải chú ý đến từng chỗ trong kế hoạch, nếu không sẽ rất dễ xảy ra vấn đề.",
+              "en": "When you're working you must be serious and careful and pay attention to every part of the plan; otherwise problems arise easily."
+            }
+          ]
+        },
+        {
+          "vi": "Lưu ý: Khi được đọc là gān, 干 là tính từ, có nghĩa là khô. 干(儿) (gānr) là danh từ, có nghĩa là thực phẩm khô.",
+          "en": "Note: read gān, 干 is an adjective meaning 'dry'. 干(儿) (gānr) is a noun meaning 'dried food'.",
+          "ex": [
+            {
+              "zh": "A：妈，帮我拿条毛巾，外面雨真大啊！\nB：又忘记带伞了吧？头发都湿了，先把头发擦【干{gān}】，别感冒了。",
+              "vi": "A: Mẹ ơi, lấy giúp con cái khăn, bên ngoài mưa to quá!\nB: Lại quên mang ô rồi phải không? Tóc ướt hết rồi, lau khô tóc trước đi, kẻo cảm lạnh.",
+              "en": "A: Mum, can you get me a towel? It's pouring outside!\nB: Forgot your umbrella again? Your hair's soaked. Dry it first so you don't catch cold."
+            },
+            {
+              "zh": "A：这牛肉【干{gān}】味道真不错，在哪儿买的？\nB：不是我买的，是我男朋友从老家寄过来的。",
+              "vi": "A: Thịt bò khô này ngon thật, mua ở đâu thế?\nB: Không phải tôi mua, là bạn trai tôi gửi từ quê lên.",
+              "en": "A: This beef jerky is really tasty. Where did you buy it?\nB: I didn't buy it; my boyfriend sent it from his hometown."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "趟",
+      "uses": [
+        {
+          "vi": "Lượng từ 趟 chỉ số lần đi lại (chuyến).",
+          "en": "The measure word 趟 counts round trips: 'a trip, a time (going somewhere)'.",
+          "ex": [
+            {
+              "zh": "上个月我去了【趟】北京动物园，那里约有500种动物。",
+              "vi": "Tháng trước tôi đi một chuyến đến vườn thú Bắc Kinh, ở đó có khoảng 500 loài động vật.",
+              "en": "Last month I made a trip to Beijing Zoo. It has about 500 species of animals."
+            },
+            {
+              "zh": "我要出【趟】差{chāi}，你能帮我照顾一下我的小狗吗？",
+              "vi": "Tôi phải đi công tác một chuyến, bạn có thể giúp tôi trông chú chó nhỏ không?",
+              "en": "I have to go on a business trip. Could you look after my puppy for me?"
+            },
+            {
+              "zh": "A：马上就要放暑假了，你有什么安排吗？\nB：我打算先回一【趟】家，看看我奶奶，然后回学校准备研究生考试。",
+              "vi": "A: Sắp nghỉ hè rồi, bạn có dự định gì không?\nB: Mình định về nhà một chuyến thăm bà nội trước, rồi quay lại trường chuẩn bị thi cao học.",
+              "en": "A: The summer holiday's almost here. Do you have any plans?\nB: I'm going to go home first to see my grandma, then come back to school to prepare for the graduate entrance exam."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "趟—次",
+        "uses": [
+          {
+            "vi": "Giống nhau: 趟 và 次 đều chỉ số lần xảy ra của hành động và thông thường có thể thay thế cho nhau. Cả hai từ này được dùng với các động từ diễn tả hành động đi đi lại lại như 来 (đến), 去 (đi), 走 (đi bộ), 跑 (chạy), 接 (đón), 送 (tiễn)...",
+            "en": "Similarity: 趟 and 次 both count how many times an action happens and are usually interchangeable with verbs of coming and going such as 来, 去, 走, 跑, 接, 送.",
+            "ex": [
+              {
+                "zh": "今年寒假我去广东玩儿了一【趟】/【次】。",
+                "vi": "Kỳ nghỉ đông năm nay tôi đã đi Quảng Đông chơi một chuyến.",
+                "en": "This winter holiday I made a trip to Guangdong."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, 趟 diễn tả ý đi tới đi lui, chỉ được dùng với những động từ diễn tả hành động hay hoạt động đi đi lại lại; còn 次 chỉ số lần lặp lại của hành động, không nhấn mạnh ý đi tới đi lui.",
+            "en": "Difference 1: 趟 means one trip there and back and is only used with verbs of coming and going; 次 counts repetitions of an action without stressing the there-and-back idea.",
+            "ex": [
+              {
+                "zh": "回来的路上我顺便去了【趟】银行。",
+                "vi": "Trên đường về tôi tiện ghé ngân hàng một chuyến.",
+                "en": "On the way back I stopped by the bank."
+              },
+              {
+                "zh": "小时候，爷爷差不多每个月都带我去看一【次】京剧。",
+                "vi": "Hồi nhỏ, gần như tháng nào ông nội cũng đưa tôi đi xem Kinh kịch một lần.",
+                "en": "When I was little, Grandpa took me to see Peking opera almost once a month."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 次 cũng có thể được dùng với các động từ diễn tả những hoạt động khác để chỉ số lần thực hiện, chẳng hạn 问 (hỏi), 说 (nói), 看 (xem), 讨论 (thảo luận)... 趟 không dùng được như vậy.",
+            "en": "Difference 2: 次 can also count other actions such as 问 (ask), 说 (say), 看 (watch), 讨论 (discuss). 趟 cannot.",
+            "ex": [
+              {
+                "zh": "你这么着{zháo}急去哪儿啊？我刚才叫了你两【次】，你都没听到。",
+                "vi": "Bạn vội vàng đi đâu thế? Lúc nãy tôi gọi bạn hai lần mà bạn đều không nghe thấy.",
+                "en": "Where are you rushing off to? I called you twice just now and you didn't hear either time."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 趟 cũng có thể được dùng cho xe buýt hay tàu hỏa chạy theo lịch trình và tuyến cố định, tương tự 辆 (lượng từ cho xe cộ) và 列 (lượng từ cho tàu hỏa). 次 không dùng được như vậy.",
+            "en": "Difference 3: 趟 can also be the measure word for scheduled buses or trains on a fixed route, like 辆 (vehicles) and 列 (trains). 次 cannot.",
+            "ex": [
+              {
+                "zh": "附近有好几【趟】公共汽车都能到我工作的公司。",
+                "vi": "Gần đây có mấy tuyến xe buýt đều đến được công ty tôi làm.",
+                "en": "Several bus routes nearby go to the company where I work."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "为了……而……",
+      "uses": [
+        {
+          "vi": "Trong cấu trúc “为了……而……”, vế câu trước chỉ mục đích của hành động hay hoạt động trong vế câu sau (vì… mà…). Theo sau 为了 là từ hoặc cụm từ.",
+          "en": "In 为了……而……, the first part states the purpose of the action in the second part: 'to do … for the sake of …'. 为了 is followed by a word or phrase.",
+          "ex": [
+            {
+              "zh": "植物会【为了】阳光、空气和水【而】竞争。",
+              "vi": "Cây cối sẽ cạnh tranh nhau vì ánh nắng, không khí và nước.",
+              "en": "Plants compete for sunlight, air and water."
+            },
+            {
+              "zh": "北风与南风【为了】比谁更有能力【而】吵了起来。它们决定，谁能把人们身上的大衣脱掉，谁就赢了。",
+              "vi": "Gió bắc và gió nam cãi nhau để so xem ai giỏi hơn. Chúng quyết định ai làm cho người ta cởi được áo khoác ra thì người đó thắng.",
+              "en": "The North Wind and the South Wind started arguing over which of them was stronger. They decided that whoever could make people take off their coats would win."
+            },
+            {
+              "zh": "自然界中，不少动物和植物【为了】保护自己【而】改变身体的颜色或样子，使自己成为周围环境的一部分。",
+              "vi": "Trong thế giới tự nhiên, không ít động vật và thực vật thay đổi màu sắc hay hình dạng cơ thể để tự bảo vệ, khiến mình trở thành một phần của môi trường xung quanh.",
+              "en": "In nature, many animals and plants change their colour or shape to protect themselves, making themselves part of their surroundings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "仍然",
+      "uses": [
+        {
+          "vi": "Phó từ 仍然 chỉ tình huống như cũ, không có sự thay đổi (vẫn, vẫn còn).",
+          "en": "The adverb 仍然 means things stay the same as before, without change: 'still'.",
+          "ex": [
+            {
+              "zh": "就算在几公里深的海底也【仍然】能看到东西。",
+              "vi": "Dù ở đáy biển sâu mấy cây số vẫn có thể nhìn thấy đồ vật.",
+              "en": "Even on the seabed several kilometres down, you can still see things."
+            },
+            {
+              "zh": "人比动物聪明，但动物【仍然】有很多值得人学习的地方。",
+              "vi": "Con người thông minh hơn động vật, nhưng động vật vẫn có nhiều điều đáng để con người học hỏi.",
+              "en": "Humans are cleverer than animals, but animals still have a lot that humans can learn from."
+            },
+            {
+              "zh": "足球决赛时，如果90分钟后【仍然】是0比0，按照规定，可以进行加时赛来决定输赢。",
+              "vi": "Trong trận chung kết bóng đá, nếu sau 90 phút tỉ số vẫn là 0-0 thì theo quy định có thể đá hiệp phụ để phân định thắng thua.",
+              "en": "In a football final, if it's still 0–0 after 90 minutes, the rules allow extra time to decide the winner."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

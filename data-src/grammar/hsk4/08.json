@@ -1,0 +1,198 @@
+{
+  "n": 8,
+  "zh": "生活中不缺少美",
+  "vi": "Cuộc sống không thiếu cái đẹp",
+  "en": "Life is never short of beauty",
+  "points": [
+    {
+      "title": "使",
+      "uses": [
+        {
+          "vi": "Động từ 使 có nghĩa là khiến cho, làm cho (tương tự 让), thường được dùng trong văn viết.",
+          "en": "The verb 使 means 'to make, to cause' (like 让). It is mostly used in written language.",
+          "ex": [
+            {
+              "zh": "她看都没看过我一眼，怎么样才能【使】她喜欢我呢？",
+              "vi": "Cô ấy còn chưa từng liếc nhìn tôi lấy một lần, làm thế nào mới có thể khiến cô ấy thích tôi đây?",
+              "en": "She's never even glanced at me. How can I make her like me?"
+            },
+            {
+              "zh": "在中国生活的三年【使】他在音乐方面有了很多新的想法。",
+              "vi": "Ba năm sống ở Trung Quốc đã khiến anh ấy có rất nhiều ý tưởng mới về âm nhạc.",
+              "en": "Three years of living in China gave him lots of new ideas about music."
+            },
+            {
+              "zh": "听说伤心难过的时候吃块儿巧克力，还能【使】人的心情变得愉快。",
+              "vi": "Nghe nói lúc buồn bã đau lòng mà ăn một miếng sô-cô-la thì còn có thể khiến tâm trạng trở nên vui vẻ.",
+              "en": "I've heard that eating a piece of chocolate when you're sad can even put you in a better mood."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "只要",
+      "uses": [
+        {
+          "vi": "Liên từ 只要 thường được dùng trong cấu trúc “只要……就……”. Vế câu đứng sau 只要 đưa ra một điều kiện cần thiết, vế câu đứng sau 就 chỉ kết quả của điều kiện này.",
+          "en": "The conjunction 只要 (as long as) is often used in 只要……就……. The 只要 clause gives a necessary condition; the 就 clause gives the result of that condition.",
+          "ex": [
+            {
+              "zh": "【只要】这次你好好儿准备，一定能把比赛踢好。",
+              "vi": "Chỉ cần lần này bạn chuẩn bị thật tốt thì nhất định sẽ đá tốt trận đấu.",
+              "en": "As long as you prepare properly this time, you're sure to play well in the match."
+            },
+            {
+              "zh": "【只要】你用心【就】会发现，身边有那么多有意思的事情，有那么多不一样的生活。",
+              "vi": "Chỉ cần bạn để tâm thì sẽ phát hiện xung quanh mình có biết bao nhiêu điều thú vị, biết bao nhiêu cuộc sống khác nhau.",
+              "en": "As long as you pay attention, you'll discover there are so many interesting things around you, and so many different ways of living."
+            },
+            {
+              "zh": "每个人对幸福有不同的理解，对我来说，【只要】能做自己喜欢的事，【就】是幸福。",
+              "vi": "Mỗi người có cách hiểu khác nhau về hạnh phúc, đối với tôi, chỉ cần được làm điều mình thích là hạnh phúc rồi.",
+              "en": "Everyone understands happiness differently. For me, as long as I can do what I love, that's happiness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "可不是",
+      "py": "kěbushì",
+      "uses": [
+        {
+          "vi": "Phó từ 可不是 được sử dụng để bày tỏ sự tán thành hoặc đồng cảm với những điều người khác nói, thường đứng độc lập tạo thành một câu (cũng có thể dùng 可不).",
+          "en": "The adverb 可不是 ('Isn't that so! / Exactly!') shows agreement or sympathy with what someone else has said. It usually stands alone as a sentence; 可不 is also used.",
+          "ex": [
+            {
+              "zh": "A：没想到咱们毕业都已经十年了。\nB：【可不是】！时间过得太快了，真想大家。",
+              "vi": "A: Không ngờ chúng mình tốt nghiệp đã mười năm rồi.\nB: Đúng thế! Thời gian trôi nhanh quá, nhớ mọi người thật.",
+              "en": "A: I can't believe it's already been ten years since we graduated.\nB: I know! Time flies. I really miss everyone."
+            },
+            {
+              "zh": "A：遇到堵车，心情也“堵”。\nB：【可不是】！上班堵车怕迟到，下班堵车怕回家晚。",
+              "vi": "A: Gặp tắc đường thì tâm trạng cũng “tắc” theo.\nB: Chứ còn gì nữa! Đi làm tắc đường thì sợ muộn, tan làm tắc đường thì sợ về nhà trễ.",
+              "en": "A: When you're stuck in traffic, your mood gets “jammed” too.\nB: Exactly! Stuck on the way to work, you worry about being late; stuck on the way home, you worry about getting back late."
+            },
+            {
+              "zh": "A：这家网球馆的服务不错，给我的印象很好。\nB：【可不是】！这儿不仅环境好，还免费提供吃的和水，打球打累的时候，可以吃点儿东西休息一下。",
+              "vi": "A: Dịch vụ của sân quần vợt này khá tốt, tôi có ấn tượng rất tốt.\nB: Đúng vậy! Ở đây không những môi trường tốt mà còn cung cấp miễn phí đồ ăn và nước uống, lúc chơi mệt có thể ăn chút gì đó nghỉ ngơi.",
+              "en": "A: The service at this tennis centre is good. It's made a great impression on me.\nB: It really has! Not only is the place nice, they also provide free food and water, so when you're tired from playing you can have a snack and rest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "因此",
+      "uses": [
+        {
+          "vi": "Liên từ 因此 có nghĩa là vì vậy, gần nghĩa với 所以 nhưng không được dùng kết hợp với 因为.",
+          "en": "The conjunction 因此 means 'therefore, so'. It is close in meaning to 所以, but cannot be paired with 因为.",
+          "ex": [
+            {
+              "zh": "我认识他很多年，【因此】，很了解他的性格。",
+              "vi": "Tôi quen anh ấy nhiều năm rồi, vì vậy rất hiểu tính cách của anh ấy.",
+              "en": "I've known him for many years, so I understand his character very well."
+            },
+            {
+              "zh": "每个学生的性格、能力不同，【因此】，老师要根据学生的特点，用不同的方法。",
+              "vi": "Tính cách, năng lực của mỗi học sinh khác nhau, vì vậy giáo viên phải căn cứ vào đặc điểm của học sinh mà dùng những phương pháp khác nhau.",
+              "en": "Every student's personality and ability are different, so teachers have to use different methods according to each student's characteristics."
+            },
+            {
+              "zh": "生活的态度要自己选择，【因此】，遇到烦恼时，你应该想一些办法让自己从不高兴的心情中走出来。",
+              "vi": "Thái độ sống là do mình tự lựa chọn, vì vậy khi gặp phiền muộn, bạn nên nghĩ cách để bản thân thoát ra khỏi tâm trạng không vui.",
+              "en": "Your attitude to life is your own choice, so when something's bothering you, you should find ways to pull yourself out of a bad mood."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "往往",
+      "uses": [
+        {
+          "vi": "Phó từ 往往 chỉ tình huống nào đó thường xảy ra trong điều kiện nhất định (dựa trên kinh nghiệm trước đây), thường được dùng để nói về những sự việc có tính quy luật.",
+          "en": "The adverb 往往 means that, based on past experience, something tends to happen under certain conditions. It describes things that follow a regular pattern: 'often, tend to'.",
+          "ex": [
+            {
+              "zh": "女孩子对衣服颜色的选择【往往】与她们的性格有关。",
+              "vi": "Việc các cô gái chọn màu quần áo thường liên quan đến tính cách của họ.",
+              "en": "The colours girls choose for their clothes are often related to their personality."
+            },
+            {
+              "zh": "有经验的出租车司机【往往】对道路情况都非常熟悉，他们知道一天的每个时段什么地方可能堵车。",
+              "vi": "Những tài xế taxi có kinh nghiệm thường rất thông thạo tình hình đường sá, họ biết mỗi khung giờ trong ngày chỗ nào có thể tắc đường.",
+              "en": "Experienced taxi drivers tend to know the roads extremely well; they know where traffic is likely to jam at each time of day."
+            },
+            {
+              "zh": "除了正式的名字，中国人一般都有个小名。在家里，父母【往往】只叫孩子的小名。",
+              "vi": "Ngoài tên chính thức, người Trung Quốc thường có một cái tên ở nhà. Ở nhà, bố mẹ thường chỉ gọi con bằng tên ở nhà.",
+              "en": "Besides their official name, Chinese people usually have a pet name. At home, parents tend to call their children only by their pet names."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "往往—经常",
+        "uses": [
+          {
+            "vi": "Giống nhau: 往往 và 经常 đều có thể được dùng làm phó từ để chỉ tình huống nào đó xuất hiện nhiều lần.",
+            "en": "Similarity: both 往往 and 经常 can be adverbs meaning something happens many times.",
+            "ex": [
+              {
+                "zh": "要是缺少调查、不听别人说明情况，不理解【往往】/【经常】就可能发生。",
+                "vi": "Nếu thiếu tìm hiểu, không nghe người khác giải thích tình hình thì hiểu lầm thường dễ xảy ra.",
+                "en": "If you don't look into things and don't listen to others explain the situation, misunderstandings often arise."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: 往往 là sự tổng kết tình huống tính đến thời điểm hiện tại, diễn tả sự việc có tính quy luật chứ không mang tính chủ quan, nên chỉ có thể dùng cho các tình huống đã xảy ra. 经常 chỉ nói về một hành động xuất hiện nhiều lần, không nhất thiết có tính quy luật và có thể dùng cho nguyện vọng chủ quan, do đó có thể diễn tả các tình huống chưa từng xảy ra nhưng có khả năng xuất hiện nhiều lần.",
+            "en": "Difference 1: 往往 sums up what has happened so far; it describes a regular pattern, not a wish, so it is only used for things that have already happened. 经常 just says an action happens often, not necessarily as a pattern, and can express a wish, so it can describe things that haven't happened yet but may happen often.",
+            "ex": [
+              {
+                "zh": "吃完晚饭，他们一家【往往】去附近的公园散步。",
+                "vi": "Ăn tối xong, cả nhà họ thường ra công viên gần đó đi dạo.",
+                "en": "After dinner, their family tends to go for a walk in the park nearby."
+              },
+              {
+                "zh": "长时间对着电脑工作对身体不好，我们以后也【经常】去公园散散步吧。",
+                "vi": "Làm việc trước máy tính trong thời gian dài không tốt cho sức khỏe, sau này chúng ta cũng thường xuyên ra công viên đi dạo nhé.",
+                "en": "Working at a computer for long hours is bad for your health. Let's go for walks in the park often from now on too."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: Câu có 往往 thường nêu rõ tình huống, điều kiện hay kết quả có liên quan đến hành động được đề cập. Câu có 经常 không cần nêu thông tin này.",
+            "en": "Difference 2: a sentence with 往往 usually states the circumstances, conditions or results related to the action; a sentence with 经常 doesn't need to.",
+            "ex": [
+              {
+                "zh": "上大学时我很喜欢运动，【往往】/【经常】在周末打篮球、踢足球。",
+                "vi": "Hồi đại học tôi rất thích thể thao, thường chơi bóng rổ, đá bóng vào cuối tuần.",
+                "en": "In college I loved sports and would often play basketball and football at weekends."
+              },
+              {
+                "zh": "上大学时我很喜欢运动，【经常】打篮球、踢足球。",
+                "vi": "Hồi đại học tôi rất thích thể thao, thường xuyên chơi bóng rổ, đá bóng.",
+                "en": "In college I loved sports and often played basketball and football."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 经常 thường tương đương với 常. Còn 往往 thì không thể rút gọn thành 往.",
+            "en": "Difference 3: 经常 can often be shortened to 常, but 往往 cannot be shortened to 往.",
+            "ex": [
+              {
+                "zh": "在商家打折的时候，有的人【（经）常】会买一些自己本来不需要，甚至很可能一直都用不到的东西。",
+                "vi": "Khi cửa hàng giảm giá, có người thường mua những thứ vốn dĩ mình không cần, thậm chí rất có thể sẽ chẳng bao giờ dùng đến.",
+                "en": "When shops have sales, some people often buy things they don't actually need and may well never use."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

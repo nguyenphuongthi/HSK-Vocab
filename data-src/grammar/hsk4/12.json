@@ -1,0 +1,208 @@
+{
+  "n": 12,
+  "zh": "用心发现世界",
+  "vi": "Khám phá thế giới bằng trái tim",
+  "en": "Discover the world with your heart",
+  "points": [
+    {
+      "title": "并且",
+      "uses": [
+        {
+          "vi": "Liên từ 并且 có thể được dùng để nối động từ, tính từ nhằm diễn tả vài hành động được thực hiện cùng lúc hoặc một số tính chất tồn tại cùng lúc. 并且 cũng được dùng để nối các câu và diễn tả ý hơn nữa.",
+          "en": "The conjunction 并且 (and, moreover) can link verbs or adjectives to show several actions happening together or several qualities existing together. It can also link sentences to add a further point.",
+          "ex": [
+            {
+              "zh": "他做事很认真，【并且】有丰富的经验，让他负责很合适。",
+              "vi": "Anh ấy làm việc rất nghiêm túc, hơn nữa lại có kinh nghiệm phong phú, để anh ấy phụ trách là rất phù hợp.",
+              "en": "He's very conscientious and has a lot of experience, so he's a good person to put in charge."
+            },
+            {
+              "zh": "这种植物开的花比普通的花大很多，【并且】特别漂亮。",
+              "vi": "Hoa của loại cây này to hơn hoa thường rất nhiều, hơn nữa lại đặc biệt đẹp.",
+              "en": "The flowers of this plant are much bigger than ordinary flowers, and especially beautiful too."
+            },
+            {
+              "zh": "这房子家具全，电视、空调、冰箱都很新，【并且】价格也便宜，真的很值得考虑。",
+              "vi": "Căn nhà này đầy đủ đồ đạc, tivi, điều hòa, tủ lạnh đều rất mới, hơn nữa giá cũng rẻ, thật sự rất đáng cân nhắc.",
+              "en": "This flat is fully furnished, the TV, air conditioner and fridge are all new, and the price is low too. It's really worth considering."
+            },
+            {
+              "zh": "好，我再跟同事商量商量，希望能及时发现问题，【并且】准确地{de}找到解决问题的方法。",
+              "vi": "Được, tôi sẽ bàn thêm với đồng nghiệp, hy vọng có thể kịp thời phát hiện vấn đề và tìm ra chính xác cách giải quyết.",
+              "en": "OK, I'll discuss it further with my colleagues. I hope we can spot the problem in time and find exactly the right way to solve it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "再……也……",
+      "uses": [
+        {
+          "vi": "Cấu trúc “再……也……” thường được dùng trong câu đưa ra giả thuyết để chỉ sự nhượng bộ. 再 mang nghĩa là cho dù, dù thế nào đi nữa; theo sau nó có thể là động từ, tính từ, câu...",
+          "en": "The pattern 再……也…… is used in hypothetical sentences to express concession. 再 means 'no matter how (much)' and can be followed by a verb, an adjective or a clause.",
+          "ex": [
+            {
+              "zh": "事情已经发生了，你【再】后悔【也】无法改变，别伤心了。",
+              "vi": "Chuyện đã xảy ra rồi, bạn có hối hận thế nào cũng không thể thay đổi được, đừng buồn nữa.",
+              "en": "It's already happened. However much you regret it, you can't change it, so don't be sad."
+            },
+            {
+              "zh": "用盐水来洗新衣服，这样穿得【再】久、洗的次数【再】多，衣服【也】不容易掉颜色。",
+              "vi": "Dùng nước muối để giặt quần áo mới, như vậy dù mặc lâu đến đâu, giặt bao nhiêu lần đi nữa, quần áo cũng không dễ bị phai màu.",
+              "en": "Wash new clothes in salt water; that way, however long you wear them and however many times you wash them, the colour won't fade easily."
+            },
+            {
+              "zh": "如果我们有什么看法或者意见，不管别人【再】怎么不同意、不支持，【也】应该说出来，让别人知道我们的想法和态度。",
+              "vi": "Nếu chúng ta có quan điểm hay ý kiến gì, dù người khác có không đồng ý, không ủng hộ đến đâu thì cũng nên nói ra, để người khác biết suy nghĩ và thái độ của chúng ta.",
+              "en": "If we have a view or an opinion, then no matter how much others disagree or don't support us, we should speak up and let them know what we think and where we stand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "对于",
+      "uses": [
+        {
+          "vi": "Giới từ 对于 cho biết đối tượng được đề cập đến trong tình huống nào đó hay qua thái độ của người nào đó (đối với, về). Cấu trúc “对于……” có thể được dùng ở trước hoặc sau chủ ngữ.",
+          "en": "The preposition 对于 ('regarding, for, towards') introduces the person or thing that an attitude or situation concerns. 对于…… can come before or after the subject.",
+          "ex": [
+            {
+              "zh": "【对于】这件事，我跟大家的看法不同。",
+              "vi": "Về chuyện này, tôi có cách nhìn khác với mọi người.",
+              "en": "On this matter, my view is different from everyone else's."
+            },
+            {
+              "zh": "【对于】中国人来说，春节是一年之中最重要的节日，春节的时候人们会举行各种各样的迎新年活动。",
+              "vi": "Đối với người Trung Quốc, Tết Xuân là ngày lễ quan trọng nhất trong năm, vào dịp Tết mọi người tổ chức đủ các hoạt động đón năm mới.",
+              "en": "For Chinese people, the Spring Festival is the most important holiday of the year. During it people hold all kinds of activities to welcome the new year."
+            },
+            {
+              "zh": "那您认为【对于】老师来说，什么是最难做到的？",
+              "vi": "Vậy theo ông, đối với giáo viên thì điều gì là khó làm được nhất?",
+              "en": "So in your opinion, what is the hardest thing for a teacher to achieve?"
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "对于—关于",
+        "uses": [
+          {
+            "vi": "Khác nhau 1: 对于 và 关于 đều là giới từ nhưng có nghĩa khác nhau. 对于 nêu rõ đối tượng (thường chịu sự tác động của hành động hay sự vật được đề cập đến trong tình huống nào đó); 关于 nêu rõ phạm vi, cho biết sự vật được nói đến.",
+            "en": "Difference 1: both are prepositions but mean different things. 对于 points to the target (often what an action acts on, or what a situation concerns); 关于 ('about, concerning') marks the scope, introducing the topic being talked about.",
+            "ex": [
+              {
+                "zh": "【对于】这次调查计划，经理特别满意。",
+                "vi": "Đối với kế hoạch điều tra lần này, giám đốc đặc biệt hài lòng.",
+                "en": "The manager is especially pleased with this survey plan."
+              },
+              {
+                "zh": "【关于】这次调查计划，经理说有很多不清楚的地方。",
+                "vi": "Về kế hoạch điều tra lần này, giám đốc nói có nhiều chỗ chưa rõ ràng.",
+                "en": "About this survey plan, the manager said there were a lot of unclear points."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 对于 có thể đứng trước hoặc sau chủ ngữ. 关于 chỉ có thể được dùng trước chủ ngữ.",
+            "en": "Difference 2: 对于 can go before or after the subject; 关于 can only go before the subject.",
+            "ex": [
+              {
+                "zh": "【对于】每个需要帮助的人，他都会热情、耐心地{de}提供帮助。",
+                "vi": "Đối với mỗi người cần giúp đỡ, anh ấy đều nhiệt tình, kiên nhẫn giúp đỡ.",
+                "en": "He helps everyone who needs help warmly and patiently."
+              },
+              {
+                "zh": "他【对于】每个需要帮助的人都会热情、耐心地{de}提供帮助。",
+                "vi": "Anh ấy đối với mỗi người cần giúp đỡ đều nhiệt tình, kiên nhẫn giúp đỡ.",
+                "en": "He helps everyone who needs help warmly and patiently."
+              },
+              {
+                "zh": "【关于】什么是幸福，每个人都有自己不同的看法。",
+                "vi": "Về chuyện thế nào là hạnh phúc, mỗi người đều có cách nhìn khác nhau.",
+                "en": "As for what happiness is, everyone has their own view."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: “关于……” có thể xuất hiện trong tên sách hay bài báo. 对于 không dùng được như vậy.",
+            "en": "Difference 3: 关于…… can appear in the title of a book or article; 对于 cannot.",
+            "ex": [
+              {
+                "zh": "《【关于】中国经济的几个问题》",
+                "vi": "“Một số vấn đề về kinh tế Trung Quốc”",
+                "en": "“Some Issues Concerning the Chinese Economy”"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "名量词重叠",
+      "py": "míngliàngcí chóngdié",
+      "uses": [
+        {
+          "vi": "Sự lặp lại danh từ/lượng từ thường có dạng “AA”, có nghĩa là mỗi. Cấu trúc này có thể được dùng làm chủ ngữ, định ngữ của chủ ngữ và trạng ngữ nhưng không được dùng làm tân ngữ và định ngữ của tân ngữ.",
+          "en": "Reduplicating a noun or measure word in the form 'AA' means 'every'. It can be the subject, modify the subject, or be an adverbial, but cannot be the object or modify the object.",
+          "ex": [
+            {
+              "zh": "【人人】都会使用语言，但是怎么用语言把话说好却是一门艺术。",
+              "vi": "Ai cũng biết sử dụng ngôn ngữ, nhưng dùng ngôn ngữ thế nào để nói cho hay lại là cả một nghệ thuật.",
+              "en": "Everyone can use language, but how to use it to speak well is an art."
+            },
+            {
+              "zh": "白先生【天天】都去那家咖啡馆坐一会儿，因为他觉得，工作了一天，只有安静的地方才能让他得到放松。",
+              "vi": "Ngày nào ông Bạch cũng đến quán cà phê đó ngồi một lúc, vì ông thấy làm việc cả ngày rồi, chỉ có nơi yên tĩnh mới giúp ông thư giãn được.",
+              "en": "Mr Bai goes to sit in that café for a while every day, because he feels that after a day's work only a quiet place lets him relax."
+            },
+            {
+              "zh": "做好小事是完成大事的第一步，因此，【件件】小事都应该被看成是一次学习的机会。",
+              "vi": "Làm tốt việc nhỏ là bước đầu tiên để hoàn thành việc lớn, vì vậy mỗi việc nhỏ đều nên được xem là một cơ hội học hỏi.",
+              "en": "Doing small things well is the first step to accomplishing big things, so every small task should be seen as a chance to learn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "相反",
+      "uses": [
+        {
+          "vi": "Liên từ 相反 được dùng ở đầu hoặc giữa vế câu sau để chỉ sự chuyển ý hoặc diễn tả sự tăng tiến (ngược lại).",
+          "en": "As a conjunction, 相反 ('on the contrary') goes at the start or in the middle of the second clause to express a contrast or a further step.",
+          "ex": [
+            {
+              "zh": "如果还是使用以前的办法，不但不能解决任何问题，【相反】，会使问题变得更复杂。",
+              "vi": "Nếu vẫn dùng cách cũ thì không những không giải quyết được vấn đề gì, ngược lại còn khiến vấn đề trở nên phức tạp hơn.",
+              "en": "If we keep using the old method, not only will it fail to solve anything; on the contrary, it will make the problem more complicated."
+            },
+            {
+              "zh": "使用正确的方法，我们做起事来能“事半功倍”……【相反】，如果方法不对，可能花五倍甚至十倍的时间都不能完成任务，结果变成了“事倍功半”。",
+              "vi": "Dùng phương pháp đúng thì chúng ta làm việc sẽ “làm ít được nhiều”… Ngược lại, nếu phương pháp không đúng, có thể tốn gấp năm thậm chí gấp mười lần thời gian mà vẫn không hoàn thành nhiệm vụ, kết quả thành ra “làm nhiều được ít”.",
+              "en": "With the right method we get twice the result with half the effort… On the other hand, with the wrong method we may spend five or even ten times as long and still not finish, ending up with half the result for twice the effort."
+            }
+          ]
+        },
+        {
+          "vi": "Tính từ 相反 diễn tả rằng hai mặt của sự vật đối lập hay mâu thuẫn với nhau, có thể làm vị ngữ hoặc bổ nghĩa cho danh từ. Khi 相反 bổ nghĩa cho danh từ, theo sau nó phải có 的.",
+          "en": "As an adjective, 相反 means 'opposite, contrary'. It can be a predicate or modify a noun; when modifying a noun it must be followed by 的.",
+          "ex": [
+            {
+              "zh": "调查结果和他们想的几乎完全【相反】，他们不得不改变原来的计划。",
+              "vi": "Kết quả điều tra gần như hoàn toàn trái ngược với những gì họ nghĩ, họ buộc phải thay đổi kế hoạch ban đầu.",
+              "en": "The survey results were almost the complete opposite of what they expected, so they had to change their original plan."
+            },
+            {
+              "zh": "我本来以为任务能顺利完成，没想到事情正好向【相反】的方向发展。",
+              "vi": "Tôi cứ tưởng nhiệm vụ sẽ hoàn thành suôn sẻ, không ngờ sự việc lại phát triển theo hướng ngược lại.",
+              "en": "I thought the task would go smoothly; I never expected things to go in exactly the opposite direction."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

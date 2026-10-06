@@ -49,8 +49,15 @@ for (const line of readFileSync(join(src, 'cedict_ts.u8'), 'utf8').split('\n')) 
 const toneless = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC');
 
 // Tách pinyin của một từ thành đúng n âm tiết (quy hoạch động trên tập âm tiết hợp lệ).
+// Âm tiết bắt đầu bằng a/o/e chỉ đứng giữa từ khi có dấu cách ly (vd xī'ān), nên "kěnéng" là kě|néng
+// chứ không phải kěn|éng.
 function splitSyllables(py, n) {
-  const s = py.toLowerCase().normalize('NFC').replace(/[\s'’·…-]/g, '');
+  let s = '';
+  const open = new Set([0]); // vị trí được phép bắt đầu âm tiết a/o/e
+  for (const c of py.toLowerCase().normalize('NFC')) {
+    if (/[\s'’·…-]/.test(c)) open.add(s.length);
+    else s += c;
+  }
   const bare = toneless(s);
   const memo = new Map();
   const go = (i, k) => {
@@ -61,6 +68,7 @@ function splitSyllables(py, n) {
     else if (k > 0) {
       for (let j = Math.min(bare.length, i + 6); j > i && !res; j--) {
         if (!SYLLABLES.has(bare.slice(i, j))) continue;
+        if ('aoe'.includes(bare[i]) && !open.has(i)) continue;
         const rest = go(j, k - 1);
         if (rest) res = [s.slice(i, j), ...rest];
       }
@@ -163,3 +171,139 @@ writeFileSync(join(out, 'index.json'), JSON.stringify({ levels: summary, tags })
 writeFileSync(join(src, 'pinyin_report.txt'), report.join('\n') + '\n');
 for (const s of summary) console.log(`HSK${s.level}: ${s.done}/${s.total} từ có dữ liệu`);
 console.log(`Pinyin cần rà (khác thanh điệu giữa từ và câu): ${report.length} -> data-src/pinyin_report.txt`);
+
+// Ngữ pháp: data-src/grammar/hsk{L}/NN.json (mỗi file một bài) -> public/data/grammar{L}.json.
+// Điểm ngữ pháp: title, py (tuỳ chọn, ghi đè pinyin tiêu đề), uses, cmp.
+// Câu ví dụ: 【】 đánh dấu phần ngữ pháp (tô màu), \n tách dòng hội thoại, 字{pinyin} ghi đè âm đọc
+// của một chữ; trường py ghi đè pinyin cả câu (âm tiết cách nhau bởi dấu cách, các dòng cách nhau bởi \n).
+// Mỗi ký tự ra [chữ, pinyin] hoặc [chữ]; ký tự thuộc phần tô màu có thêm phần tử thứ ba là 1.
+
+// Sửa các chữ đa âm mà pinyin-pro hay đọc sai trong câu (đã rà trên data-src/grammar_pinyin.txt).
+const NUMERALS = '一二两三四五六七八九十几';
+function fixPolyphones(ruby) {
+  const at = (i) => ruby[i]?.[0] ?? '';
+  ruby.forEach((r, i) => {
+    if (r.length < 2) return;
+    const [c] = r;
+    if (c === '得' && r[1] === 'dé' && at(i + 1) !== '到' && !'获取值'.includes(at(i - 1)) && at(i - 1) !== '不') {
+      r[1] = 'de'; // bổ ngữ trạng thái: 踢得好, 说得很好
+    } else if (c === '长' && at(i + 1) === '得') {
+      r[1] = 'zhǎng'; // 长得像…, 个子长得快
+    } else if (c === '只' && r[1] === 'zhī' && !NUMERALS.includes(at(i - 1))) {
+      r[1] = 'zhǐ'; // phó từ "chỉ"; sau số từ mới là lượng từ zhī
+    }
+  });
+  return ruby;
+}
+
+function grammarExample(ex, where) {
+  const lines = ex.zh.split('\n');
+  const pyLines = ex.py?.split('\n');
+  if (pyLines && pyLines.length !== lines.length) throw new Error(`${where}: số dòng py khác zh`);
+  const viLines = ex.vi.split('\n');
+  const enLines = ex.en.split('\n');
+  if (viLines.length !== lines.length || enLines.length !== lines.length) {
+    throw new Error(`${where}: số dòng vi/en khác zh — ${ex.zh}`);
+  }
+  const ruby = lines.map((line, i) => {
+    const mask = [];
+    const hints = new Map(); // vị trí ký tự -> pinyin ghi đè
+    let plain = '';
+    let on = false;
+    const hint = /\{([^}]+)\}/y;
+    const chars = [...line];
+    for (let p = 0; p < chars.length; p++) {
+      const c = chars[p];
+      if (c === '【' || c === '】') {
+        if ((c === '【') === on) throw new Error(`${where}: 【】 lệch — ${line}`);
+        on = c === '【';
+        continue;
+      }
+      if (c === '{') {
+        hint.lastIndex = chars.slice(0, p).join('').length;
+        const m = hint.exec(line);
+        if (!m || !mask.length) throw new Error(`${where}: {pinyin} sai — ${line}`);
+        hints.set(mask.length - 1, m[1]);
+        p += [...m[0]].length - 1;
+        continue;
+      }
+      plain += c;
+      mask.push(on);
+    }
+    if (on) throw new Error(`${where}: thiếu 】 — ${line}`);
+    const base = sentenceRuby(plain, pyLines?.[i], {});
+    if (!pyLines) fixPolyphones(base);
+    for (const [k, py] of hints) {
+      if (base[k].length < 2) throw new Error(`${where}: {pinyin} đặt sau ký tự không phải chữ Hán — ${line}`);
+      base[k][1] = py;
+    }
+    return base.map((r, k) => {
+      if (!mask[k]) return r;
+      return r.length > 1 ? [...r, 1] : [r[0], '', 1];
+    });
+  });
+  return { ruby, vi: viLines, en: enLines };
+}
+
+// Pinyin của tiêu đề điểm ngữ pháp: các chữ Hán liền nhau viết liền (不仅……也 -> bùjǐn……yě),
+// giữ nguyên dấu …… và /; ghi đè bằng trường py của điểm ngữ pháp khi cần tách từ.
+function titlePinyin(title) {
+  const ruby = fixPolyphones(sentenceRuby(title, null, {}));
+  return ruby
+    .map((r, i) => {
+      if (!r[1]) return r[0];
+      // Âm tiết a/o/e đứng sau một âm tiết khác cần dấu cách âm: rán'ér, ǒu'ěr.
+      const apostrophe = ruby[i - 1]?.[1] && 'aoe'.includes(toneless(r[1])[0]);
+      return apostrophe ? `'${r[1]}` : r[1];
+    })
+    .join('')
+    .replace(/（/g, '(')
+    .replace(/）/g, ')');
+}
+
+const grammarRoot = join(src, 'grammar');
+const grammarPinyin = [];
+for (const dir of readdirSync(grammarRoot, { withFileTypes: true })) {
+  const m = dir.isDirectory() && dir.name.match(/^hsk(\d)$/);
+  if (!m) continue;
+  const L = m[1];
+  const files = readdirSync(join(grammarRoot, dir.name)).filter((f) => f.endsWith('.json')).sort();
+  const lessons = [];
+  let points = 0;
+  for (const f of files) {
+    const lesson = JSON.parse(readFileSync(join(grammarRoot, dir.name, f), 'utf8'));
+    const uses = (list, where) =>
+      list.map((u, i) => ({
+        vi: u.vi,
+        en: u.en,
+        ex: u.ex.map((ex, j) => {
+          const out = grammarExample(ex, `${where} cách dùng ${i + 1} ví dụ ${j + 1}`);
+          for (const line of out.ruby) {
+            grammarPinyin.push(`${where}\t${line.map((r) => r[0]).join('')}\t${line.map((r) => r[1] ?? '').filter(Boolean).join(' ')}`);
+          }
+          return out;
+        }),
+      }));
+    lessons.push({
+      n: lesson.n,
+      zh: lesson.zh,
+      vi: lesson.vi,
+      en: lesson.en,
+      points: lesson.points.map((p, k) => {
+        const where = `HSK${L} bài ${lesson.n} điểm ${k + 1}`;
+        points++;
+        return {
+          id: `g${L}-${lesson.n}-${k + 1}`, // khoá ổn định để lưu trạng thái học
+          title: p.title,
+          py: p.py ?? titlePinyin(p.title),
+          uses: uses(p.uses, where),
+          cmp: p.cmp && { title: p.cmp.title, uses: uses(p.cmp.uses, `${where} so sánh`) },
+        };
+      }),
+    });
+  }
+  lessons.sort((a, b) => a.n - b.n);
+  writeFileSync(join(out, `grammar${L}.json`), JSON.stringify({ level: Number(L), lessons }));
+  console.log(`Ngữ pháp HSK${L}: ${lessons.length} bài, ${points} điểm ngữ pháp`);
+}
+writeFileSync(join(src, 'grammar_pinyin.txt'), grammarPinyin.join('\n') + '\n');

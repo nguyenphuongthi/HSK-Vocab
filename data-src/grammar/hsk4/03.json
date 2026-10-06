@@ -1,0 +1,251 @@
+{
+  "n": 3,
+  "zh": "经理对我印象不错",
+  "vi": "Giám đốc có ấn tượng tốt về tôi",
+  "en": "The manager has a good impression of me",
+  "points": [
+    {
+      "title": "挺",
+      "uses": [
+        {
+          "vi": "Phó từ 挺 có nghĩa là rất, thường được dùng trong cấu trúc 挺……的.",
+          "en": "The adverb 挺 means 'very, quite' (like 很) and is often used in the pattern 挺……的.",
+          "ex": [
+            {
+              "zh": "他们问的问题都【挺】容易【的】。",
+              "vi": "Những câu họ hỏi đều khá dễ.",
+              "en": "The questions they asked were all pretty easy."
+            },
+            {
+              "zh": "这家店的东西【挺】好【的】，我经常来这儿买东西。",
+              "vi": "Đồ ở cửa hàng này khá tốt, tôi thường đến đây mua đồ.",
+              "en": "The things in this shop are quite good. I often come here to shop."
+            },
+            {
+              "zh": "我【挺】喜欢这个地方【的】，周围环境比以前住的地方安静很多。",
+              "vi": "Tôi khá thích chỗ này, xung quanh yên tĩnh hơn chỗ ở trước đây nhiều.",
+              "en": "I really like this place. The surroundings are much quieter than where I lived before."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "本来",
+      "uses": [
+        {
+          "vi": "Phó từ 本来 diễn tả rằng tình huống/sự việc nào đó đáng lẽ phải như vậy. 本来 cũng mang nghĩa là lúc đầu, trước đây.",
+          "en": "The adverb 本来 means something 'should have been so' by rights. It can also mean 'originally, at first'.",
+          "ex": [
+            {
+              "zh": "这件事【本来】应该听他的。",
+              "vi": "Chuyện này lẽ ra phải nghe theo anh ấy.",
+              "en": "We should have listened to him on this from the start."
+            },
+            {
+              "zh": "我【本来】不会开车，但现在开得特别好。",
+              "vi": "Lúc đầu tôi không biết lái xe, nhưng bây giờ lái rất giỏi.",
+              "en": "I couldn't drive at first, but now I drive really well."
+            },
+            {
+              "zh": "（这次招聘）【本来】是小李负责的。",
+              "vi": "(Đợt tuyển dụng này) lúc đầu là do Tiểu Lý phụ trách.",
+              "en": "(This round of hiring) was originally Xiao Li's responsibility."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "另外",
+      "uses": [
+        {
+          "vi": "Đại từ 另外 chỉ người hay sự vật bên ngoài phạm vi đã được đề cập trước đó, thường được dùng trong cấu trúc “另外 (+的) + Số lượng (+ Danh từ)” hay “另外 + 的 (+ Danh từ)”.",
+          "en": "As a pronoun, 另外 refers to people or things outside the scope just mentioned ('the other, another'). Common patterns: 另外 (+的) + number/measure (+ noun), or 另外 + 的 (+ noun).",
+          "ex": [
+            {
+              "zh": "前面车有点儿多，我们走【另外】一条路，不会迟到的。",
+              "vi": "Phía trước hơi đông xe, chúng ta đi đường khác, sẽ không muộn đâu.",
+              "en": "There's a bit of traffic ahead. Let's take another road; we won't be late."
+            },
+            {
+              "zh": "这件衣服有点儿大，你试试【另外】的那件吧。",
+              "vi": "Cái áo này hơi rộng, bạn thử cái kia xem.",
+              "en": "This one is a bit big. Try the other one."
+            }
+          ]
+        },
+        {
+          "vi": "Phó từ 另外 diễn tả ý bên ngoài phạm vi đã được đề cập trước đó, thường được dùng kết hợp với 还/再/又.",
+          "en": "As an adverb, 另外 means 'additionally, separately', beyond what was mentioned. It is often used together with 还/再/又.",
+          "ex": [
+            {
+              "zh": "除了她说的，我【另外】又补充了几条意见。",
+              "vi": "Ngoài những gì cô ấy nói, tôi còn bổ sung thêm mấy ý kiến nữa.",
+              "en": "Besides what she said, I added a few more suggestions of my own."
+            },
+            {
+              "zh": "家里的空调坏了，咱们【另外】再买一个吧。",
+              "vi": "Điều hòa ở nhà hỏng rồi, mình mua thêm một cái khác đi.",
+              "en": "The air conditioner at home is broken. Let's buy another one."
+            }
+          ]
+        },
+        {
+          "vi": "Liên từ 另外 có nghĩa là ngoài ra, được dùng để nối các vế câu hoặc các câu.",
+          "en": "As a conjunction, 另外 means 'in addition, besides', linking clauses or sentences.",
+          "ex": [
+            {
+              "zh": "我学的就是法律专业，而且同事们都很喜欢我。【另外】，收入也不错。",
+              "vi": "Tôi học đúng chuyên ngành luật, hơn nữa đồng nghiệp đều rất quý tôi. Ngoài ra, thu nhập cũng khá.",
+              "en": "Law is exactly what I studied, and my colleagues all like me. Besides, the pay is good too."
+            },
+            {
+              "zh": "现在上网买东西很方便，卖家可以把你买的东西送到你办公室或者家里。【另外】，还比较便宜。",
+              "vi": "Bây giờ mua hàng trên mạng rất tiện, người bán có thể giao đồ bạn mua đến văn phòng hoặc nhà bạn. Ngoài ra, giá còn tương đối rẻ.",
+              "en": "Shopping online is very convenient now; sellers can deliver what you buy to your office or home. Besides, it's fairly cheap."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "另外—另",
+        "uses": [
+          {
+            "vi": "Giống nhau 1: 另外 và 另 đều có thể làm đại từ, chỉ người hay sự vật bên ngoài phạm vi đã được đề cập trước đó.",
+            "en": "Similarity 1: both 另外 and 另 can be pronouns referring to people or things outside the scope already mentioned.",
+            "ex": [
+              {
+                "zh": "他一边说谢谢，一边从手里拿出【另外】/【另】一本书。",
+                "vi": "Anh ấy vừa nói cảm ơn vừa lấy ra một quyển sách khác từ trong tay.",
+                "en": "Saying thank you, he took another book out of his hands."
+              }
+            ]
+          },
+          {
+            "vi": "Giống nhau 2: Cả 另外 và 另 cũng đều có thể làm phó từ, diễn tả ý bên ngoài phạm vi đã được đề cập trước đó.",
+            "en": "Similarity 2: both can also be adverbs meaning 'beyond what was mentioned; separately'.",
+            "ex": [
+              {
+                "zh": "我今天晚上【另外】/【另】有安排，我们明天再一起吃饭吧。",
+                "vi": "Tối nay tôi có việc khác rồi, mai chúng ta cùng ăn cơm nhé.",
+                "en": "I have other plans tonight. Let's have dinner together tomorrow."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Khi làm đại từ, 另外 thường dùng trong cấu trúc “另外 (+的) + Số lượng (+ Danh từ)” hay “另外 + 的 (+ Danh từ)”, cấu trúc thứ nhất có thể có hoặc không có 的; còn 另 thường dùng trong cấu trúc “另 + Số lượng (+ Danh từ)”, không có 的.",
+            "en": "Difference 1: as a pronoun, 另外 is used in '另外 (+的) + number/measure (+ noun)' or '另外 + 的 (+ noun)', where 的 is optional in the first; 另 is used in '另 + number/measure (+ noun)' without 的.",
+            "ex": [
+              {
+                "zh": "刚才马克把车借走了，你骑【另外】/【另】一辆吧。",
+                "vi": "Lúc nãy Mark mượn xe đi rồi, bạn đi chiếc khác nhé.",
+                "en": "Mark just borrowed that bike. Ride another one."
+              },
+              {
+                "zh": "刚才马克把车借走了，你骑【另外】的一辆吧。",
+                "vi": "Lúc nãy Mark mượn xe đi rồi, bạn đi một chiếc khác nhé.",
+                "en": "Mark just borrowed that bike. Ride one of the others."
+              },
+              {
+                "zh": "刚才马克把车借走了，你骑【另外】的车吧。",
+                "vi": "Lúc nãy Mark mượn xe đi rồi, bạn đi xe khác nhé.",
+                "en": "Mark just borrowed that bike. Ride a different one."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: Khi làm phó từ, 另 thường bổ nghĩa cho động từ có một âm tiết; 另外 không có sự hạn chế này.",
+            "en": "Difference 2: as an adverb, 另 usually modifies a one-syllable verb; 另外 has no such restriction.",
+            "ex": [
+              {
+                "zh": "最近小雨太忙了，没时间帮你，你还是【另外】/【另】找别人吧。",
+                "vi": "Dạo này Tiểu Vũ bận quá, không có thời gian giúp bạn, bạn tìm người khác thì hơn.",
+                "en": "Xiaoyu is too busy lately to help you. You'd better find someone else."
+              },
+              {
+                "zh": "他这次来参加会议，不但帮我们解决了现在的问题，还【另外】提供了不少新的材料。",
+                "vi": "Lần này anh ấy đến dự họp không những giúp chúng tôi giải quyết vấn đề hiện tại mà còn cung cấp thêm khá nhiều tài liệu mới.",
+                "en": "When he came to the meeting this time, he not only helped us solve the current problem but also provided quite a lot of new material."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: 另外 có thể được dùng làm liên từ. 另 không dùng được như vậy.",
+            "en": "Difference 3: 另外 can be a conjunction ('besides'); 另 cannot.",
+            "ex": [
+              {
+                "zh": "冬季应该注意多吃水果。【另外】，还要记得多喝水。",
+                "vi": "Mùa đông nên chú ý ăn nhiều hoa quả. Ngoài ra, còn phải nhớ uống nhiều nước.",
+                "en": "In winter you should make a point of eating more fruit. Besides that, remember to drink plenty of water."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "首先……其次……",
+      "uses": [
+        {
+          "vi": "首先 và 其次 là đại từ, thường được dùng kết hợp trong văn viết để liệt kê các sự việc theo trình tự nào đó.",
+          "en": "首先 (first) and 其次 (second, next) are pronouns used together, mainly in written language, to list things in a certain order.",
+          "ex": [
+            {
+              "zh": "不管做什么事情，【首先】应该明白你为什么要做，【其次】要知道怎么做。",
+              "vi": "Dù làm việc gì, trước hết phải hiểu tại sao mình làm, sau đó phải biết làm thế nào.",
+              "en": "Whatever you do, first you should understand why you're doing it, and second you need to know how to do it."
+            },
+            {
+              "zh": "【首先】，要穿正式的衣服，这会给面试者留下一个好的印象，让他觉得你是一个认真的人。【其次】，应聘时不要紧张。",
+              "vi": "Trước tiên, phải mặc trang phục lịch sự, điều này sẽ để lại ấn tượng tốt cho người phỏng vấn, khiến họ thấy bạn là người nghiêm túc. Thứ hai, khi ứng tuyển đừng căng thẳng.",
+              "en": "First, wear formal clothes. This leaves the interviewer with a good impression and makes them see you as a serious person. Second, don't be nervous when you apply."
+            }
+          ]
+        },
+        {
+          "vi": "首先 cũng có thể được dùng làm phó từ với nghĩa là đầu tiên, sớm nhất.",
+          "en": "首先 can also be an adverb meaning 'first of all, before anything else'.",
+          "ex": [
+            {
+              "zh": "不管以后做什么工作，你【首先】应该有一个好身体。",
+              "vi": "Dù sau này làm công việc gì, trước hết bạn phải có một sức khỏe tốt.",
+              "en": "Whatever job you do in the future, first of all you need to be in good health."
+            },
+            {
+              "zh": "很多人遇到不明白的地方，【首先】想到的是上网查一查。",
+              "vi": "Nhiều người gặp chỗ không hiểu thì điều đầu tiên nghĩ đến là lên mạng tra.",
+              "en": "When many people come across something they don't understand, the first thing they think of is looking it up online."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "不管",
+      "uses": [
+        {
+          "vi": "Liên từ 不管 chỉ kết luận hay kết quả sẽ không thay đổi trong mọi tình huống được giả định, thường được dùng chung với các đại từ nghi vấn như 什么, 怎么, 谁, 哪儿 và 多(么). 不管 cũng thường kết hợp với 还是 hay mẫu câu chính phản; khi đó vế câu thứ hai thường có 都 hoặc các từ khác.",
+          "en": "The conjunction 不管 (no matter) means the conclusion or result stays the same under any supposed circumstances. It is often used with question words such as 什么, 怎么, 谁, 哪儿, 多(么), or with 还是 or an affirmative-negative form; the second clause often contains 都.",
+          "ex": [
+            {
+              "zh": "山本【不管】做什么事【都】非常认真。",
+              "vi": "Yamamoto dù làm việc gì cũng rất nghiêm túc.",
+              "en": "Yamamoto is very conscientious no matter what he does."
+            },
+            {
+              "zh": "【不管】是上课、上班，还是与别人约会，准时【都】非常重要。",
+              "vi": "Dù là đi học, đi làm hay hẹn gặp người khác, đúng giờ đều vô cùng quan trọng.",
+              "en": "Whether it's going to class, going to work or meeting someone, being on time is very important."
+            },
+            {
+              "zh": "【不管】忙不忙，他每天【都】要锻炼一个小时身体。",
+              "vi": "Dù bận hay không, ngày nào anh ấy cũng tập thể dục một tiếng.",
+              "en": "Busy or not, he exercises for an hour every day."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

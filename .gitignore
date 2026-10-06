@@ -5,3 +5,6 @@ web/.env*.local
 data-src/Unihan*
 data-src/*.zip
 data-src/__pycache__/
+
+# Giáo trình PDF (bản scan, rất nặng) — chỉ để tham khảo khi soạn nội dung
+*.pdf

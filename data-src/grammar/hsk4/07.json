@@ -1,0 +1,199 @@
+{
+  "n": 7,
+  "zh": "最好的医生是自己",
+  "vi": "Bác sĩ tốt nhất là chính mình",
+  "en": "The best doctor is yourself",
+  "points": [
+    {
+      "title": "估计",
+      "uses": [
+        {
+          "vi": "Động từ 估计 có nghĩa là đưa ra suy đoán chung chung về sự vật dựa vào những điều kiện nào đó (ước tính, đoán chừng).",
+          "en": "The verb 估计 means 'to estimate, reckon': making a rough guess based on certain circumstances.",
+          "ex": [
+            {
+              "zh": "我还不习惯北方的气候，【估计】是天气太干。",
+              "vi": "Tôi vẫn chưa quen khí hậu miền Bắc, chắc là do thời tiết khô quá.",
+              "en": "I'm still not used to the northern climate. I reckon it's because the air is too dry."
+            },
+            {
+              "zh": "你有没有去问问小王？【估计】他应该有办法。",
+              "vi": "Bạn đã đi hỏi Tiểu Vương chưa? Chắc là cậu ấy có cách.",
+              "en": "Have you asked Xiao Wang? I'd guess he'll know what to do."
+            },
+            {
+              "zh": "机场通知飞机晚点一个小时，【估计】他下午六点才能到上海。",
+              "vi": "Sân bay thông báo máy bay trễ một tiếng, ước chừng sáu giờ chiều anh ấy mới đến được Thượng Hải.",
+              "en": "The airport announced the plane is an hour late. I reckon he won't get to Shanghai until six this evening."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "估计—可能",
+        "uses": [
+          {
+            "vi": "Giống nhau: 估计 và 可能 đều có nghĩa là đưa ra suy đoán chung chung về sự vật dựa vào những điều kiện nào đó.",
+            "en": "Similarity: both 估计 and 可能 can express a rough guess based on certain circumstances.",
+            "ex": [
+              {
+                "zh": "今天的工作【估计】/【可能】完不成了，因为出了点儿问题。",
+                "vi": "Công việc hôm nay chắc là không xong được rồi, vì có chút trục trặc.",
+                "en": "Today's work probably won't get finished, because a problem came up."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Trong trường hợp trên, 估计 là động từ, có thể trực tiếp làm vị ngữ, theo sau nó có thể là động từ hay vế câu; còn 可能 là động từ năng nguyện, chỉ được dùng trước động từ để bổ nghĩa cho động từ (động từ theo sau 可能 mới là vị ngữ).",
+            "en": "Difference 1: in that sense, 估计 is a verb that can be the predicate itself, followed by a verb or a whole clause; 可能 is a modal verb that can only go before a verb to modify it (the following verb is the predicate).",
+            "ex": [
+              {
+                "zh": "明天就可以上网查成绩了，我【估计】这次考试考得不错。",
+                "vi": "Mai là có thể lên mạng xem điểm rồi, tôi đoán lần này thi khá tốt.",
+                "en": "We can check our results online tomorrow. I reckon I did well in this exam."
+              },
+              {
+                "zh": "明天就可以上网查成绩了，我这次考试【估计】/【可能】考得不错。",
+                "vi": "Mai là có thể lên mạng xem điểm rồi, lần này chắc tôi thi khá tốt.",
+                "en": "We can check our results online tomorrow. I probably did well this time."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: 可能 có thể được dùng làm tính từ để chỉ điều gì đó có thể được thực hiện hoặc trở thành sự thật; 估计 không dùng được như vậy.",
+            "en": "Difference 2: 可能 can be an adjective meaning 'possible, likely'; 估计 cannot.",
+            "ex": [
+              {
+                "zh": "他这么多天没来上课，最【可能】的原因就是他回国了。",
+                "vi": "Cậu ấy nhiều ngày như vậy không đi học, khả năng cao nhất là cậu ấy đã về nước.",
+                "en": "He hasn't been to class for so many days. The most likely reason is that he's gone back to his country."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: Có thể thêm 很 vào trước 可能 để tạo thành 很可能 nhằm nhấn mạnh, khẳng định sự phỏng đoán; 很可能 có thể đứng trước hoặc sau chủ ngữ. 估计 không dùng được như vậy.",
+            "en": "Difference 3: 很 can be added before 可能 to make 很可能 ('very likely'), which strengthens the guess and can go before or after the subject. 估计 has no such use.",
+            "ex": [
+              {
+                "zh": "很【可能】他还不知道这件事。",
+                "vi": "Rất có thể anh ấy vẫn chưa biết chuyện này.",
+                "en": "Quite possibly he still doesn't know about this."
+              },
+              {
+                "zh": "他很【可能】还不知道这件事。",
+                "vi": "Anh ấy rất có thể vẫn chưa biết chuyện này.",
+                "en": "He very likely doesn't know about this yet."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "来不及",
+      "py": "láibují",
+      "uses": [
+        {
+          "vi": "Động từ 来不及 diễn tả rằng do thời gian ngắn nên người nào đó không kịp làm việc gì. 来不及 có thể được dùng độc lập hoặc có động từ theo sau.",
+          "en": "The verb 来不及 means 'not have enough time, too late (to do something)'. It can be used on its own or followed by a verb.",
+          "ex": [
+            {
+              "zh": "等你身体出现问题了，后悔就【来不及】了。",
+              "vi": "Đợi đến khi sức khỏe có vấn đề thì hối hận cũng không kịp nữa.",
+              "en": "Once your health has problems, it'll be too late for regrets."
+            },
+            {
+              "zh": "今天【来不及】开会了，明天我们再找时间说这个问题吧。",
+              "vi": "Hôm nay không kịp họp rồi, mai chúng ta tìm thời gian bàn vấn đề này nhé.",
+              "en": "There's no time for a meeting today. Let's find time to discuss this tomorrow."
+            },
+            {
+              "zh": "你不是和同学约了下午两点见面吗？再不走就【来不及】了。",
+              "vi": "Không phải bạn hẹn bạn học hai giờ chiều gặp nhau sao? Không đi ngay là không kịp đâu.",
+              "en": "Didn't you arrange to meet your classmate at two this afternoon? If you don't go now you'll be late."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "离合词重叠",
+      "py": "líhécí chóngdié",
+      "uses": [
+        {
+          "vi": "Sự lặp lại của từ ly hợp diễn tả các ý như thời gian ngắn, việc làm thử, sự nhẹ nhàng, tùy tiện. Hình thức lặp lại là “AAB”, chẳng hạn: 散散步, 帮帮忙, 睡睡觉, 游游泳.",
+          "en": "Reduplicating a separable verb (verb-object word) gives the sense of doing something briefly, trying it out, or doing it in a relaxed, casual way. The form is 'AAB', e.g. 散散步, 帮帮忙, 睡睡觉, 游游泳.",
+          "ex": [
+            {
+              "zh": "咱们午饭后就去附近的公园【散散步】吧。",
+              "vi": "Ăn trưa xong mình ra công viên gần đây đi dạo một chút nhé.",
+              "en": "Let's go for a little walk in the park nearby after lunch."
+            },
+            {
+              "zh": "行李箱怎么这么重啊！你快来【帮帮】我的【忙】。",
+              "vi": "Vali gì mà nặng thế! Bạn mau lại giúp mình một tay.",
+              "en": "Why is this suitcase so heavy! Come and give me a hand."
+            },
+            {
+              "zh": "周末马克一般在宿舍看看书、听听音乐、【睡睡觉】。",
+              "vi": "Cuối tuần Mark thường ở ký túc xá đọc sách, nghe nhạc, ngủ một giấc.",
+              "en": "At weekends Mark usually stays in the dorm reading a bit, listening to music and sleeping."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "要是",
+      "uses": [
+        {
+          "vi": "Liên từ 要是 có nghĩa là nếu, nếu như, thường được dùng trong cấu trúc “要是……(的话)，就……”. Vế câu sử dụng 要是 đưa ra một giả thuyết, vế câu sử dụng 就 chỉ hành động được thực hiện hay kết quả xuất hiện trong tình huống xảy ra giả thuyết đó.",
+          "en": "The conjunction 要是 means 'if', often in the pattern 要是……(的话)，就……. The 要是 clause states a supposition; the 就 clause gives the action taken or the result under that supposition.",
+          "ex": [
+            {
+              "zh": "【要是】健康是1，其他都是1后面的0。",
+              "vi": "Nếu sức khỏe là số 1, thì mọi thứ khác đều là những số 0 đứng sau số 1 đó.",
+              "en": "If health is the 1, everything else is the zeros after it."
+            },
+            {
+              "zh": "【要是】你想来中国的大学留学，和中国学生一起学习专业课，那么【就】需要做好这些准备。",
+              "vi": "Nếu bạn muốn đến Trung Quốc du học đại học, học chuyên ngành cùng sinh viên Trung Quốc, thì cần chuẩn bị tốt những điều này.",
+              "en": "If you want to study at a Chinese university and take specialist courses with Chinese students, then you need to make these preparations."
+            },
+            {
+              "zh": "【要是】质量比别人的好【的话】，那么价格贵一点儿也是可以接受的。",
+              "vi": "Nếu chất lượng tốt hơn của người khác thì giá có đắt hơn một chút cũng có thể chấp nhận được.",
+              "en": "If the quality is better than other people's, then a slightly higher price is acceptable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "既……又/也/还……",
+      "uses": [
+        {
+          "vi": "“既……又/也/还……” được dùng để nối hai cấu trúc mang đặc điểm của động từ hoặc tính từ (hai cấu trúc thường giống nhau) nhằm diễn tả hai tình huống (đều mang nghĩa tích cực hoặc đều mang nghĩa tiêu cực) tồn tại cùng lúc.",
+          "en": "既……又/也/还…… links two verb or adjective phrases (usually of the same kind) to say that two situations exist at the same time, both positive or both negative: 'both … and …'.",
+          "ex": [
+            {
+              "zh": "散步是生活中最简单的锻炼方法，【既】可以活动身体，【又】可以减肥。",
+              "vi": "Đi bộ là cách rèn luyện đơn giản nhất trong cuộc sống, vừa có thể vận động cơ thể, vừa có thể giảm cân.",
+              "en": "Walking is the simplest form of exercise in daily life. It both gets your body moving and helps you lose weight."
+            },
+            {
+              "zh": "成功离不开交流，交流自然需要说话。会说话的人【既】容易交到朋友，【也】容易获得成功。",
+              "vi": "Thành công không thể tách rời giao tiếp, mà giao tiếp thì tất nhiên cần nói chuyện. Người khéo ăn nói vừa dễ kết bạn, cũng dễ đạt được thành công.",
+              "en": "Success depends on communication, and communication naturally requires talking. People who speak well find it easy both to make friends and to succeed."
+            },
+            {
+              "zh": "他那个人做事【既】不认真，动作【还】慢，这个工作这么重要，还是让别人做吧。",
+              "vi": "Người đó làm việc vừa không cẩn thận, động tác lại còn chậm, công việc này quan trọng như vậy, tốt hơn là để người khác làm.",
+              "en": "He's both careless and slow. This job is so important, we'd better give it to someone else."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

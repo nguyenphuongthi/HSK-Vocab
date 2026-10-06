@@ -1,0 +1,268 @@
+{
+  "n": 16,
+  "zh": "生活可以更美好",
+  "vi": "Cuộc sống có thể tốt đẹp hơn",
+  "en": "Life can be better",
+  "points": [
+    {
+      "title": "可",
+      "uses": [
+        {
+          "vi": "Phó từ 可 được dùng để nhấn mạnh (thật là, quả là). 可 cũng có thể được sử dụng trong câu hỏi để làm cho ngữ khí trở nên mạnh hơn.",
+          "en": "The adverb 可 adds emphasis ('really, indeed'). It can also be used in questions to make the tone stronger.",
+          "ex": [
+            {
+              "zh": "这【可】是个大问题，我也不太清楚。",
+              "vi": "Đây quả là một vấn đề lớn, tôi cũng không rõ lắm.",
+              "en": "This really is a big problem. I'm not too sure myself."
+            },
+            {
+              "zh": "下个星期我就要去大使馆办签证了，这【可】怎么办？",
+              "vi": "Tuần sau tôi phải đến đại sứ quán làm visa rồi, giờ biết làm sao đây?",
+              "en": "I'm going to the embassy for my visa next week. What on earth am I going to do?"
+            },
+            {
+              "zh": "我办了一张那个理发店的会员卡，理发【可】节约了不少钱。",
+              "vi": "Tôi làm một thẻ thành viên của tiệm cắt tóc đó, cắt tóc tiết kiệm được khối tiền.",
+              "en": "I got a membership card at that barber's, and it's really saved me a lot of money on haircuts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "恐怕",
+      "uses": [
+        {
+          "vi": "Động từ 恐怕 có nghĩa là lo lắng.",
+          "en": "As a verb, 恐怕 means 'to be afraid, to worry'.",
+          "ex": [
+            {
+              "zh": "我的工作经验还比较少，那份工作我【恐怕】完成不了。",
+              "vi": "Kinh nghiệm làm việc của tôi còn khá ít, tôi sợ không hoàn thành được công việc đó.",
+              "en": "I still don't have much work experience. I'm afraid I won't be able to handle that job."
+            },
+            {
+              "zh": "这几个动作我【恐怕】做得不标准，所以比赛前要多多练习。",
+              "vi": "Tôi sợ mấy động tác này mình làm chưa chuẩn, nên trước khi thi phải luyện tập nhiều.",
+              "en": "I'm worried I'm not doing these moves properly, so I need to practise a lot before the competition."
+            }
+          ]
+        },
+        {
+          "vi": "Phó từ 恐怕 diễn tả ý phỏng đoán và có phần lo lắng (e rằng, sợ rằng).",
+          "en": "As an adverb, 恐怕 expresses an estimate with some worry: 'I'm afraid that…'.",
+          "ex": [
+            {
+              "zh": "这个会议室的座位【恐怕】不够，还是换到旁边那个大的吧。",
+              "vi": "Chỗ ngồi trong phòng họp này e là không đủ, hay là chuyển sang phòng lớn bên cạnh đi.",
+              "en": "I'm afraid there aren't enough seats in this meeting room. Let's move to the big one next door."
+            },
+            {
+              "zh": "有些事情如果你一定要找一个正确答案，【恐怕】会让简单的生活变得复杂。",
+              "vi": "Có những chuyện nếu bạn nhất định phải tìm ra một đáp án đúng, e rằng sẽ khiến cuộc sống đơn giản trở nên phức tạp.",
+              "en": "With some things, if you insist on finding the one right answer, I'm afraid you'll turn a simple life into a complicated one."
+            }
+          ]
+        },
+        {
+          "vi": "Phó từ 恐怕 cũng được dùng để chỉ sự phỏng đoán hay suy đoán với nghĩa là có lẽ, có thể (gần nghĩa với 大概, 也许).",
+          "en": "As an adverb, 恐怕 can also simply express a guess: 'probably, perhaps' (like 大概, 也许).",
+          "ex": [
+            {
+              "zh": "听完我的回答，【恐怕】你已经知道我的答案了吧。",
+              "vi": "Nghe xong câu trả lời của tôi, có lẽ bạn đã biết đáp án của tôi rồi nhỉ.",
+              "en": "Having heard my reply, you probably already know my answer."
+            },
+            {
+              "zh": "京剧演出7点就开始了，现在【恐怕】已经结束了。",
+              "vi": "Buổi biểu diễn Kinh kịch bắt đầu từ 7 giờ, giờ này có lẽ đã kết thúc rồi.",
+              "en": "The Peking opera started at 7. It's probably over by now."
+            }
+          ]
+        }
+      ],
+      "cmp": {
+        "title": "恐怕—怕",
+        "uses": [
+          {
+            "vi": "Giống nhau 1: 恐怕 và 怕 đều là động từ và có nghĩa là lo lắng.",
+            "en": "Similarity 1: 恐怕 and 怕 are both verbs meaning 'to worry, to be afraid'.",
+            "ex": [
+              {
+                "zh": "从这儿坐地铁到那儿至少得{děi}五十分钟，马克【恐怕】/【怕】来不及了。",
+                "vi": "Từ đây đi tàu điện ngầm đến đó ít nhất phải mất năm mươi phút, e là Mark không kịp rồi.",
+                "en": "It takes at least fifty minutes from here to there by subway. I'm afraid Mark won't make it in time."
+              }
+            ]
+          },
+          {
+            "vi": "Giống nhau 2: Cả hai từ này đều có thể được dùng làm phó từ chỉ sự phỏng đoán, thường có hàm ý lo lắng.",
+            "en": "Similarity 2: both can be adverbs expressing an estimate, usually with a sense of worry.",
+            "ex": [
+              {
+                "zh": "如果说一对夫妻缺少或者没有共同语言，那问题【恐怕】/【怕】就大了。",
+                "vi": "Nếu một cặp vợ chồng thiếu hoặc không có tiếng nói chung thì e là vấn đề lớn rồi.",
+                "en": "If a couple lack, or have no, common ground, then I'm afraid that's a big problem."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 1: Khi mang nghĩa lo lắng, 恐怕 chỉ được dùng trước động từ chứ không được dùng trước danh từ, còn 怕 có thể được dùng trước cả động từ lẫn danh từ.",
+            "en": "Difference 1: meaning 'to worry', 恐怕 can only go before a verb, not a noun; 怕 can go before either.",
+            "ex": [
+              {
+                "zh": "我【恐怕】/【怕】忘了这件事，所以把这件事记在本子上。",
+                "vi": "Tôi sợ quên mất việc này nên ghi nó vào sổ.",
+                "en": "I was afraid I'd forget this, so I wrote it down in my notebook."
+              },
+              {
+                "zh": "我【怕】你忘了这件事，所以打电话提醒你一下。",
+                "vi": "Tôi sợ bạn quên việc này nên gọi điện nhắc bạn một chút.",
+                "en": "I was worried you'd forget, so I called to remind you."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 2: Khi là phó từ chỉ sự phỏng đoán, 恐怕 có thể đứng trước hoặc sau chủ ngữ, còn 怕 chỉ đứng sau chủ ngữ.",
+            "en": "Difference 2: as adverbs of estimate, 恐怕 can go before or after the subject; 怕 only after the subject.",
+            "ex": [
+              {
+                "zh": "刚才听广播说明天可能会下大雨，【恐怕】足球比赛不能举行了。",
+                "vi": "Vừa nghe đài nói mai có thể mưa to, e là trận bóng đá không tổ chức được rồi.",
+                "en": "I just heard on the radio that it may pour tomorrow. I'm afraid the football match won't go ahead."
+              },
+              {
+                "zh": "刚才听广播说明天可能会下大雨，足球比赛【恐怕】/【怕】不能举行了。",
+                "vi": "Vừa nghe đài nói mai có thể mưa to, trận bóng đá e là không tổ chức được rồi.",
+                "en": "I just heard on the radio that it may pour tomorrow. The football match probably won't go ahead."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 3: Khi được dùng làm động từ, 怕 có thể đi với tân ngữ và mang nghĩa là sợ, diễn tả rằng chủ ngữ sợ hãi người, vật hay tình huống nào đó. 恐怕 không dùng được như vậy.",
+            "en": "Difference 3: as a verb, 怕 can take an object and mean 'to fear', i.e. the subject is afraid of a person, thing or situation. 恐怕 cannot.",
+            "ex": [
+              {
+                "zh": "找工作关键还是看能力，有能力的人不【怕】找不到好工作。",
+                "vi": "Tìm việc quan trọng nhất vẫn là năng lực, người có năng lực không sợ không tìm được việc tốt.",
+                "en": "The key to finding a job is ability. Capable people needn't fear not finding a good job."
+              }
+            ]
+          },
+          {
+            "vi": "Khác nhau 4: Khi làm phó từ, 恐怕 cũng có thể diễn tả sự phỏng đoán hoặc suy đoán thông thường, có thể dùng 也许/大概 thay cho 恐怕. 怕 không dùng được như vậy.",
+            "en": "Difference 4: as an adverb, 恐怕 can also express an ordinary estimate or guess and can be replaced by 也许/大概. 怕 cannot.",
+            "ex": [
+              {
+                "zh": "好久没见过他了，他离开这里【恐怕】有二十天了。",
+                "vi": "Lâu lắm rồi không gặp anh ấy, anh ấy rời khỏi đây chắc cũng được hai mươi ngày rồi.",
+                "en": "I haven't seen him for ages. He's probably been gone from here for twenty days."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "到底",
+      "uses": [
+        {
+          "vi": "Động từ 到底 có nghĩa là đến cùng.",
+          "en": "As a verb, 到底 means 'to the end, all the way'.",
+          "ex": [
+            {
+              "zh": "今天我一定陪你逛街逛【到底】，保证让你买到合适的衣服。",
+              "vi": "Hôm nay tôi nhất định đi dạo phố cùng bạn đến cùng, đảm bảo bạn mua được quần áo vừa ý.",
+              "en": "Today I'll go shopping with you to the very end, and I promise you'll find the right clothes."
+            },
+            {
+              "zh": "要是你觉得情人节只送巧克力还不够浪漫，那就再带她看《将爱情进行【到底】》这个爱情电影吧。",
+              "vi": "Nếu bạn thấy ngày Valentine chỉ tặng sô-cô-la thì chưa đủ lãng mạn, vậy thì đưa cô ấy đi xem bộ phim tình cảm “Tình yêu đến cùng” nữa nhé.",
+              "en": "If you think just giving chocolate on Valentine's Day isn't romantic enough, take her to see the romance film “Love Till the End” as well."
+            }
+          ]
+        },
+        {
+          "vi": "Phó từ 到底 được dùng trong câu hỏi hoặc câu có đại từ nghi vấn để diễn tả ý tìm tòi, xem xét thêm nữa (rốt cuộc, cuối cùng thì). 到底 không được dùng trong câu hỏi có từ 吗.",
+          "en": "As an adverb, 到底 is used in questions or sentences with a question word to press for the real answer: 'after all, on earth'. It cannot be used in a 吗 question.",
+          "ex": [
+            {
+              "zh": "你不是已经买好火车票了吗？你【到底】怎么打算的呀？",
+              "vi": "Không phải bạn đã mua vé tàu rồi sao? Rốt cuộc bạn định thế nào?",
+              "en": "Haven't you already bought your train ticket? What on earth are you planning to do?"
+            },
+            {
+              "zh": "我给他打了好几次电话，可是一直没人接，也不知道他【到底】是怎么回事。",
+              "vi": "Tôi gọi cho anh ấy mấy lần rồi mà chẳng ai nghe máy, không biết rốt cuộc anh ấy bị làm sao.",
+              "en": "I've called him several times but nobody answers. I've no idea what on earth is going on with him."
+            }
+          ]
+        },
+        {
+          "vi": "Khi được dùng trong câu hỏi hoặc câu có đại từ nghi vấn, nếu chủ ngữ là đại từ nghi vấn thì 到底 chỉ có thể được đặt trước chủ ngữ.",
+          "en": "In such sentences, if the subject is itself a question word, 到底 can only go before the subject.",
+          "ex": [
+            {
+              "zh": "【到底】谁去参加比赛，大家还没决定。",
+              "vi": "Rốt cuộc ai đi thi đấu thì mọi người vẫn chưa quyết định.",
+              "en": "Who exactly is going to take part in the competition hasn't been decided yet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "拿……来说",
+      "uses": [
+        {
+          "vi": "Trong cấu trúc “拿……来说”, 拿 là giới từ, được dùng để đưa ra sự vật hay tình huống được nói rõ (lấy… mà nói, ví dụ như).",
+          "en": "In the pattern 拿……来说, 拿 is a preposition introducing the thing or situation used as an illustration: 'take … for example'.",
+          "ex": [
+            {
+              "zh": "这次招聘很多人符合公司的要求，【拿】他【来说】，他不仅专业符合职业要求，而且还有工作经验。",
+              "vi": "Đợt tuyển dụng lần này nhiều người đáp ứng yêu cầu của công ty, lấy anh ấy làm ví dụ, anh ấy không chỉ có chuyên ngành phù hợp với yêu cầu công việc mà còn có kinh nghiệm làm việc.",
+              "en": "Many people met the company's requirements in this round of hiring. Take him, for example: not only does his major fit the job, he also has work experience."
+            },
+            {
+              "zh": "如果一个汉字中有“氵”这个部分，说明这个字的意思很可能和水有关系，【拿】“河、流、洗、汁”这几个字【来说】，它们都跟水有关。",
+              "vi": "Nếu một chữ Hán có bộ “氵”, điều đó cho thấy nghĩa của chữ rất có thể liên quan đến nước, lấy mấy chữ “河, 流, 洗, 汁” mà nói, chúng đều liên quan đến nước.",
+              "en": "If a Chinese character contains the “氵” component, its meaning is probably related to water. Take the characters “河, 流, 洗, 汁”, for example: they're all connected with water."
+            },
+            {
+              "zh": "所以不要把什么事情都推到“明天”，一切从现在做起。就【拿】学汉语【来说】吧，首先要注意课前预习，找出第二天要学习的重点……",
+              "vi": "Vì vậy đừng việc gì cũng đẩy sang “ngày mai”, mọi thứ hãy bắt đầu từ bây giờ. Lấy việc học tiếng Trung làm ví dụ, trước hết phải chú ý chuẩn bị bài trước khi lên lớp, tìm ra trọng tâm cần học ngày hôm sau…",
+              "en": "So don't put everything off until “tomorrow”; start everything now. Take learning Chinese, for example: first, prepare before class and pick out the key points you'll study the next day…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "敢",
+      "uses": [
+        {
+          "vi": "Động từ năng nguyện 敢 được dùng trước động từ để diễn tả ý tự tin làm việc gì (dám).",
+          "en": "The modal verb 敢 ('to dare') goes before a verb to show confidence or courage to do something.",
+          "ex": [
+            {
+              "zh": "我们应该把那些【敢】说真话的人当{dàng}成“镜子”，这样才能及时发现自己的缺点。",
+              "vi": "Chúng ta nên coi những người dám nói thật là “tấm gương”, như vậy mới có thể kịp thời phát hiện ra khuyết điểm của mình.",
+              "en": "We should treat people who dare to tell the truth as a “mirror”; only then can we spot our own shortcomings in time."
+            },
+            {
+              "zh": "小时候我总喜欢躺在床上看书，结果眼睛越来越不好，所以从那儿以后我就不【敢】再躺着看书了。",
+              "vi": "Hồi nhỏ tôi luôn thích nằm trên giường đọc sách, kết quả mắt ngày càng kém, nên từ đó trở đi tôi không dám nằm đọc sách nữa.",
+              "en": "As a child I always liked reading in bed, and as a result my eyesight got worse and worse, so since then I haven't dared read lying down."
+            },
+            {
+              "zh": "如果你【敢】诚实地{de}说出自己对哪方面不了解，并不说明自己比别人差，相反，这样做更能得到别人的尊重。",
+              "vi": "Nếu bạn dám thành thật nói ra mình không hiểu về mặt nào, điều đó không có nghĩa là bạn kém hơn người khác, ngược lại, làm như vậy càng nhận được sự tôn trọng của người khác.",
+              "en": "If you dare to say honestly which things you don't understand, it doesn't mean you're worse than others; on the contrary, it earns you more respect."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

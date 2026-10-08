@@ -22,6 +22,9 @@ Website tự học HSK dành cho người Việt, gồm hai phần: từ vựng 
 - Câu ví dụ lấy từ sách, mặc định chỉ hiện chữ Hán, phần ngữ pháp được tô màu trong câu; bấm vào câu mới hiện pinyin, bản dịch tiếng Việt và tiếng Anh, hoặc bấm một nút để hiện tất cả.
 - Có cả phần “So sánh” (比一比) trong sách, phân biệt các từ gần nghĩa như 刚—刚才, 差不多—几乎, 究竟—到底.
 - Tiêu đề mỗi điểm ngữ pháp có kèm pinyin.
+- Có hai tab ngữ pháp: HSK 4 (giáo trình 上 + 下, bài 1–20) và HSK 5 (giáo trình 上).
+- Mỗi bài làm theo bố cục cuốn sách: 课文 (bài khóa có pinyin sẵn, bấm từng đoạn để xem bản dịch, kèm bảng 生词), câu hỏi đọc hiểu, 练一练/做一做 sau từng điểm ngữ pháp, 练习 cuối bài và 扩展. HSK 5 có thêm 词语搭配.
+- Đề bài tập có pinyin sẵn; bấm vào câu mới hiện đáp án kèm pinyin và bản dịch. Sách không kèm đáp án nên đáp án do dự án tự soạn; câu hoàn thành câu và thuật lại bài khóa ghi rõ là “câu trả lời mẫu”.
 
 ### Theo dõi việc học
 
@@ -110,7 +113,9 @@ Cột 10 dùng để tự ghi pinyin cho câu ví dụ (các âm tiết cách nh
 - `\n` tách các dòng hội thoại (số dòng của bản dịch tiếng Việt, tiếng Anh phải bằng số dòng tiếng Trung).
 - `字{pinyin}` ghi rõ cách đọc của chữ đa âm, ví dụ `得{děi}`, `地{de}`, `倒{dào}`.
 - Điểm ngữ pháp có thể thêm trường `py` để tự ghi pinyin cho tiêu đề.
-- `cmp` là phần “So sánh” (比一比), không bắt buộc.
+- `cmp` là phần “So sánh” (比一比), không bắt buộc. Điểm có `compare: true` là một mục so sánh đứng riêng (词语辨析).
+- Phần “như cuốn sách” (đều không bắt buộc): `texts` (danh sách bài khóa: `title`, `paras` dạng `{zh, vi, en}`, `words`, `names` (专有名词), `terms` (科学名词)), `questions`, `practice` trong từng điểm ngữ pháp (và trong `cmp`), `exercises`, `ext`, `colloc`.
+- Một bài tập: `{ title, bank?, kind?, items: [{ q, hint?, opts?, key?, a, vi, en, sample?, label? }] }`. `q` là đề (`____` là ô trống), `a` là câu hoàn chỉnh (`【】` tô phần đáp án), `key` là đáp án ngắn, `sample: true` khi là câu trả lời mẫu, `label` nhóm câu hỏi (vd `课文1`).
 
 Sửa nội dung xong thì chạy `npm run data` để sinh lại dữ liệu, rồi xem `data-src/grammar_pinyin.txt` để rà các chữ đa âm.
 

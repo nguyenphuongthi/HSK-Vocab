@@ -59,6 +59,7 @@ function splitSyllables(py, n) {
     else s += c;
   }
   const bare = toneless(s);
+  const cuts = [...open].filter((p) => p > 0);
   const memo = new Map();
   const go = (i, k) => {
     const key = i * 100 + k;
@@ -69,6 +70,8 @@ function splitSyllables(py, n) {
       for (let j = Math.min(bare.length, i + 6); j > i && !res; j--) {
         if (!SYLLABLES.has(bare.slice(i, j))) continue;
         if ('aoe'.includes(bare[i]) && !open.has(i)) continue;
+        // Không cho một âm tiết vượt qua dấu cách âm: nǚ'ér là nǚ|ér chứ không phải nǚé|r.
+        if (cuts.some((p) => p > i && p < j)) continue;
         const rest = go(j, k - 1);
         if (rest) res = [s.slice(i, j), ...rest];
       }
@@ -120,6 +123,9 @@ for (const L of Object.keys(allContent)) {
 Object.assign(dict, {
   点儿: 'diǎn r', 一点儿: 'yī diǎn r', 一会儿: 'yī huì r', 这儿: 'zhè r', 那儿: 'nà r',
   哪儿: 'nǎ r', 玩儿: 'wán r', 一块儿: 'yī kuài r', 谁: 'shéi',
+  有点儿: 'yǒu diǎn r', 这么点儿: 'zhè me diǎn r', 事儿: 'shì r', 这会儿: 'zhè huì r', 那会儿: 'nà huì r',
+  好好儿: 'hǎo hāo r', 画儿: 'huà r', 小孩儿: 'xiǎo hái r', 块儿: 'kuài r', 一半儿: 'yī bàn r', 词儿: 'cí r',
+  味儿: 'wèi r', 干活儿: 'gàn huó r',
 });
 if (bad.length) console.warn('Không tách được pinyin:', bad.join('; '));
 customPinyin(dict);
@@ -173,7 +179,9 @@ for (const s of summary) console.log(`HSK${s.level}: ${s.done}/${s.total} từ c
 console.log(`Pinyin cần rà (khác thanh điệu giữa từ và câu): ${report.length} -> data-src/pinyin_report.txt`);
 
 // Ngữ pháp: data-src/grammar/hsk{L}/NN.json (mỗi file một bài) -> public/data/grammar{L}.json.
-// Điểm ngữ pháp: title, py (tuỳ chọn, ghi đè pinyin tiêu đề), uses, cmp.
+// Điểm ngữ pháp: title, py (tuỳ chọn, ghi đè pinyin tiêu đề), uses, cmp; compare: true khi cả điểm là một
+// mục so sánh cặp từ (词语辨析 không gắn với từ nào ở phần 词语例释), khi đó uses là các ý Giống nhau/Khác nhau.
+// Bài có thể có colloc (词语搭配): [{ a: "动词", b: "宾语", rows: [{ zh: [vế trái, vế phải], vi, en }] }].
 // Câu ví dụ: 【】 đánh dấu phần ngữ pháp (tô màu), \n tách dòng hội thoại, 字{pinyin} ghi đè âm đọc
 // của một chữ; trường py ghi đè pinyin cả câu (âm tiết cách nhau bởi dấu cách, các dòng cách nhau bởi \n).
 // Mỗi ký tự ra [chữ, pinyin] hoặc [chữ]; ký tự thuộc phần tô màu có thêm phần tử thứ ba là 1.
@@ -191,10 +199,60 @@ function fixPolyphones(ruby) {
       r[1] = 'zhǎng'; // 长得像…, 个子长得快
     } else if (c === '只' && r[1] === 'zhī' && !NUMERALS.includes(at(i - 1))) {
       r[1] = 'zhǐ'; // phó từ "chỉ"; sau số từ mới là lượng từ zhī
+    } else if (c === '了' && r[1] === 'liǎo' && !'不得'.includes(at(i - 1)) && at(i + 1) !== '解' && at(i + 1) + at(i + 2) !== '不起') {
+      r[1] = 'le'; // liǎo chỉ trong 了解, 了不起, 受不了, 得了…; sau ô trống bài tập vẫn là trợ từ le
     }
   });
   return ruby;
 }
+
+const grammarPinyin = []; // mọi dòng pinyin ngữ pháp, ghi ra data-src/grammar_pinyin.txt để rà
+
+// Một dòng chữ Hán -> ruby (xử lý 【】, 字{pinyin}, ghi đè pinyin cả dòng). Chuỗi gạch dưới _ hoặc ＿ là
+// ô trống của bài tập, được gộp thành một ký tự ＿.
+function rubyLine(line, pyLine, where) {
+  line = line.replace(/[_＿]+/g, '＿');
+  const mask = [];
+  const hints = new Map(); // vị trí ký tự -> pinyin ghi đè
+  let plain = '';
+  let on = false;
+  const hint = /\{([^}]+)\}/y;
+  const chars = [...line];
+  for (let p = 0; p < chars.length; p++) {
+    const c = chars[p];
+    if (c === '【' || c === '】') {
+      if ((c === '【') === on) throw new Error(`${where}: 【】 lệch — ${line}`);
+      on = c === '【';
+      continue;
+    }
+    if (c === '{') {
+      hint.lastIndex = chars.slice(0, p).join('').length;
+      const m = hint.exec(line);
+      if (!m || !mask.length) throw new Error(`${where}: {pinyin} sai — ${line}`);
+      hints.set(mask.length - 1, m[1]);
+      p += [...m[0]].length - 1;
+      continue;
+    }
+    plain += c;
+    mask.push(on);
+  }
+  if (on) throw new Error(`${where}: thiếu 】 — ${line}`);
+  const base = sentenceRuby(plain, pyLine, {});
+  if (!pyLine) fixPolyphones(base);
+  for (const [k, py] of hints) {
+    if (base[k].length < 2) throw new Error(`${where}: {pinyin} đặt sau ký tự không phải chữ Hán — ${line}`);
+    base[k][1] = py;
+  }
+  const ruby = base.map((r, k) => {
+    if (!mask[k]) return r;
+    return r.length > 1 ? [...r, 1] : [r[0], '', 1];
+  });
+  grammarPinyin.push(`${where}\t${ruby.map((r) => r[0]).join('')}\t${ruby.map((r) => r[1] ?? '').filter(Boolean).join(' ')}`);
+  return ruby;
+}
+
+// Câu chữ Hán (nhiều dòng cách nhau bởi \n) -> mảng ruby theo dòng.
+const rubyText = (zh, where) => zh.split('\n').map((line) => rubyLine(line, null, where));
 
 function grammarExample(ex, where) {
   const lines = ex.zh.split('\n');
@@ -205,44 +263,33 @@ function grammarExample(ex, where) {
   if (viLines.length !== lines.length || enLines.length !== lines.length) {
     throw new Error(`${where}: số dòng vi/en khác zh — ${ex.zh}`);
   }
-  const ruby = lines.map((line, i) => {
-    const mask = [];
-    const hints = new Map(); // vị trí ký tự -> pinyin ghi đè
-    let plain = '';
-    let on = false;
-    const hint = /\{([^}]+)\}/y;
-    const chars = [...line];
-    for (let p = 0; p < chars.length; p++) {
-      const c = chars[p];
-      if (c === '【' || c === '】') {
-        if ((c === '【') === on) throw new Error(`${where}: 【】 lệch — ${line}`);
-        on = c === '【';
-        continue;
-      }
-      if (c === '{') {
-        hint.lastIndex = chars.slice(0, p).join('').length;
-        const m = hint.exec(line);
-        if (!m || !mask.length) throw new Error(`${where}: {pinyin} sai — ${line}`);
-        hints.set(mask.length - 1, m[1]);
-        p += [...m[0]].length - 1;
-        continue;
-      }
-      plain += c;
-      mask.push(on);
-    }
-    if (on) throw new Error(`${where}: thiếu 】 — ${line}`);
-    const base = sentenceRuby(plain, pyLines?.[i], {});
-    if (!pyLines) fixPolyphones(base);
-    for (const [k, py] of hints) {
-      if (base[k].length < 2) throw new Error(`${where}: {pinyin} đặt sau ký tự không phải chữ Hán — ${line}`);
-      base[k][1] = py;
-    }
-    return base.map((r, k) => {
-      if (!mask[k]) return r;
-      return r.length > 1 ? [...r, 1] : [r[0], '', 1];
-    });
-  });
+  const ruby = lines.map((line, i) => rubyLine(line, pyLines?.[i], where));
   return { ruby, vi: viLines, en: enLines };
+}
+
+// Bài tập (练一练, 做一做, 练习, 扩展): { title, bank?, items: [{ q, hint?, opts?, key?, a?, vi?, en?, sample? }] }.
+// q là đề (ô trống viết ____), hint là từ trong ngoặc ở cuối đề, opts là các lựa chọn, key là đáp án ngắn,
+// a là câu hoàn chỉnh kèm vi/en (【】 tô phần đáp án), sample: true khi chỉ là câu trả lời mẫu.
+function exercise(ex, where) {
+  if (!ex) return undefined;
+  return {
+    title: ex.title,
+    kind: ex.kind, // retell: kể lại bài khóa, hint là các từ gợi ý
+    bank: ex.bank?.map((w) => rubyLine(w, null, `${where} từ gợi ý`)),
+    items: ex.items.map((it, i) => {
+      const at = `${where} câu ${i + 1}`;
+      if (!it.q || (!it.key && !it.a)) throw new Error(`${at}: cần q và key hoặc a`);
+      return {
+        q: rubyText(it.q, at),
+        hint: it.hint && rubyLine(it.hint, null, at),
+        opts: it.opts?.map((o) => rubyLine(o, null, at)),
+        key: it.key,
+        label: it.label, // nhóm câu hỏi, vd "课文1"
+        a: it.a && grammarExample({ zh: it.a, vi: it.vi, en: it.en }, `${at} đáp án`),
+        sample: it.sample || undefined,
+      };
+    }),
+  };
 }
 
 // Pinyin của tiêu đề điểm ngữ pháp: các chữ Hán liền nhau viết liền (不仅……也 -> bùjǐn……yě),
@@ -262,7 +309,6 @@ function titlePinyin(title) {
 }
 
 const grammarRoot = join(src, 'grammar');
-const grammarPinyin = [];
 for (const dir of readdirSync(grammarRoot, { withFileTypes: true })) {
   const m = dir.isDirectory() && dir.name.match(/^hsk(\d)$/);
   if (!m) continue;
@@ -276,19 +322,46 @@ for (const dir of readdirSync(grammarRoot, { withFileTypes: true })) {
       list.map((u, i) => ({
         vi: u.vi,
         en: u.en,
-        ex: u.ex.map((ex, j) => {
-          const out = grammarExample(ex, `${where} cách dùng ${i + 1} ví dụ ${j + 1}`);
-          for (const line of out.ruby) {
-            grammarPinyin.push(`${where}\t${line.map((r) => r[0]).join('')}\t${line.map((r) => r[1] ?? '').filter(Boolean).join(' ')}`);
-          }
-          return out;
-        }),
+        ex: u.ex.map((ex, j) => grammarExample(ex, `${where} cách dùng ${i + 1} ví dụ ${j + 1}`)),
       }));
+    const at = `HSK${L} bài ${lesson.n}`;
     lessons.push({
       n: lesson.n,
       zh: lesson.zh,
       vi: lesson.vi,
       en: lesson.en,
+      // 课文: tiêu đề, các đoạn { zh, vi, en }, nguồn; 生词: { zh, py, pos, vi, en, x (* ngoài đề cương) }.
+      // 课文: một bài (HSK 5: text + words + names) hoặc nhiều bài ngắn (HSK 4: texts). Mỗi bài: tiêu đề
+      // (có thể không có), các đoạn/lượt lời { zh, vi, en }, nguồn, 生词 { zh, py, pos, vi, en, x (* ngoài
+      // đề cương) }, 专有名词 names và 科学名词 terms { zh, py, vi, en }.
+      texts: (lesson.texts ?? (lesson.text ? [{ ...lesson.text, words: lesson.words, names: lesson.names }] : undefined))?.map(
+        (t, k) => {
+          const where = `${at} 课文${k + 1}`;
+          return {
+            title: t.title && rubyLine(t.title, null, where),
+            paras: t.paras.map((p, i) => grammarExample(p, `${where} đoạn ${i + 1}`)),
+            source: t.source,
+            words: t.words?.map((w, i) => {
+              if (!w.zh || !w.py || !w.vi || !w.en) throw new Error(`${where} 生词 ${i + 1}: cần zh, py, vi, en`);
+              return { zh: w.zh, py: w.py, pos: w.pos, vi: w.vi, en: w.en, x: w.x || undefined };
+            }),
+            names: t.names,
+            terms: t.terms,
+          };
+        },
+      ),
+      questions: exercise(lesson.questions, `${at} câu hỏi bài khóa`),
+      exercises: lesson.exercises?.map((ex, i) => exercise(ex, `${at} 练习 ${i + 1}`)),
+      // 扩展: chủ đề (HSK 5: từ theo chủ đề; HSK 4: 同字词, nhóm từ có chung một chữ), từ { zh, py, vi, en },
+      // câu ví dụ, bài tập đi kèm.
+      ext: lesson.ext && {
+        topic: lesson.ext.topic,
+        vi: lesson.ext.vi,
+        en: lesson.ext.en,
+        words: lesson.ext.words,
+        examples: lesson.ext.examples?.map((ex, i) => grammarExample(ex, `${at} 扩展 ví dụ ${i + 1}`)),
+        practice: exercise(lesson.ext.practice, `${at} 扩展`),
+      },
       points: lesson.points.map((p, k) => {
         const where = `HSK${L} bài ${lesson.n} điểm ${k + 1}`;
         points++;
@@ -296,10 +369,26 @@ for (const dir of readdirSync(grammarRoot, { withFileTypes: true })) {
           id: `g${L}-${lesson.n}-${k + 1}`, // khoá ổn định để lưu trạng thái học
           title: p.title,
           py: p.py ?? titlePinyin(p.title),
+          compare: p.compare || undefined,
           uses: uses(p.uses, where),
-          cmp: p.cmp && { title: p.cmp.title, uses: uses(p.cmp.uses, `${where} so sánh`) },
+          practice: exercise(p.practice, `${where} luyện tập`),
+          cmp: p.cmp && {
+            title: p.cmp.title,
+            uses: uses(p.cmp.uses, `${where} so sánh`),
+            practice: exercise(p.cmp.practice, `${where} so sánh luyện tập`),
+          },
         };
       }),
+      colloc: lesson.colloc?.map((g, i) => ({
+        a: g.a,
+        b: g.b,
+        rows: g.rows.map((r, j) => {
+          const where = `HSK${L} bài ${lesson.n} 搭配 ${i + 1}.${j + 1}`;
+          if (r.zh.length !== 2 || !r.vi || !r.en) throw new Error(`${where}: cần zh [trái, phải], vi, en`);
+          const [a, b] = r.zh.map((zh) => rubyLine(zh, null, where));
+          return { a, b, vi: r.vi, en: r.en };
+        }),
+      })),
     });
   }
   lessons.sort((a, b) => a.n - b.n);

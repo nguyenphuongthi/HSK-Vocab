@@ -1,18 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { useMarks } from './marks.js';
 import StatusSlider from './StatusSlider.jsx';
-import { groupPunctuation } from './ruby.js';
-
-// Gộp các chữ liền nhau cùng trạng thái tô màu để phần ngữ pháp được tô thành một khối.
-function runs(line) {
-  const out = [];
-  for (const [c, , hl] of line) {
-    const last = out[out.length - 1];
-    if (last && last.hl === !!hl) last.text += c;
-    else out.push({ hl: !!hl, text: c });
-  }
-  return out;
-}
+import { Sentence } from './Sentence.jsx';
+import Exercise from './Exercise.jsx';
 
 // Một câu ví dụ: mặc định chỉ hiện chữ Hán; bấm để hiện pinyin và bản dịch VI/EN.
 function Example({ ex, revealed, onToggle }) {
@@ -31,30 +21,9 @@ function Example({ ex, revealed, onToggle }) {
       }}
     >
       <div className="g-example-body">
-        {ex.ruby.map((line, li) =>
-          revealed ? (
-            <p key={li} className="sentence with-pinyin" lang="zh-CN">
-              {groupPunctuation(line).map((g, gi) => (
-                <span key={gi} className="grp">
-                  {g.map(({ c, py, i }) => (
-                    <span key={i} className={`rb ${py ? '' : 'punct'} ${line[i][2] ? 'hl' : ''}`}>
-                      <span className="py">{py || ' '}</span>
-                      <span className="hz">{c}</span>
-                    </span>
-                  ))}
-                </span>
-              ))}
-            </p>
-          ) : (
-            <p key={li} className="sentence" lang="zh-CN">
-              {runs(line).map((r, i) => (
-                <span key={i} className={r.hl ? 'hl' : undefined}>
-                  {r.text}
-                </span>
-              ))}
-            </p>
-          ),
-        )}
+        {ex.ruby.map((line, li) => (
+          <Sentence key={li} line={line} revealed={revealed} />
+        ))}
         {revealed && (
           <div className="translation">
             {ex.vi.map((t, i) => (
@@ -71,6 +40,25 @@ function Example({ ex, revealed, onToggle }) {
       <svg className="example-chev" viewBox="0 0 24 24" aria-hidden="true">
         <path d="m6 9 6 6 6-6" />
       </svg>
+    </div>
+  );
+}
+
+// Danh sách câu ví dụ độc lập (vd ví dụ trong mục 扩展), mỗi câu bấm để hiện pinyin và bản dịch.
+export function Examples({ list }) {
+  const [revealed, setRevealed] = useState(() => new Set());
+  const toggle = (i) =>
+    setRevealed((prev) => {
+      const next = new Set(prev);
+      if (next.has(i)) next.delete(i);
+      else next.add(i);
+      return next;
+    });
+  return (
+    <div className="g-examples">
+      {list.map((ex, i) => (
+        <Example key={i} ex={ex} revealed={revealed.has(i)} onToggle={() => toggle(i)} />
+      ))}
     </div>
   );
 }
@@ -163,7 +151,8 @@ export default function GrammarDetail({ point, num, onClose }) {
         </button>
       </div>
 
-      <Uses uses={point.uses} prefix="u" revealed={revealed} toggle={toggle} />
+      <Uses uses={point.uses} prefix="u" labeled={point.compare} revealed={revealed} toggle={toggle} />
+      {point.practice && <Exercise ex={point.practice} lead={point.compare ? '做一做' : '练一练'} />}
 
       {point.cmp && (
         <section className="compare">
@@ -171,6 +160,7 @@ export default function GrammarDetail({ point, num, onClose }) {
             So sánh <span lang="zh-CN">{point.cmp.title}</span>
           </h3>
           <Uses uses={point.cmp.uses} prefix="c" labeled revealed={revealed} toggle={toggle} />
+          {point.cmp.practice && <Exercise ex={point.cmp.practice} lead="做一做" />}
         </section>
       )}
     </div>

@@ -11,7 +11,8 @@ const TAB_KEY = 'hsk.tab';
 // Các tab trên đầu trang: từ vựng HSK 1–6 và ngữ pháp theo giáo trình.
 const TABS = [
   { id: 'vocab', label: 'Từ vựng', title: 'Từ vựng HSK' },
-  { id: 'grammar4', label: 'HSK 4', title: 'Ngữ pháp HSK 4', level: 4 },
+  { id: 'grammar4', label: 'HSK 4', title: 'Ngữ pháp HSK 4', level: 4, sub: 'Giáo trình Chuẩn HSK 4 (上, 下) · bài 1–20' },
+  { id: 'grammar5', label: 'HSK 5', title: 'Ngữ pháp HSK 5', level: 5, sub: 'Giáo trình Chuẩn HSK 5 (上) · bài 1–18' },
 ];
 
 function loadTab() {
@@ -146,7 +147,7 @@ export default function App({ onLogout, onUnauthorized }) {
                 {index && done < total && <> · đã có nghĩa {done.toLocaleString('vi-VN')} từ</>}
               </p>
             ) : (
-              <p className="sub">Giáo trình Chuẩn HSK 4 (上, 下) · bài 1–20</p>
+              <p className="sub">{current.sub}</p>
             )}
           </div>
         </div>
@@ -222,7 +223,7 @@ export default function App({ onLogout, onUnauthorized }) {
           </footer>
         </>
       ) : (
-        <GrammarView level={current.level} onUnauthorized={onUnauthorized} />
+        <GrammarView key={current.id} level={current.level} onUnauthorized={onUnauthorized} />
       )}
     </div>
   );

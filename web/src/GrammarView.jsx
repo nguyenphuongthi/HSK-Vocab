@@ -1,13 +1,25 @@
 import { useEffect, useState } from 'react';
 import GrammarDetail from './GrammarDetail.jsx';
+import Collocations from './Collocations.jsx';
+import Disclosure from './Disclosure.jsx';
+import Exercise from './Exercise.jsx';
+import LessonText from './LessonText.jsx';
 import { STATES, countIds, useMarks } from './marks.js';
+import { Examples } from './GrammarDetail.jsx';
 import { UNAUTHORIZED, getJson } from './api.js';
 
-const OPEN_KEY = 'hsk.grammar.openLessons';
+// Các bài đang mở, nhớ riêng cho từng cấp (HSK 4 giữ khoá cũ để không mất trạng thái đã lưu).
+const openKey = (level) => (level === 4 ? 'hsk.grammar.openLessons' : `hsk.grammar${level}.openLessons`);
 
-function loadOpen() {
+// Giáo trình nguồn của từng cấp, ghi ở chân trang.
+const SOURCES = {
+  4: 'Chuẩn HSK 4 (上, 下)',
+  5: 'Chuẩn HSK 5 (上)',
+};
+
+function loadOpen(level) {
   try {
-    const v = JSON.parse(localStorage.getItem(OPEN_KEY));
+    const v = JSON.parse(localStorage.getItem(openKey(level)));
     if (Array.isArray(v)) return v;
   } catch {
     /* bộ nhớ trình duyệt không khả dụng */
@@ -15,12 +27,60 @@ function loadOpen() {
   return [1];
 }
 
-function saveOpen(lessons) {
+function saveOpen(level, lessons) {
   try {
-    localStorage.setItem(OPEN_KEY, JSON.stringify(lessons));
+    localStorage.setItem(openKey(level), JSON.stringify(lessons));
   } catch {
     /* bỏ qua */
   }
+}
+
+// Các bài khóa của một bài (HSK 4 có 5 bài khóa ngắn) và câu hỏi đọc hiểu.
+function Texts({ texts, questions }) {
+  let start = 1;
+  return (
+    <>
+      {texts.map((t, i) => {
+        const first = start;
+        start += t.words?.length ?? 0;
+        return (
+          <div className="text-block" key={i}>
+            <LessonText text={t} label={texts.length > 1 ? `课文 ${i + 1}` : null} start={first} />
+          </div>
+        );
+      })}
+      {questions && <Exercise ex={questions} />}
+    </>
+  );
+}
+
+// Mục 扩展: từ theo chủ đề (kèm pinyin, nghĩa) và bài tập đi kèm.
+function Extension({ ext }) {
+  return (
+    <>
+      <p className="ext-topic">
+        <span lang="zh-CN">{ext.topic}</span> · {ext.vi}
+      </p>
+      {ext.examples && <Examples list={ext.examples} />}
+      <ul className="ext-words">
+        {ext.words.map((w) => (
+          <li key={w.zh}>
+            <span className="w-zh" lang="zh-CN">
+              {w.zh}
+            </span>
+            <span className="w-py">{w.py}</span>
+            {w.vi && (
+              <span className="w-mean">
+                {w.vi}
+                {w.en && <span className="en">{w.en}</span>}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+      {ext.practice && <Exercise ex={ext.practice} lead="做一做" />}
+    </>
+  );
 }
 
 // Giữ dữ liệu đã tải khi chuyển qua lại giữa các tab.
@@ -105,6 +165,16 @@ function LessonSection({ lesson, open, onToggle }) {
               </button>
             </p>
           )}
+          {lesson.texts && filter === null && (
+            <Disclosure zh="课文" sub="Bài khóa và từ mới">
+              <Texts texts={lesson.texts} questions={lesson.questions} />
+            </Disclosure>
+          )}
+          {lesson.texts && (
+            <h3 className="sub-head points-head">
+              <span lang="zh-CN">注释</span> Chú thích ngữ pháp
+            </h3>
+          )}
           {shown.length === 0 && <p className="muted">Không có điểm ngữ pháp nào ở trạng thái này.</p>}
           <ul className="points">
             {shown.map((p) => {
@@ -120,7 +190,7 @@ function LessonSection({ lesson, open, onToggle }) {
                     <span className="point-title" lang="zh-CN">
                       {p.title}
                     </span>
-                    {p.cmp && <span className="point-tag">So sánh</span>}
+                    {(p.cmp || p.compare) && <span className="point-tag">So sánh</span>}
                   </button>
                   {selected && (
                     <GrammarDetail key={p.id} point={p} num={p.num} onClose={() => setSelectedId(null)} />
@@ -129,6 +199,27 @@ function LessonSection({ lesson, open, onToggle }) {
               );
             })}
           </ul>
+          {filter === null && (
+            <>
+              {lesson.colloc && (
+                <Disclosure zh="词语搭配" sub="Cụm từ thường đi với nhau">
+                  <Collocations groups={lesson.colloc} />
+                </Disclosure>
+              )}
+              {lesson.exercises && (
+                <Disclosure zh="练习" sub="Bài tập">
+                  {lesson.exercises.map((ex, i) => (
+                    <Exercise key={i} ex={ex} lead={String(i + 1)} />
+                  ))}
+                </Disclosure>
+              )}
+              {lesson.ext && (
+                <Disclosure zh="扩展" sub={`Mở rộng: ${lesson.ext.vi}`}>
+                  <Extension ext={lesson.ext} />
+                </Disclosure>
+              )}
+            </>
+          )}
         </div>
       )}
     </section>
@@ -138,7 +229,7 @@ function LessonSection({ lesson, open, onToggle }) {
 export default function GrammarView({ level, onUnauthorized }) {
   const [data, setData] = useState(cache[level] ?? null);
   const [error, setError] = useState(null);
-  const [open, setOpen] = useState(loadOpen);
+  const [open, setOpen] = useState(() => loadOpen(level));
 
   useEffect(() => {
     if (cache[level]) return;
@@ -155,7 +246,7 @@ export default function GrammarView({ level, onUnauthorized }) {
   const toggle = (n) => {
     setOpen((prev) => {
       const next = prev.includes(n) ? prev.filter((x) => x !== n) : [...prev, n].sort((a, b) => a - b);
-      saveOpen(next);
+      saveOpen(level, next);
       return next;
     });
   };
@@ -163,7 +254,8 @@ export default function GrammarView({ level, onUnauthorized }) {
   return (
     <>
       <p className="hint">
-        Bấm vào một điểm ngữ pháp để xem giải thích. Bấm vào câu ví dụ để hiện pinyin và bản dịch.
+        Bấm vào một điểm ngữ pháp để xem giải thích. Bấm vào câu ví dụ để hiện pinyin và bản dịch; bấm vào câu
+        bài tập để xem đáp án.
       </p>
       {error && <p className="error">{error}</p>}
       {!data && !error && <p className="loading">Đang tải…</p>}
@@ -178,8 +270,12 @@ export default function GrammarView({ level, onUnauthorized }) {
         ))}
       </main>
       <footer className="foot">
-        Ngữ pháp theo giáo trình Chuẩn HSK 4 (上, 下), bài 1–20. Bản dịch tiếng Anh và bản dịch câu ví dụ được
-        soạn thêm.
+        {data && (
+          <>
+            Ngữ pháp theo giáo trình {SOURCES[level]}, bài {data.lessons[0].n}–{data.lessons.at(-1).n}.{' '}
+          </>
+        )}
+        Bản dịch tiếng Anh và bản dịch câu ví dụ được soạn thêm.
       </footer>
     </>
   );

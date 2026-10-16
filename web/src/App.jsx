@@ -12,7 +12,7 @@ const TAB_KEY = 'hsk.tab';
 const TABS = [
   { id: 'vocab', label: 'Từ vựng', title: 'Từ vựng HSK' },
   { id: 'grammar4', label: 'HSK 4', title: 'Ngữ pháp HSK 4', level: 4, sub: 'Giáo trình Chuẩn HSK 4 (上, 下) · bài 1–20' },
-  { id: 'grammar5', label: 'HSK 5', title: 'Ngữ pháp HSK 5', level: 5, sub: 'Giáo trình Chuẩn HSK 5 (上) · bài 1–18' },
+  { id: 'grammar5', label: 'HSK 5', title: 'Ngữ pháp HSK 5', level: 5, sub: 'Giáo trình Chuẩn HSK 5 (上, 下) · bài 1–36' },
 ];
 
 function loadTab() {

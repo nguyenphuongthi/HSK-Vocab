@@ -22,7 +22,7 @@ Website tự học HSK dành cho người Việt, gồm hai phần: từ vựng 
 - Câu ví dụ lấy từ sách, mặc định chỉ hiện chữ Hán, phần ngữ pháp được tô màu trong câu; bấm vào câu mới hiện pinyin, bản dịch tiếng Việt và tiếng Anh, hoặc bấm một nút để hiện tất cả.
 - Có cả phần “So sánh” (比一比) trong sách, phân biệt các từ gần nghĩa như 刚—刚才, 差不多—几乎, 究竟—到底.
 - Tiêu đề mỗi điểm ngữ pháp có kèm pinyin.
-- Có hai tab ngữ pháp: HSK 4 (giáo trình 上 + 下, bài 1–20) và HSK 5 (giáo trình 上).
+- Có hai tab ngữ pháp: HSK 4 (giáo trình 上 + 下, bài 1–20) và HSK 5 (giáo trình 上 + 下, bài 1–36).
 - Mỗi bài làm theo bố cục cuốn sách: 课文 (bài khóa có pinyin sẵn, bấm từng đoạn để xem bản dịch, kèm bảng 生词), câu hỏi đọc hiểu, 练一练/做一做 sau từng điểm ngữ pháp, 练习 cuối bài và 扩展. HSK 5 có thêm 词语搭配.
 - Đề bài tập có pinyin sẵn; bấm vào câu mới hiện đáp án kèm pinyin và bản dịch. Sách không kèm đáp án nên đáp án do dự án tự soạn; câu hoàn thành câu và thuật lại bài khóa ghi rõ là “câu trả lời mẫu”.
 

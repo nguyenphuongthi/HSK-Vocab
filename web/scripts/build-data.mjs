@@ -193,7 +193,9 @@ function fixPolyphones(ruby) {
   ruby.forEach((r, i) => {
     if (r.length < 2) return;
     const [c] = r;
-    if (c === '得' && r[1] === 'dé' && at(i + 1) !== '到' && !'获取值'.includes(at(i - 1)) && at(i - 1) !== '不') {
+    if (c === '卜' && at(i - 1) === '萝') {
+      r[1] = 'bo'; // 萝卜 luóbo, pinyin-pro có lúc đọc thành luó bǔ (萝卜丝, 萝卜饼)
+    } else if (c === '得' && r[1] === 'dé' && at(i + 1) !== '到' && !'获取值赢难心'.includes(at(i - 1)) && at(i - 1) !== '不') {
       r[1] = 'de'; // bổ ngữ trạng thái: 踢得好, 说得很好
     } else if (c === '长' && at(i + 1) === '得') {
       r[1] = 'zhǎng'; // 长得像…, 个子长得快

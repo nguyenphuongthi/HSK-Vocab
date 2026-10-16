@@ -17,6 +17,13 @@ const TITLES = {
   根据课文内容回答问题: 'Trả lời câu hỏi theo nội dung bài khóa',
   复述: 'Thuật lại nội dung bài khóa',
   从上表中选择合适的词语填空: 'Chọn từ thích hợp trong bảng trên điền vào chỗ trống',
+  '判断各句中的“闻”是哪种意思': 'Xác định “闻” trong mỗi câu mang nghĩa nào',
+  '指出下面各句中的“某”是哪种用法': 'Cho biết “某” trong mỗi câu thuộc cách dùng nào',
+  '判断下列句中的“嗯”是哪种意思并在括号中填上正确的标点符号':
+    'Xác định “嗯” trong mỗi câu mang nghĩa nào và điền dấu câu đúng vào ngoặc',
+  '给“过”选择适当的位置': 'Chọn vị trí thích hợp cho “过”',
+  '给“开”选择适当的位置': 'Chọn vị trí thích hợp cho “开”',
+  '指出下列句中的“直”是哪种用法': 'Cho biết “直” trong mỗi câu thuộc cách dùng nào',
 };
 
 // Một câu bài tập: đề có pinyin sẵn; bấm để hiện đáp án (kèm pinyin và bản dịch).

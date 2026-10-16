@@ -15,7 +15,7 @@ const openKey = (level) => (level === 4 ? 'hsk.grammar.openLessons' : `hsk.gramm
 // Giáo trình nguồn của từng cấp, ghi ở chân trang.
 const SOURCES = {
   4: 'Chuẩn HSK 4 (上, 下)',
-  5: 'Chuẩn HSK 5 (上)',
+  5: 'Chuẩn HSK 5 (上, 下)',
 };
 
 function loadOpen(level) {

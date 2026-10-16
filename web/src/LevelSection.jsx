@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import WordDetail from './WordDetail.jsx';
+import { useDetailKeys } from './DetailNav.jsx';
 import { STATES, countLevel, useMarks } from './marks.js';
 
 // Số cột thực tế của lưới (để chèn khung chi tiết ngay sau hàng chứa từ được chọn).
@@ -39,14 +40,10 @@ export default function LevelSection({ info, tags, words, open, searching, onTog
   // Danh sách thay đổi (tìm kiếm) thì bỏ chọn.
   useEffect(() => setSelectedId(null), [words]);
 
-  useEffect(() => {
-    if (selectedId === null) return;
-    const onKey = (e) => {
-      if (e.key === 'Escape') setSelectedId(null);
-    };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [selectedId]);
+  const goPrev = selected > 0 ? () => setSelectedId(shown[selected - 1].id) : null;
+  const goNext = selected >= 0 && selected < shown.length - 1 ? () => setSelectedId(shown[selected + 1].id) : null;
+  const close = () => setSelectedId(null);
+  useDetailKeys(selectedId, { onPrev: goPrev, onNext: goNext, onClose: close });
 
   if (searching && words && words.length === 0) return null;
 
@@ -143,7 +140,7 @@ export default function LevelSection({ info, tags, words, open, searching, onTog
                       key={`d-${selectedId}`}
                       entry={shown[selected]}
                       tags={tags}
-                      onClose={() => setSelectedId(null)}
+                      nav={{ pos: selected + 1, total: shown.length, onPrev: goPrev, onNext: goNext, onClose: close }}
                     />
                   )}
                 </Fragment>

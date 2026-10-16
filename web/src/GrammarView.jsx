@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import GrammarDetail from './GrammarDetail.jsx';
+import { useDetailKeys } from './DetailNav.jsx';
 import Collocations from './Collocations.jsx';
 import Disclosure from './Disclosure.jsx';
 import Exercise from './Exercise.jsx';
@@ -99,14 +100,11 @@ function LessonSection({ lesson, open, onToggle }) {
   const shown =
     filter === null ? points : points.filter((p) => (marks[p.id] ?? 0) === filter || p.id === selectedId);
 
-  useEffect(() => {
-    if (selectedId === null) return;
-    const onKey = (e) => {
-      if (e.key === 'Escape') setSelectedId(null);
-    };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [selectedId]);
+  const selected = shown.findIndex((p) => p.id === selectedId);
+  const goPrev = selected > 0 ? () => setSelectedId(shown[selected - 1].id) : null;
+  const goNext = selected >= 0 && selected < shown.length - 1 ? () => setSelectedId(shown[selected + 1].id) : null;
+  const close = () => setSelectedId(null);
+  useDetailKeys(selectedId, { onPrev: goPrev, onNext: goNext, onClose: close });
 
   const pickFilter = (value) => {
     setFilter((f) => (f === value ? null : value));
@@ -177,14 +175,14 @@ function LessonSection({ lesson, open, onToggle }) {
           )}
           {shown.length === 0 && <p className="muted">Không có điểm ngữ pháp nào ở trạng thái này.</p>}
           <ul className="points">
-            {shown.map((p) => {
-              const selected = p.id === selectedId;
+            {shown.map((p, i) => {
+              const isSel = i === selected;
               return (
                 <li key={p.id}>
                   <button
-                    className={`point st-${marks[p.id] ?? 0} ${selected ? 'is-selected' : ''}`}
-                    onClick={() => setSelectedId(selected ? null : p.id)}
-                    aria-expanded={selected}
+                    className={`point st-${marks[p.id] ?? 0} ${isSel ? 'is-selected' : ''}`}
+                    onClick={() => setSelectedId(isSel ? null : p.id)}
+                    aria-expanded={isSel}
                   >
                     <span className="g-num">{p.num}</span>
                     <span className="point-title" lang="zh-CN">
@@ -192,8 +190,13 @@ function LessonSection({ lesson, open, onToggle }) {
                     </span>
                     {(p.cmp || p.compare) && <span className="point-tag">So sánh</span>}
                   </button>
-                  {selected && (
-                    <GrammarDetail key={p.id} point={p} num={p.num} onClose={() => setSelectedId(null)} />
+                  {isSel && (
+                    <GrammarDetail
+                      key={p.id}
+                      point={p}
+                      num={p.num}
+                      nav={{ pos: i + 1, total: shown.length, onPrev: goPrev, onNext: goNext, onClose: close }}
+                    />
                   )}
                 </li>
               );

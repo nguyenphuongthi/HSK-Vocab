@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { useMarks } from './marks.js';
 import StatusSlider from './StatusSlider.jsx';
 import { Sentence } from './Sentence.jsx';
 import Exercise from './Exercise.jsx';
+import DetailNav, { DetailPager, useDetailCard } from './DetailNav.jsx';
 
 // Một câu ví dụ: mặc định chỉ hiện chữ Hán; bấm để hiện pinyin và bản dịch VI/EN.
 function Example({ ex, revealed, onToggle }) {
@@ -102,14 +103,12 @@ function Uses({ uses, prefix, labeled, revealed, toggle }) {
   ));
 }
 
-export default function GrammarDetail({ point, num, onClose }) {
+export default function GrammarDetail({ point, num, nav }) {
   const ref = useRef(null);
   const status = useMarks()[point.id] ?? 0;
   const [revealed, setRevealed] = useState(() => new Set());
 
-  useEffect(() => {
-    ref.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-  }, []);
+  const enter = useDetailCard(ref, nav);
 
   const allKeys = [
     ...point.uses.flatMap((u, i) => u.ex.map((_, j) => `u${i}-${j}`)),
@@ -126,17 +125,13 @@ export default function GrammarDetail({ point, num, onClose }) {
     });
 
   return (
-    <div className="detail g-detail" ref={ref}>
+    <div className={`detail g-detail ${enter}`} ref={ref}>
       <div className="detail-head">
         <span className="g-num">{num}</span>
         <span className="g-title" lang="zh-CN">
           {point.title}
         </span>
-        <button className="icon-btn close" onClick={onClose} aria-label="Đóng">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M6 6l12 12M18 6 6 18" />
-          </svg>
-        </button>
+        <DetailNav noun="Điểm ngữ pháp" {...nav} />
       </div>
 
       <div className="reading g-tools">
@@ -163,6 +158,7 @@ export default function GrammarDetail({ point, num, onClose }) {
           {point.cmp.practice && <Exercise ex={point.cmp.practice} lead="做一做" />}
         </section>
       )}
+      <DetailPager noun="Điểm ngữ pháp" {...nav} />
     </div>
   );
 }

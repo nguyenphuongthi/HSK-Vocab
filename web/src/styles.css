@@ -350,7 +350,7 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 14px;
   margin-bottom: 12px;
-  overflow: hidden;
+  overflow: clip; /* không dùng hidden để nút chuyển trong khung chi tiết vẫn dính được theo màn hình */
 }
 
 .level-head {
@@ -647,6 +647,32 @@ button.stat.is-active {
   box-shadow: var(--shadow);
   animation: open 0.18s ease-out;
   scroll-margin-top: 64px; /* chừa chỗ cho thanh tab dính phía trên */
+  position: relative;
+  padding-inline: 72px; /* chỗ cho nút chuyển hai bên */
+  touch-action: pan-y pinch-zoom; /* vuốt ngang để chuyển, dọc vẫn cuộn trang */
+  transition: transform 0.2s ease-out;
+}
+
+.detail.enter-next {
+  animation: enter-next 0.22s ease-out;
+}
+
+.detail.enter-prev {
+  animation: enter-prev 0.22s ease-out;
+}
+
+@keyframes enter-next {
+  from {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+}
+
+@keyframes enter-prev {
+  from {
+    opacity: 0;
+    transform: translateX(-28px);
+  }
 }
 
 @keyframes open {
@@ -695,8 +721,102 @@ button.stat.is-active {
   stroke-linejoin: round;
 }
 
-.icon-btn.close {
+.icon-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+  background: transparent;
+}
+
+.detail-nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
   margin-left: auto;
+  flex: none;
+}
+
+/* Nút chuyển lớn hai bên khung; dính giữa màn hình khi khung cao hơn màn hình. */
+.pager-rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.pager-rail.prev {
+  left: 0;
+}
+
+.pager-rail.next {
+  right: 0;
+}
+
+.pager-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.pager-rail .pager-btn {
+  position: sticky;
+  top: calc(50vh - 24px);
+  bottom: calc(50vh - 24px);
+}
+
+.pager-btn:hover:not(:disabled) {
+  border-color: var(--text);
+}
+
+.pager-btn:active:not(:disabled) {
+  transform: scale(0.94);
+}
+
+.pager-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.pager-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: none;
+}
+
+.pager-bar {
+  display: none;
+}
+
+.nav-pos {
+  min-width: 40px;
+  font-size: 12px;
+  color: var(--muted);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.detail-nav .close {
+  margin-left: 6px;
 }
 
 .reading {
@@ -1598,6 +1718,34 @@ button.stat.is-active {
   .detail {
     padding: 16px;
   }
+  .pager-rail,
+  .detail-head .nav-pos {
+    display: none;
+  }
+  /* Điện thoại: thanh nút to dính đáy màn hình trong lúc xem khung. */
+  .pager-bar {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 16px -16px -16px;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    border-radius: 0 0 12px 12px;
+  }
+  .pager-bar .pager-btn {
+    flex: 1;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .pager-bar .nav-pos {
+    min-width: 52px;
+  }
   .detail-word {
     font-size: 34px;
   }
@@ -1654,7 +1802,9 @@ button.stat.is-active {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .detail {
+  .detail,
+  .detail.enter-next,
+  .detail.enter-prev {
     animation: none;
   }
   .status-knob,

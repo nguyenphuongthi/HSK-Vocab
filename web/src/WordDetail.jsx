@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { speak, useCanSpeak } from './speech.js';
 import { useMarks } from './marks.js';
 import StatusSlider from './StatusSlider.jsx';
 import { groupPunctuation } from './ruby.js';
+import DetailNav, { DetailPager, useDetailCard } from './DetailNav.jsx';
 
 // Đánh dấu vị trí các chữ của từ chính trong câu (hỗ trợ cấu trúc 虽然……但是……).
 function headwordMask(ruby, word) {
@@ -38,28 +39,25 @@ function SpeakButton({ text, label }) {
   );
 }
 
-export default function WordDetail({ entry, tags, onClose }) {
+export default function WordDetail({ entry, tags, nav }) {
   const ref = useRef(null);
   const [reveal, setReveal] = useState(false);
   const status = useMarks()[entry.id] ?? 0;
 
-  useEffect(() => {
-    ref.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-  }, []);
+  const enter = useDetailCard(ref, nav);
 
   if (!entry.py) {
     return (
-      <div className="detail" ref={ref}>
+      <div className={`detail ${enter}`} ref={ref}>
         <div className="detail-head">
           <span className="detail-word" lang="zh-CN">{entry.w}</span>
-          <button className="icon-btn close" onClick={onClose} aria-label="Đóng">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
-          </button>
+          <DetailNav noun="Từ" {...nav} />
         </div>
         <div className="reading">
           <StatusSlider id={entry.id} value={status} />
         </div>
         <p className="muted">Từ này đang được soạn nghĩa và câu ví dụ.</p>
+        <DetailPager noun="Từ" {...nav} />
       </div>
     );
   }
@@ -70,13 +68,11 @@ export default function WordDetail({ entry, tags, onClose }) {
   const tag = tags[ex.tag];
 
   return (
-    <div className="detail" ref={ref}>
+    <div className={`detail ${enter}`} ref={ref}>
       <div className="detail-head">
         <span className="detail-word" lang="zh-CN">{entry.w}</span>
         <SpeakButton text={entry.w} label="Nghe phát âm từ" />
-        <button className="icon-btn close" onClick={onClose} aria-label="Đóng">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
-        </button>
+        <DetailNav noun="Từ" {...nav} />
       </div>
 
       <div className="reading">
@@ -152,6 +148,7 @@ export default function WordDetail({ entry, tags, onClose }) {
           </div>
         )}
       </div>
+      <DetailPager noun="Từ" {...nav} />
     </div>
   );
 }
